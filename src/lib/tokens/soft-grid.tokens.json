@@ -1,0 +1,191 @@
+{
+	"0": {
+		"$value": {
+			"value": 0,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"1": {
+		"$value": {
+			"value": 0.0625,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"2": {
+		"$value": {
+			"value": 0.125,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"4": {
+		"$value": {
+			"value": 0.25,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"6": {
+		"$value": {
+			"value": 0.375,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"8": {
+		"$value": {
+			"value": 0.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"10": {
+		"$value": {
+			"value": 0.625,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"12": {
+		"$value": {
+			"value": 0.75,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"14": {
+		"$value": {
+			"value": 0.875,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"16": {
+		"$value": {
+			"value": 1,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"18": {
+		"$value": {
+			"value": 1.125,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"20": {
+		"$value": {
+			"value": 1.25,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"24": {
+		"$value": {
+			"value": 1.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"28": {
+		"$value": {
+			"value": 1.75,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"32": {
+		"$value": {
+			"value": 2,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"36": {
+		"$value": {
+			"value": 2.25,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"40": {
+		"$value": {
+			"value": 2.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"44": {
+		"$value": {
+			"value": 2.75,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"48": {
+		"$value": {
+			"value": 3,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"52": {
+		"$value": {
+			"value": 3.25,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"56": {
+		"$value": {
+			"value": 3.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"60": {
+		"$value": {
+			"value": 3.75,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"64": {
+		"$value": {
+			"value": 4,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"72": {
+		"$value": {
+			"value": 4.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"80": {
+		"$value": {
+			"value": 5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"88": {
+		"$value": {
+			"value": 5.5,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	},
+	"96": {
+		"$value": {
+			"value": 6,
+			"unit": "rem"
+		},
+		"$type": "dimension"
+	}
+}
