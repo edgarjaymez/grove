@@ -1,0 +1,15 @@
+{
+	"border-width": {
+		"$type": "dimension",
+		"none": "{soft-grid.0}",
+		"hairline": {
+			"$value": {
+				"value": 0.03125,
+				"unit": "rem"
+			}
+		},
+		"base": "{soft-grid.1}",
+		"heavy": "{soft-grid.2}",
+		"thick": "{soft-grid.4}"
+	}
+}
