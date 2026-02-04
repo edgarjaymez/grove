@@ -1,0 +1,14 @@
+{
+	"extra-light": {
+		"$value": 200,
+		"$type": "fontWeight"
+	},
+	"regular": {
+		"$value": 400,
+		"$type": "fontWeight"
+	},
+	"semibold": {
+		"$value": 600,
+		"$type": "fontWeight"
+	}
+}
