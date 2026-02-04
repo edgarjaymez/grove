@@ -1,0 +1,18 @@
+{
+	"border-radius": {
+		"$type": "dimension",
+		"none": "{soft-grid.0}",
+		"sm": "{soft-grid.4}",
+		"base": "{soft-grid.8}",
+		"md": "{soft-grid.12}",
+		"lg": "{soft-grid.16}",
+		"xl": "{soft-grid.20}",
+		"2xl": "{soft-grid.24}",
+		"3xl": "{soft-grid.28}",
+		"4xl": "{soft-grid.32}",
+		"6xl": "{soft-grid.40}",
+		"8xl": "{soft-grid.48}",
+		"10xl": "{soft-grid.56}",
+		"12xl": "{soft-grid.64}"
+	}
+}
