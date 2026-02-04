@@ -1,18 +1,17 @@
 {
-	"sans-serif": {
-		"$value": ["Switzer", "system-ui", "sans-serif"],
-		"$type": "fontFamily"
-	},
-	"display": {
-		"$value": ["Cakra", "serif"],
-		"$type": "fontFamily"
-	},
-	"icons-regular": {
-		"$value": "Phosphor",
-		"$type": "fontFamily"
-	},
-	"icons-fill": {
-		"$value": "Phosphor-Fill",
-		"$type": "fontFamily"
+	"font-family": {
+		"$type": "fontFamily",
+		"sans-serif": {
+			"$value": ["Switzer", "system-ui", "sans-serif"]
+		},
+		"display": {
+			"$value": ["Cakra", "serif"]
+		},
+		"icons-regular": {
+			"$value": "Phosphor"
+		},
+		"icons-fill": {
+			"$value": "Phosphor-Fill"
+		}
 	}
 }
