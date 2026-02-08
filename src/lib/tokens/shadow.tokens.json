@@ -1,0 +1,329 @@
+{
+	"shadow": {
+		"$type": "shadow",
+		"brand": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.brand.500.colorSpace}",
+							"components": "{color.brand.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.brand.700.colorSpace}",
+							"components": "{color.brand.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.brand.500.colorSpace}",
+							"components": "{color.brand.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.brand.700.colorSpace}",
+							"components": "{color.brand.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		},
+		"accent": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.accent.500.colorSpace}",
+							"components": "{color.accent.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.accent.700.colorSpace}",
+							"components": "{color.accent.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.accent.500.colorSpace}",
+							"components": "{color.accent.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.accent.700.colorSpace}",
+							"components": "{color.accent.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		},
+		"gray": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.gray.500.colorSpace}",
+							"components": "{color.gray.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.gray.700.colorSpace}",
+							"components": "{color.gray.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.gray.500.colorSpace}",
+							"components": "{color.gray.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.gray.700.colorSpace}",
+							"components": "{color.gray.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		},
+		"information": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.information.500.colorSpace}",
+							"components": "{color.information.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.information.700.colorSpace}",
+							"components": "{color.information.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.information.500.colorSpace}",
+							"components": "{color.information.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.information.700.colorSpace}",
+							"components": "{color.information.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		},
+		"danger": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.danger.500.colorSpace}",
+							"components": "{color.danger.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.danger.700.colorSpace}",
+							"components": "{color.danger.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.danger.500.colorSpace}",
+							"components": "{color.danger.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.danger.700.colorSpace}",
+							"components": "{color.danger.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		},
+		"success": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.success.500.colorSpace}",
+							"components": "{color.success.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.16}",
+						"offsetY": "{soft-grid.16}",
+						"blur": "{soft-grid.32}",
+						"spread": "{soft-grid.4}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.success.700.colorSpace}",
+							"components": "{color.success.700.components}",
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.16}",
+						"spread": "{soft-grid.2}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": "{color.success.500.colorSpace}",
+							"components": "{color.success.500.components}",
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.4}",
+						"offsetY": "{soft-grid.4}",
+						"blur": "{soft-grid.8}",
+						"spread": "{soft-grid.2}"
+					},
+					{
+						"color": {
+							"colorSpace": "{color.success.700.colorSpace}",
+							"components": "{color.success.700.components}",
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.1}",
+						"offsetY": "{soft-grid.1}",
+						"blur": "{soft-grid.4}",
+						"spread": "{soft-grid.1}"
+					}
+				]
+			}
+		}
+	}
+}
