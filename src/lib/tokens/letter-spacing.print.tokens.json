@@ -1,0 +1,13 @@
+{
+	"letter-spacing": {
+		"tight": {
+			"$value": {
+				"value": -0.125,
+				"unit": "rem"
+			}
+		},
+		"base": "{soft-grid.0}",
+		"loose": "{soft-grid.2}",
+		"extra-loose": "{soft-grid.4}"
+	}
+}
