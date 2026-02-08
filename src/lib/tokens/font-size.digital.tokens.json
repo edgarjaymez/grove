@@ -1,0 +1,19 @@
+{
+	"font-size": {
+		"2xs": "{soft-grid.10}",
+		"xs": "{soft-grid.12}",
+		"sm": "{soft-grid.14}",
+		"base": "{soft-grid.16}",
+		"md": "{soft-grid.20}",
+		"lg": "{soft-grid.24}",
+		"xl": "{soft-grid.32}",
+		"2xl": "{soft-grid.40}",
+		"3xl": "{soft-grid.80}",
+		"4xl": {
+			"$value": {
+				"value": 15,
+				"unit": "rem"
+			}
+		}
+	}
+}
