@@ -7,7 +7,7 @@
 		"regular": {
 			"$value": 400
 		},
-		"semibold": {
+		"semi-bold": {
 			"$value": 600
 		}
 	}
