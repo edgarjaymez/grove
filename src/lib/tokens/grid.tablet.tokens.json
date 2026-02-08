@@ -1,0 +1,16 @@
+{
+	"grid": {
+		"columns": {
+			"$value": 8,
+			"$type": "number"
+		},
+		"system": {
+			"margin": "{soft-grid-24}",
+			"gutter": "{soft-grid-16}"
+		},
+		"landing": {
+			"margin": "{soft-grid-32}",
+			"gutter": "{soft-grid-24}"
+		}
+	}
+}
