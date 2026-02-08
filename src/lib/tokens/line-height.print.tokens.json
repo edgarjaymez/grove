@@ -1,0 +1,38 @@
+{
+	"line-height": {
+		"single-line": {
+			"2xs": "{soft-grid.8}",
+			"xs": "{soft-grid.8}",
+			"sm": "{soft-grid.12}",
+			"base": "{soft-grid.12}",
+			"md": "{soft-grid.16}",
+			"lg": "{soft-grid.20}",
+			"xl": "{soft-grid.28}",
+			"2xl": "{soft-grid.36}",
+			"3xl": "{soft-grid.64}",
+			"4xl": {
+				"$value": {
+					"value": 12,
+					"unit": "rem"
+				}
+			}
+		},
+		"multi-line": {
+			"2xs": "{soft-grid.12}",
+			"xs": "{soft-grid.12}",
+			"sm": "{soft-grid.16}",
+			"base": "{soft-grid.16}",
+			"md": "{soft-grid.20}",
+			"lg": "{soft-grid.24}",
+			"xl": "{soft-grid.32}",
+			"2xl": "{soft-grid.40}",
+			"3xl": "{soft-grid.80}",
+			"4xl": {
+				"$value": {
+					"value": 16,
+					"unit": "rem"
+				}
+			}
+		}
+	}
+}
