@@ -1,5 +1,6 @@
 {
 	"font-size": {
+		"$type": "dimension",
 		"2xs": "{soft-grid.6}",
 		"xs": "{soft-grid.6}",
 		"sm": "{soft-grid.8}",
