@@ -1,0 +1,232 @@
+{
+	"semantic-color": {
+		"surface": {
+			"ground": "{color.base.light}",
+			"brand": {
+				"terrace": "{color.brand.100}",
+				"path": "{color.brand.200}",
+				"summit": "{color.brand.500}",
+				"aurora": "{color.brand.700}"
+			},
+			"accent": {
+				"terrace": "{color.accent.100}",
+				"summit": "{color.accent.500}",
+				"aurora": "{color.accent.700}"
+			},
+			"gray": {
+				"terrace": "{color.gray.100}",
+				"path": "{color.gray.200}",
+				"summit": "{color.gray.500}",
+				"aurora": "{color.gray.700}"
+			},
+			"information": {
+				"terrace": "{color.information.100}",
+				"summit": "{color.information.500}",
+				"aurora": "{color.information.700}"
+			},
+			"danger": {
+				"terrace": "{color.danger.100}",
+				"summit": "{color.danger.500}",
+				"aurora": "{color.danger.700}"
+			},
+			"success": {
+				"terrace": "{color.success.100}",
+				"summit": "{color.success.500}",
+				"aurora": "{color.success.700}"
+			}
+		},
+		"text-on": {
+			"ground": {
+				"base": "{color.base.dark}",
+				"subtle": "{color.gray.700}",
+				"emphasis": "{color.brand.500}",
+				"unvisited-link": "{color.accent.500}",
+				"visited-link": "{color.information.500}"
+			},
+			"brand": {
+				"terrace": {
+					"base": "{color.brand.950}",
+					"subtle": "{color.brand.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.accent.800}",
+					"visited-link": "{color.information.800}"
+				},
+				"path": {
+					"base": "{color.brand.950}",
+					"subtle": "{color.brand.900}",
+					"unvisited-link": "{color.accent.900}",
+					"visited-link": "{color.information.900}"
+				},
+				"summit": {
+					"base": "{color.brand.50}",
+					"subtle": "{color.brand.100}"
+				},
+				"aurora": {
+					"base": "{color.brand.50}",
+					"subtle": "{color.brand.100}"
+				}
+			},
+			"accent": {
+				"terrace": {
+					"base": "{color.accent.950}",
+					"subtle": "{color.accent.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.brand.800}",
+					"visited-link": "{color.information.800}"
+				},
+				"summit": {
+					"base": "{color.accent.50}",
+					"subtle": "{color.accent.100}"
+				},
+				"aurora": {
+					"base": "{color.accent.50}",
+					"subtle": "{color.accent.100}"
+				}
+			},
+			"gray": {
+				"terrace": {
+					"base": "{color.gray.950}",
+					"subtle": "{color.gray.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.accent.800}",
+					"visited-link": "{color.information.800}"
+				},
+				"path": {
+					"base": "{color.gray.950}",
+					"subtle": "{color.gray.900}",
+					"unvisited-link": "{color.accent.950}",
+					"visited-link": "{color.information.950}"
+				},
+				"summit": {
+					"base": "{color.gray.50}",
+					"subtle": "{color.gray.100}"
+				},
+				"aurora": {
+					"base": "{color.gray.50}",
+					"subtle": "{color.gray.100}"
+				}
+			},
+			"information": {
+				"terrace": {
+					"base": "{color.information.950}",
+					"subtle": "{color.information.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.accent.800}",
+					"visited-link": "{color.brand.800}"
+				},
+				"summit": {
+					"base": "{color.information.50}",
+					"subtle": "{color.information.100}"
+				},
+				"aurora": {
+					"base": "{color.information.50}",
+					"subtle": "{color.information.100}"
+				}
+			},
+			"danger": {
+				"terrace": {
+					"base": "{color.danger.950}",
+					"subtle": "{color.danger.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.accent.800}",
+					"visited-link": "{color.information.800}"
+				},
+				"summit": {
+					"base": "{color.danger.50}",
+					"subtle": "{color.danger.100}"
+				},
+				"aurora": {
+					"base": "{color.danger.50}",
+					"subtle": "{color.danger.100}"
+				}
+			},
+			"success": {
+				"terrace": {
+					"base": "{color.success.950}",
+					"subtle": "{color.success.800}",
+					"emphasis": "{color.base.dark}",
+					"unvisited-link": "{color.accent.800}",
+					"visited-link": "{color.information.800}"
+				},
+				"summit": {
+					"base": "{color.success.50}",
+					"subtle": "{color.success.100}"
+				},
+				"aurora": {
+					"base": "{color.success.50}",
+					"subtle": "{color.success.100}"
+				}
+			}
+		},
+		"border-around": {
+			"ground": "{color.gray.100}",
+			"brand": {
+				"terrace": "{color.brand.200}",
+				"path": "{color.brand.300}",
+				"summit": "{color.brand.700}",
+				"aurora": "{color.brand.900}"
+			},
+			"accent": {
+				"terrace": "{color.accent.200}",
+				"summit": "{color.accent.700}",
+				"aurora": "{color.accent.900}"
+			},
+			"gray": {
+				"terrace": "{color.gray.200}",
+				"path": "{color.gray.300}",
+				"summit": "{color.gray.700}",
+				"aurora": "{color.gray.900}"
+			},
+			"information": {
+				"terrace": "{color.information.200}",
+				"summit": "{color.information.700}",
+				"aurora": "{color.information.900}"
+			},
+			"danger": {
+				"terrace": "{color.danger.200}",
+				"summit": "{color.danger.700}",
+				"aurora": "{color.danger.900}"
+			},
+			"success": {
+				"terrace": "{color.success.200}",
+				"summit": "{color.success.700}",
+				"aurora": "{color.success.900}"
+			}
+		},
+		"divider-on": {
+			"ground": "{color.gray.200}",
+			"brand": {
+				"terrace": "{color.brand.300}",
+				"path": "{color.brand.400}",
+				"summit": "{color.brand.50}",
+				"aurora": "{color.brand.100}"
+			},
+			"accent": {
+				"terrace": "{color.accent.300}",
+				"summit": "{color.accent.50}",
+				"aurora": "{color.accent.100}"
+			},
+			"gray": {
+				"terrace": "{color.gray.300}",
+				"path": "{color.gray.400}",
+				"summit": "{color.gray.50}",
+				"aurora": "{color.gray.100}"
+			},
+			"information": {
+				"terrace": "{color.information.300}",
+				"summit": "{color.information.50}",
+				"aurora": "{color.information.100}"
+			},
+			"danger": {
+				"terrace": "{color.danger.300}",
+				"summit": "{color.danger.50}",
+				"aurora": "{color.danger.100}"
+			},
+			"success": {
+				"terrace": "{color.success.300}",
+				"summit": "{color.success.50}",
+				"aurora": "{color.success.100}"
+			}
+		}
+	}
+}
