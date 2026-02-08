@@ -1,5 +1,6 @@
 {
 	"line-height": {
+		"$type": "dimension",
 		"single-line": {
 			"2xs": "{soft-grid.8}",
 			"xs": "{soft-grid.8}",
