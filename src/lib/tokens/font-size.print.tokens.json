@@ -1,15 +1,15 @@
 {
 	"font-size": {
 		"$type": "dimension",
-		"2xs": "{soft-grid.6}",
-		"xs": "{soft-grid.6}",
-		"sm": "{soft-grid.8}",
-		"base": "{soft-grid.8}",
-		"md": "{soft-grid.12}",
-		"lg": "{soft-grid.16}",
-		"xl": "{soft-grid.24}",
-		"2xl": "{soft-grid.32}",
-		"3xl": "{soft-grid.64}",
+		"2xs": { "$value": "{soft-grid.6}" },
+		"xs": { "$value": "{soft-grid.6}" },
+		"sm": { "$value": "{soft-grid.8}" },
+		"base": { "$value": "{soft-grid.8}" },
+		"md": { "$value": "{soft-grid.12}" },
+		"lg": { "$value": "{soft-grid.16}" },
+		"xl": { "$value": "{soft-grid.24}" },
+		"2xl": { "$value": "{soft-grid.32}" },
+		"3xl": { "$value": "{soft-grid.64}" },
 		"4xl": {
 			"$value": {
 				"value": 12,

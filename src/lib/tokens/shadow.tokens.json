@@ -6,25 +6,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.brand.500.colorSpace}",
-							"components": "{color.brand.500.components}",
+							"colorSpace": { "$ref": "#/color/brand/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/brand/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.brand.700.colorSpace}",
-							"components": "{color.brand.700.components}",
+							"colorSpace": { "$ref": "#/color/brand/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/brand/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -32,25 +32,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.brand.500.colorSpace}",
-							"components": "{color.brand.500.components}",
+							"colorSpace": { "$ref": "#/color/brand/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/brand/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.brand.700.colorSpace}",
-							"components": "{color.brand.700.components}",
+							"colorSpace": { "$ref": "#/color/brand/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/brand/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
@@ -60,25 +60,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.accent.500.colorSpace}",
-							"components": "{color.accent.500.components}",
+							"colorSpace": { "$ref": "#/color/accent/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/accent/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.accent.700.colorSpace}",
-							"components": "{color.accent.700.components}",
+							"colorSpace": { "$ref": "#/color/accent/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/accent/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -86,25 +86,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.accent.500.colorSpace}",
-							"components": "{color.accent.500.components}",
+							"colorSpace": { "$ref": "#/color/accent/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/accent/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.accent.700.colorSpace}",
-							"components": "{color.accent.700.components}",
+							"colorSpace": { "$ref": "#/color/accent/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/accent/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
@@ -114,25 +114,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.gray.500.colorSpace}",
-							"components": "{color.gray.500.components}",
+							"colorSpace": { "$ref": "#/color/gray/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/gray/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.gray.700.colorSpace}",
-							"components": "{color.gray.700.components}",
+							"colorSpace": { "$ref": "#/color/gray/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/gray/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -140,25 +140,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.gray.500.colorSpace}",
-							"components": "{color.gray.500.components}",
+							"colorSpace": { "$ref": "#/color/gray/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/gray/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.gray.700.colorSpace}",
-							"components": "{color.gray.700.components}",
+							"colorSpace": { "$ref": "#/color/gray/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/gray/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
@@ -168,25 +168,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.information.500.colorSpace}",
-							"components": "{color.information.500.components}",
+							"colorSpace": { "$ref": "#/color/information/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/information/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.information.700.colorSpace}",
-							"components": "{color.information.700.components}",
+							"colorSpace": { "$ref": "#/color/information/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/information/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -194,25 +194,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.information.500.colorSpace}",
-							"components": "{color.information.500.components}",
+							"colorSpace": { "$ref": "#/color/information/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/information/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.information.700.colorSpace}",
-							"components": "{color.information.700.components}",
+							"colorSpace": { "$ref": "#/color/information/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/information/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
@@ -222,25 +222,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.danger.500.colorSpace}",
-							"components": "{color.danger.500.components}",
+							"colorSpace": { "$ref": "#/color/danger/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/danger/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.danger.700.colorSpace}",
-							"components": "{color.danger.700.components}",
+							"colorSpace": { "$ref": "#/color/danger/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/danger/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -248,25 +248,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.danger.500.colorSpace}",
-							"components": "{color.danger.500.components}",
+							"colorSpace": { "$ref": "#/color/danger/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/danger/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.danger.700.colorSpace}",
-							"components": "{color.danger.700.components}",
+							"colorSpace": { "$ref": "#/color/danger/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/danger/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
@@ -276,25 +276,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.success.500.colorSpace}",
-							"components": "{color.success.500.components}",
+							"colorSpace": { "$ref": "#/color/success/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/success/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.16}",
-						"offsetY": "{soft-grid.16}",
-						"blur": "{soft-grid.32}",
-						"spread": "{soft-grid.4}"
+						"offsetX": { "$value": "{soft-grid.16}" },
+						"offsetY": { "$value": "{soft-grid.16}" },
+						"blur": { "$value": "{soft-grid.32}" },
+						"spread": { "$value": "{soft-grid.4}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.success.700.colorSpace}",
-							"components": "{color.success.700.components}",
+							"colorSpace": { "$ref": "#/color/success/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/success/700/$value/components" },
 							"alpha": 0.08
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.16}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.16}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					}
 				]
 			},
@@ -302,25 +302,25 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": "{color.success.500.colorSpace}",
-							"components": "{color.success.500.components}",
+							"colorSpace": { "$ref": "#/color/success/500/$value/colorSpace" },
+							"components": { "$ref": "#/color/success/500/$value/components" },
 							"alpha": 0.04
 						},
-						"offsetX": "{soft-grid.4}",
-						"offsetY": "{soft-grid.4}",
-						"blur": "{soft-grid.8}",
-						"spread": "{soft-grid.2}"
+						"offsetX": { "$value": "{soft-grid.4}" },
+						"offsetY": { "$value": "{soft-grid.4}" },
+						"blur": { "$value": "{soft-grid.8}" },
+						"spread": { "$value": "{soft-grid.2}" }
 					},
 					{
 						"color": {
-							"colorSpace": "{color.success.700.colorSpace}",
-							"components": "{color.success.700.components}",
+							"colorSpace": { "$ref": "#/color/success/700/$value/colorSpace" },
+							"components": { "$ref": "#/color/success/700/$value/components" },
 							"alpha": 0.12
 						},
-						"offsetX": "{soft-grid.1}",
-						"offsetY": "{soft-grid.1}",
-						"blur": "{soft-grid.4}",
-						"spread": "{soft-grid.1}"
+						"offsetX": { "$value": "{soft-grid.1}" },
+						"offsetY": { "$value": "{soft-grid.1}" },
+						"blur": { "$value": "{soft-grid.4}" },
+						"spread": { "$value": "{soft-grid.1}" }
 					}
 				]
 			}
