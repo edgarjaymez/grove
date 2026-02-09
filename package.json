@@ -65,7 +65,6 @@
 		"prettier-plugin-svelte": "3.4.1",
 		"publint": "0.3.17",
 		"storybook": "10.2.4",
-		"style-dictionary": "5.2.0",
 		"svelte": "5.49.1",
 		"svelte-check": "4.3.6",
 		"typescript": "5.9.3",
