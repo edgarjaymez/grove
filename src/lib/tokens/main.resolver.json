@@ -42,7 +42,10 @@
 					{ "$ref": "palette/semantic-color.light.tokens.json" },
 					{ "$ref": "effects/drop-shadow.light.tokens.json" }
 				],
-				"dark": [{ "$ref": "palette/semantic-color.dark.tokens.json" }]
+				"dark": [
+					{ "$ref": "palette/semantic-color.dark.tokens.json" },
+					{ "$ref": "effects/drop-shadow.dark.tokens.json" }
+				]
 			}
 		},
 		"breakpoint": {

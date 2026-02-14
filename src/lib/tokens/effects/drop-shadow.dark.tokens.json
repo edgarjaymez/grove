@@ -1,0 +1,425 @@
+{
+	"drop-shadow": {
+		"$type": "shadow",
+		"brand": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		},
+		"accent": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		},
+		"gray": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		},
+		"information": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		},
+		"danger": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		},
+		"success": {
+			"terrace": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/components"
+							},
+							"alpha": 0.08
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			},
+			"peak": {
+				"$value": [
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/components"
+							},
+							"alpha": 0.04
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					},
+					{
+						"color": {
+							"colorSpace": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/colorSpace"
+							},
+							"components": {
+								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/components"
+							},
+							"alpha": 0.12
+						},
+						"offsetX": "{soft-grid.0}",
+						"offsetY": "{soft-grid.0}",
+						"blur": "{soft-grid.0}",
+						"spread": "{soft-grid.0}"
+					}
+				]
+			}
+		}
+	}
+}
