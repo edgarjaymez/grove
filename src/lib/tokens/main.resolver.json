@@ -1,0 +1,85 @@
+{
+	"name": "Grove Resolver",
+	"description": "Grove Tokens as of v1.11.1",
+	"version": "2025.10",
+	"sets": {
+		"border": {
+			"description": "Border styles",
+			"sources": [
+				{ "$ref": "border/border-radius.tokens.json" },
+				{ "$ref": "border/border-width.tokens.json" }
+			]
+		},
+		"font": {
+			"description": "Typesetting for the system's fontfaces",
+			"sources": [
+				{ "$ref": "text/font-family.tokens.json" },
+				{ "$ref": "text/font-weight.tokens.json" }
+			]
+		},
+		"palette-primitives": {
+			"description": "Base color primitives",
+			"sources": [{ "$ref": "palette/color.tokens.json" }]
+		},
+		"spacing": {
+			"description": "Sizing values for consistent scale",
+			"sources": [
+				{ "$ref": "spacing/breakpoints.tokens.json" },
+				{ "$ref": "spacing/soft-grid.tokens.json" }
+			]
+		},
+		"text": {
+			"description": "Sizing values for consistent scale",
+			"sources": [{ "$ref": "text/typography.tokens.json" }]
+		}
+	},
+	"modifiers": {
+		"theme": {
+			"description": "Color theme",
+			"default": "light",
+			"contexts": {
+				"light": [
+					{ "$ref": "palette/semantic-color.light.tokens.json" },
+					{ "$ref": "effects/drop-shadow.light.tokens.json" }
+				],
+				"dark": [{ "$ref": "palette/semantic-color.dark.tokens.json" }]
+			}
+		},
+		"breakpoint": {
+			"description": "The current device, use for responsiveness",
+			"default": "mobile",
+			"contexts": {
+				"mobile": [{ "$ref": "spacing/grid.mobile.tokens.json" }],
+				"tablet": [{ "$ref": "spacing/grid.tablet.tokens.json" }],
+				"laptop": [{ "$ref": "spacing/grid.laptop.tokens.json" }],
+				"desktop": [{ "$ref": "spacing/grid.desktop.tokens.json" }]
+			}
+		},
+		"media": {
+			"description": "The current media type, used for branding purposes",
+			"default": "digital",
+			"contexts": {
+				"digital": [
+					{ "$ref": "text/font-size.digital.tokens.json" },
+					{ "$ref": "text/line-height.digital.tokens.json" },
+					{ "$ref": "text/letter-spacing.digital.tokens.json" }
+				],
+				"print": [
+					{ "$ref": "text/font-size.print.tokens.json" },
+					{ "$ref": "text/line-height.print.tokens.json" },
+					{ "$ref": "text/letter-spacing.print.tokens.json" }
+				]
+			}
+		}
+	},
+	"resolutionOrder": [
+		{ "$ref": "#/sets/spacing" },
+		{ "$ref": "#/sets/border" },
+		{ "$ref": "#/modifiers/breakpoint" },
+		{ "$ref": "#/sets/palette-primitives" },
+		{ "$ref": "#/modifiers/theme" },
+		{ "$ref": "#/sets/font" },
+		{ "$ref": "#/modifiers/media" },
+		{ "$ref": "#/sets/text" }
+	]
+}
