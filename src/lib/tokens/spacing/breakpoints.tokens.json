@@ -1,5 +1,5 @@
 {
-	"breakpoint": {
+	"breakpoints": {
 		"$type": "dimension",
 		"mobile": {
 			"$value": {
