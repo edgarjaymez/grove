@@ -33,7 +33,8 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		}
+		},
+		"./tokens.css": "./dist/tokens.css"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
