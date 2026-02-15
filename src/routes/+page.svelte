@@ -3,11 +3,19 @@
 </script>
 
 <main>
-	<h1>Welcome to your library project</h1>
+	<div class="title-container">
+		<Icon unicode="" lineHeight="singleline" textStyle="display" fillInHover />
+		<h1 class="display singleline">Welcome to your library project</h1>
+	</div>
 	<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
 	<p>
 		Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation
 	</p>
-
-	<Icon unicode="" lineHeight="multiline" textStyle="base" fillInHover />
 </main>
+
+<style>
+	.title-container {
+		display: flex;
+		gap: 1rem;
+	}
+</style>

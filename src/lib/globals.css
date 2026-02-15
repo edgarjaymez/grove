@@ -5,6 +5,73 @@ body {
 
 /* 1. Font faces -------------------- */
 
+/* 1.a Display */
+@font-face {
+	font-family: 'Cakra';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./fonts/display/Cakra.woff') format('woff'),
+		url('./fonts/display/Cakra.woff2') format('woff2');
+}
+
+/* 1.a Sans serif */
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 200;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-Extralight.woff') format('woff'),
+		url('./fonts/display/Switzer-Extralight.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 200;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-ExtralightItalic.woff') format('woff'),
+		url('./fonts/display/Switzer-ExtralightItalic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-Regular.woff') format('woff'),
+		url('./fonts/display/Switzer-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-Italic.woff') format('woff'),
+		url('./fonts/display/Switzer-Italic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-Semibold.woff') format('woff'),
+		url('./fonts/display/Switzer-Semibold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./fonts/display/Switzer-SemiboldItalic.woff') format('woff'),
+		url('./fonts/display/Switzer-SemiboldItalic.woff2') format('woff2');
+}
+
 /* 1.c Icons */
 @font-face {
 	font-family: 'Phosphor';
@@ -23,4 +90,107 @@ body {
 	src:
 		url('./fonts/icons/Phosphor-Fill.woff') format('woff'),
 		url('./fonts/icons/Phosphor-Fill.woff2') format('woff2');
+}
+
+/* 2. Text styles -------------------- */
+
+/* 2.a Single line */
+.hero.singleline {
+	font: var(--typography-single-line-hero-base);
+}
+.display.singleline {
+	font: var(--typography-single-line-display-base);
+}
+.title.singleline {
+	font: var(--typography-single-line-title-base);
+}
+.heading.singleline {
+	font: var(--typography-single-line-heading-base);
+}
+.subheading.singleline {
+	font: var(--typography-single-line-subheading-base);
+}
+.base.singleline {
+	font: var(--typography-single-line-base-base);
+}
+.subtle.singleline {
+	font: var(--typography-single-line-subtle-base);
+}
+.quote.singleline {
+	font: var(--typography-single-line-quote-base);
+}
+.label.singleline {
+	font: var(--typography-single-line-label-base);
+}
+.caption.singleline {
+	font: var(--typography-single-line-caption-base);
+}
+.footnote.singleline {
+	font: var(--typography-single-line-footnote-base);
+}
+
+/* 2.b Multi line */
+.hero.multiline {
+	font: var(--typography-multi-line-hero-base);
+}
+.display.multiline {
+	font: var(--typography-multi-line-display-base);
+}
+.title.multiline {
+	font: var(--typography-multi-line-title-base);
+}
+.heading.multiline {
+	font: var(--typography-multi-line-heading-base);
+}
+.subheading.multiline {
+	font: var(--typography-multi-line-subheading-base);
+}
+.base.multiline {
+	font: var(--typography-multi-line-base-base);
+}
+.subtle.multiline {
+	font: var(--typography-multi-line-subtle-base);
+}
+.quote.multiline {
+	font: var(--typography-multi-line-quote-base);
+}
+.label.multiline {
+	font: var(--typography-multi-line-label-base);
+}
+.caption.multiline {
+	font: var(--typography-multi-line-caption-base);
+}
+.footnote.multiline {
+	font: var(--typography-multi-line-footnote-base);
+}
+
+/* 2.c Emphasis */
+/* By definition, emphasis only changes the font-weight,if this behavior
+were to change, we might need to set up the whole font property */
+.title.emphasis {
+	font-weight: var(--typography-single-line-title-emphasis-font-weight);
+}
+.heading.emphasis {
+	font-weight: var(--typography-single-line-heading-emphasis-font-weight);
+}
+.subheading.emphasis {
+	font-weight: var(--typography-single-line-subheading-emphasis-font-weight);
+}
+.base.emphasis {
+	font-weight: var(--typography-single-line-base-emphasis-font-weight);
+}
+.subtle.emphasis {
+	font-weight: var(--typography-single-line-subtle-emphasis-font-weight);
+}
+.quote.emphasis {
+	font-weight: var(--typography-single-line-quote-emphasis-font-weight);
+}
+.label.emphasis {
+	font-weight: var(--typography-single-line-label-emphasis-font-weight);
+}
+.caption.emphasis {
+	font-weight: var(--typography-single-line-caption-emphasis-font-weight);
+}
+.footnote.emphasis {
+	font-weight: var(--typography-single-line-footnote-emphasis-font-weight);
 }
