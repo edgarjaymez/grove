@@ -1,7 +1,7 @@
 {
-	"semantic-color": {
+	"semanticColor": {
 		"surface": {
-			"ground": { "$value": "{color.base.light}" },
+			"ground": { "$value": "{color.base.dark}" },
 			"brand": {
 				"terrace": { "$value": "{color.brand.100}" },
 				"path": { "$value": "{color.brand.200}" },
@@ -35,27 +35,27 @@
 				"aurora": { "$value": "{color.success.700}" }
 			}
 		},
-		"text-on": {
+		"textOn": {
 			"ground": {
 				"base": { "$value": "{color.base.dark}" },
 				"subtle": { "$value": "{color.gray.700}" },
 				"emphasis": { "$value": "{color.brand.500}" },
-				"unvisited-link": { "$value": "{color.accent.500}" },
-				"visited-link": { "$value": "{color.information.500}" }
+				"unvisitedLink": { "$value": "{color.accent.500}" },
+				"visitedLink": { "$value": "{color.information.500}" }
 			},
 			"brand": {
 				"terrace": {
 					"base": { "$value": "{color.brand.950}" },
 					"subtle": { "$value": "{color.brand.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.accent.800}" },
-					"visited-link": { "$value": "{color.information.800}" }
+					"unvisitedLink": { "$value": "{color.accent.800}" },
+					"visitedLink": { "$value": "{color.information.800}" }
 				},
 				"path": {
 					"base": { "$value": "{color.brand.950}" },
 					"subtle": { "$value": "{color.brand.900}" },
-					"unvisited-link": { "$value": "{color.accent.900}" },
-					"visited-link": { "$value": "{color.information.900}" }
+					"unvisitedLink": { "$value": "{color.accent.900}" },
+					"visitedLink": { "$value": "{color.information.900}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.brand.50}" },
@@ -71,8 +71,8 @@
 					"base": { "$value": "{color.accent.950}" },
 					"subtle": { "$value": "{color.accent.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.brand.800}" },
-					"visited-link": { "$value": "{color.information.800}" }
+					"unvisitedLink": { "$value": "{color.brand.800}" },
+					"visitedLink": { "$value": "{color.information.800}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.accent.50}" },
@@ -88,14 +88,14 @@
 					"base": { "$value": "{color.gray.950}" },
 					"subtle": { "$value": "{color.gray.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.accent.800}" },
-					"visited-link": { "$value": "{color.information.800}" }
+					"unvisitedLink": { "$value": "{color.accent.800}" },
+					"visitedLink": { "$value": "{color.information.800}" }
 				},
 				"path": {
 					"base": { "$value": "{color.gray.950}" },
 					"subtle": { "$value": "{color.gray.900}" },
-					"unvisited-link": { "$value": "{color.accent.950}" },
-					"visited-link": { "$value": "{color.information.950}" }
+					"unvisitedLink": { "$value": "{color.accent.950}" },
+					"visitedLink": { "$value": "{color.information.950}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.gray.50}" },
@@ -111,8 +111,8 @@
 					"base": { "$value": "{color.information.950}" },
 					"subtle": { "$value": "{color.information.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.accent.800}" },
-					"visited-link": { "$value": "{color.brand.800}" }
+					"unvisitedLink": { "$value": "{color.accent.800}" },
+					"visitedLink": { "$value": "{color.brand.800}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.information.50}" },
@@ -128,8 +128,8 @@
 					"base": { "$value": "{color.danger.950}" },
 					"subtle": { "$value": "{color.danger.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.accent.800}" },
-					"visited-link": { "$value": "{color.information.800}" }
+					"unvisitedLink": { "$value": "{color.accent.800}" },
+					"visitedLink": { "$value": "{color.information.800}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.danger.50}" },
@@ -145,8 +145,8 @@
 					"base": { "$value": "{color.success.950}" },
 					"subtle": { "$value": "{color.success.800}" },
 					"emphasis": { "$value": "{color.base.dark}" },
-					"unvisited-link": { "$value": "{color.accent.800}" },
-					"visited-link": { "$value": "{color.information.800}" }
+					"unvisitedLink": { "$value": "{color.accent.800}" },
+					"visitedLink": { "$value": "{color.information.800}" }
 				},
 				"summit": {
 					"base": { "$value": "{color.success.50}" },
@@ -158,7 +158,7 @@
 				}
 			}
 		},
-		"border-around": {
+		"borderAround": {
 			"ground": { "$value": "{color.gray.100}" },
 			"brand": {
 				"terrace": { "$value": "{color.brand.200}" },
@@ -193,7 +193,7 @@
 				"aurora": { "$value": "{color.success.900}" }
 			}
 		},
-		"divider-on": {
+		"dividerOn": {
 			"ground": { "$value": "{color.gray.200}" },
 			"brand": {
 				"terrace": { "$value": "{color.brand.300}" },

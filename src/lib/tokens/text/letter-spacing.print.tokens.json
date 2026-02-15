@@ -1,5 +1,5 @@
 {
-	"letter-spacing": {
+	"letterSpacing": {
 		"$type": "dimension",
 		"tight": {
 			"$value": {
@@ -7,8 +7,8 @@
 				"unit": "rem"
 			}
 		},
-		"base": { "$value": "{soft-grid.0}" },
-		"loose": { "$value": "{soft-grid.2}" },
-		"extra-loose": { "$value": "{soft-grid.4}" }
+		"base": { "$value": "{softGrid.0}" },
+		"loose": { "$value": "{softGrid.2}" },
+		"extraLoose": { "$value": "{softGrid.4}" }
 	}
 }

@@ -1,15 +1,15 @@
 {
-	"border-width": {
+	"borderWidth": {
 		"$type": "dimension",
-		"none": "{soft-grid.0}",
+		"none": "{softGrid.0}",
 		"hairline": {
 			"$value": {
 				"value": 0.03125,
 				"unit": "rem"
 			}
 		},
-		"base": { "$value": "{soft-grid.1}" },
-		"heavy": { "$value": "{soft-grid.2}" },
-		"thick": { "$value": "{soft-grid.4}" }
+		"base": { "$value": "{softGrid.1}" },
+		"heavy": { "$value": "{softGrid.2}" },
+		"thick": { "$value": "{softGrid.4}" }
 	}
 }
