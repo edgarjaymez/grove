@@ -1,5 +1,5 @@
 {
-	"soft-grid": {
+	"softGrid": {
 		"$type": "dimension",
 		"0": {
 			"$value": {

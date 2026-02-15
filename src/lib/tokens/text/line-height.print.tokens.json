@@ -1,7 +1,7 @@
 {
-	"line-height": {
+	"lineHeight": {
 		"$type": "number",
-		"single-line": {
+		"singleLine": {
 			"2xs": { "$value": 1.33333333 },
 			"xs": { "$value": 1.33333333 },
 			"sm": { "$value": 1.5 },
@@ -13,7 +13,7 @@
 			"3xl": { "$value": 1 },
 			"4xl": { "$value": 1 }
 		},
-		"multi-line": {
+		"multiLine": {
 			"2xs": { "$value": 2 },
 			"xs": { "$value": 2 },
 			"sm": { "$value": 2 },

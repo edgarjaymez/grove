@@ -1,16 +1,16 @@
 {
-	"font-family": {
+	"fontFamily": {
 		"$type": "fontFamily",
-		"sans-serif": {
+		"sansSerif": {
 			"$value": ["Switzer", "system-ui", "sans-serif"]
 		},
 		"display": {
 			"$value": ["Cakra", "serif"]
 		},
-		"icons-regular": {
+		"iconsRegular": {
 			"$value": "Phosphor"
 		},
-		"icons-fill": {
+		"iconsFill": {
 			"$value": "Phosphor-Fill"
 		}
 	}

@@ -5,12 +5,12 @@
 			"$type": "number"
 		},
 		"system": {
-			"margin": { "$value": "{soft-grid.16}" },
-			"gutter": { "$value": "{soft-grid.16}" }
+			"margin": { "$value": "{softGrid.16}" },
+			"gutter": { "$value": "{softGrid.16}" }
 		},
 		"landing": {
-			"margin": { "$value": "{soft-grid.16}" },
-			"gutter": { "$value": "{soft-grid.16}" }
+			"margin": { "$value": "{softGrid.16}" },
+			"gutter": { "$value": "{softGrid.16}" }
 		}
 	}
 }

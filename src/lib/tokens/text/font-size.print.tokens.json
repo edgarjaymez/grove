@@ -1,15 +1,15 @@
 {
-	"font-size": {
+	"fontSize": {
 		"$type": "dimension",
-		"2xs": { "$value": "{soft-grid.6}" },
-		"xs": { "$value": "{soft-grid.6}" },
-		"sm": { "$value": "{soft-grid.8}" },
-		"base": { "$value": "{soft-grid.8}" },
-		"md": { "$value": "{soft-grid.12}" },
-		"lg": { "$value": "{soft-grid.16}" },
-		"xl": { "$value": "{soft-grid.24}" },
-		"2xl": { "$value": "{soft-grid.32}" },
-		"3xl": { "$value": "{soft-grid.64}" },
+		"2xs": { "$value": "{softGrid.6}" },
+		"xs": { "$value": "{softGrid.6}" },
+		"sm": { "$value": "{softGrid.8}" },
+		"base": { "$value": "{softGrid.8}" },
+		"md": { "$value": "{softGrid.12}" },
+		"lg": { "$value": "{softGrid.16}" },
+		"xl": { "$value": "{softGrid.24}" },
+		"2xl": { "$value": "{softGrid.32}" },
+		"3xl": { "$value": "{softGrid.64}" },
 		"4xl": {
 			"$value": {
 				"value": 12,

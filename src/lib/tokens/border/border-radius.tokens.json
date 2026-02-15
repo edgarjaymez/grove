@@ -1,18 +1,18 @@
 {
-	"border-radius": {
+	"borderRadius": {
 		"$type": "dimension",
-		"none": { "$value": "{soft-grid.0}" },
-		"sm": { "$value": "{soft-grid.4}" },
-		"base": { "$value": "{soft-grid.8}" },
-		"md": { "$value": "{soft-grid.12}" },
-		"lg": { "$value": "{soft-grid.16}" },
-		"xl": { "$value": "{soft-grid.20}" },
-		"2xl": { "$value": "{soft-grid.24}" },
-		"3xl": { "$value": "{soft-grid.28}" },
-		"4xl": { "$value": "{soft-grid.32}" },
-		"6xl": { "$value": "{soft-grid.40}" },
-		"8xl": { "$value": "{soft-grid.48}" },
-		"10xl": { "$value": "{soft-grid.56}" },
-		"12xl": { "$value": "{soft-grid.64}" }
+		"none": { "$value": "{softGrid.0}" },
+		"sm": { "$value": "{softGrid.4}" },
+		"base": { "$value": "{softGrid.8}" },
+		"md": { "$value": "{softGrid.12}" },
+		"lg": { "$value": "{softGrid.16}" },
+		"xl": { "$value": "{softGrid.20}" },
+		"2xl": { "$value": "{softGrid.24}" },
+		"3xl": { "$value": "{softGrid.28}" },
+		"4xl": { "$value": "{softGrid.32}" },
+		"6xl": { "$value": "{softGrid.40}" },
+		"8xl": { "$value": "{softGrid.48}" },
+		"10xl": { "$value": "{softGrid.56}" },
+		"12xl": { "$value": "{softGrid.64}" }
 	}
 }
