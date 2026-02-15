@@ -1,23 +1,109 @@
-You are able to use the Svelte MCP server, where you have access to comprehensive Svelte 5 and SvelteKit documentation. Here's how to use the available tools effectively:
+# Grove
 
-## Available MCP Tools:
+Grove is a Svelte 5 component library and design system. It publishes components, design tokens, fonts, and styles as an npm package (`grove`).
 
-### 1. list-sections
+## Tech Stack
 
-Use this FIRST to discover all available documentation sections. Returns a structured list with titles, use_cases, and paths.
-When asked about Svelte or SvelteKit topics, ALWAYS use this tool at the start of the chat to find relevant sections.
+- **Framework:** Svelte 5 (runes) + SvelteKit
+- **Language:** TypeScript (strict mode, NodeNext resolution)
+- **Package Manager:** pnpm
+- **Bundling:** Vite + `@sveltejs/package`
+- **Tokens:** Terrazzo CLI (`@terrazzo/cli`) with DTCG format
+- **Testing:** Vitest (unit/component) + Playwright (e2e)
+- **Storybook:** v10 with Svelte CSF, a11y addon
+- **Linting:** ESLint (flat config) + Prettier
 
-### 2. get-documentation
+## Commands
 
-Retrieves full documentation content for specific sections. Accepts single or multiple sections.
-After calling the list-sections tool, you MUST analyze the returned documentation sections (especially the use_cases field) and then use the get-documentation tool to fetch ALL documentation sections that are relevant for the user's task.
+| Task | Command |
+|------|---------|
+| Dev server | `pnpm dev` |
+| Build library | `pnpm build` |
+| Type check | `pnpm check` |
+| Lint | `pnpm lint` |
+| Format | `pnpm format` |
+| Unit tests | `pnpm test:unit` |
+| E2E tests | `pnpm test:e2e` |
+| All tests | `pnpm test` |
+| Storybook | `pnpm storybook` |
+| Build tokens | `pnpm build-tokens` |
 
-### 3. svelte-autofixer
+## Project Structure
 
-Analyzes Svelte code and returns issues and suggestions.
-You MUST use this tool whenever writing Svelte code before sending it to the user. Keep calling it until no issues or suggestions are returned.
+```
+src/
+├── lib/                    # Published library code
+│   ├── components/         # Svelte components
+│   │   └── ComponentName/
+│   │       ├── ComponentName.svelte
+│   │       └── index.ts    # Barrel export
+│   ├── fonts/              # Font files + fonts.css
+│   ├── styles/             # Global CSS (reset, globals, typography)
+│   ├── tokens/             # Design tokens (JSON source + generated tokens.css)
+│   └── index.ts            # Main library entry point
+├── routes/                 # Demo/showcase SvelteKit app
+└── stories/                # Storybook stories
+```
 
-### 4. playground-link
+## Code Style
 
-Generates a Svelte Playground link with the provided code.
-After completing the code, ask the user if they want a playground link. Only call this tool after user confirmation and NEVER if code was written to files in their project.
+- **Formatting:** Tabs, single quotes, no trailing commas, 100-char print width
+- **Components:** PascalCase directories and filenames
+- **Props interfaces:** Prefixed with `I` (e.g., `IIcon`, `IIsotype`)
+- **CSS:** Scoped styles in components, reference design tokens via CSS custom properties — never hardcode colors, spacing, or font values
+- **Color space:** OKLCH throughout the token system
+- **Exports:** Barrel pattern — each component has an `index.ts`, all re-exported from `src/lib/index.ts`
+
+## Component Conventions
+
+Every component follows this structure:
+
+```svelte
+<script lang="ts">
+  interface IComponentName {
+    class?: ClassValue;
+    // props...
+  }
+
+  let { class: className, ...rest }: IComponentName = $props();
+</script>
+
+<!-- markup -->
+
+<style>
+  /* scoped styles using design tokens */
+</style>
+```
+
+- Use Svelte 5 runes: `$props()`, `$state()`, `$derived()`, `$effect()`
+- Use TypeScript for all component logic
+- Reference design tokens as CSS custom properties (e.g., `var(--semantic-color-surface-brand-summit)`)
+- Always support an optional `class` prop for consumer-side styling
+
+## Design Token System
+
+Tokens are organized in `src/lib/tokens/` as DTCG JSON files:
+
+- **border/** — border-radius, border-width
+- **effects/** — drop shadows (light/dark)
+- **palette/** — primitive colors + semantic colors (light/dark)
+- **spacing/** — soft grid, responsive grid, breakpoints
+- **text/** — font families, weights, sizes, line heights, letter spacing, typography
+
+**Semantic color pattern:**
+- Surfaces: `--semantic-color-surface-{family}-{type}` (families: brand, accent, gray, etc. | types: ground, terrace, path, summit, aurora)
+- Text: `--semantic-color-text-on-{surface}-{family}-{type}-{role}`
+- Borders: `--semantic-color-border-around-{family}-{type}`
+
+**Modifiers:** theme (light/dark), breakpoint (mobile/tablet/laptop/desktop), media (digital/print)
+
+The generated `tokens.css` is the single source of truth — never edit it manually. Edit the JSON source files and run `pnpm build-tokens`.
+
+## Svelte MCP Server
+
+A Svelte MCP server (`@sveltejs/mcp`) is configured for AI-assisted development. Available tools:
+
+1. **list-sections** — Discover available Svelte/SvelteKit documentation sections. Use this first when working on Svelte topics.
+2. **get-documentation** — Fetch full documentation for specific sections. After `list-sections`, fetch all sections relevant to the task.
+3. **svelte-autofixer** — Analyze Svelte code for issues. Run this on all Svelte code before finalizing. Keep calling until no issues remain.
+4. **playground-link** — Generate a Svelte Playground link. Only offer after code is complete, and never if code was written to project files.
