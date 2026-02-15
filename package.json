@@ -1,6 +1,6 @@
 {
 	"name": "grove",
-	"version": "1.0.0",
+	"version": "v1.12.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -34,7 +34,7 @@
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
 		},
-		"./tokens.css": "./dist/tokens.css"
+		"./tokens.css": "./dist/tokens/tokens.css"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
