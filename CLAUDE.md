@@ -127,6 +127,7 @@ These are also available as standalone commands for quick reference:
 | `/shadows` | Shadow structure, Terrace-only rule |
 | `/build-surface` | Composite: build a card, banner, section |
 | `/build-interactive` | Composite: build a button, link, input |
+| `/sync-design-system` | Sync skill files after updating `DESIGN_SYSTEM.md` |
 
 ## Design Token System
 
