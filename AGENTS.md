@@ -28,6 +28,31 @@ Grove is a Svelte 5 component library and design system published as an npm pack
 5. Use design tokens via CSS custom properties — never hardcode colors, spacing, or fonts.
 6. Run the `svelte-autofixer` MCP tool on all new Svelte code until it returns no issues.
 
+## Design System Skills
+
+Design system guidance lives in `.claude/commands/` as atomic skill files. Consult these when making visual or composition decisions.
+
+### Reference skills (by topic)
+
+| File | Topic |
+|------|-------|
+| `.claude/commands/color.md` | Primitive palette, semantic token rules |
+| `.claude/commands/elevation.md` | Tracks, depths, composition rules |
+| `.claude/commands/text-on.md` | Text color pairing by surface |
+| `.claude/commands/typography.md` | Font families, sizes, weights, line heights |
+| `.claude/commands/spacing.md` | Soft grid, layout grid, breakpoints |
+| `.claude/commands/borders.md` | Border width, radius, border-around, divider-on |
+| `.claude/commands/shadows.md` | Shadow structure, Terrace-only rule |
+
+### Composite skills (by task)
+
+| File | Use when |
+|------|----------|
+| `.claude/commands/build-surface.md` | Building cards, banners, sections, containers |
+| `.claude/commands/build-interactive.md` | Building buttons, links, inputs, toggles |
+
+Read the relevant files for your task — not all of them. Return structured output: composition tree, token list, and composition checklist.
+
 ## Writing Tests
 
 - **Component tests:** `src/lib/components/ComponentName/ComponentName.svelte.spec.ts` — run in browser via Playwright (`@vitest/browser-playwright`).

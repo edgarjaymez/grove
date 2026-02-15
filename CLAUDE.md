@@ -80,6 +80,54 @@ Every component follows this structure:
 - Reference design tokens as CSS custom properties (e.g., `var(--semantic-color-surface-brand-summit)`)
 - Always support an optional `class` prop for consumer-side styling
 
+## Design System — Subagent Orchestration
+
+When building or modifying a component, or making any visual/composition decision, **spawn a subagent** (Task tool, `general-purpose` type) to consult the design system. Do NOT load the full design system into the main conversation.
+
+### When to spawn
+
+- Creating a new component
+- Modifying styles, colors, surfaces, or layout of an existing component
+- Making decisions about elevation, typography, or spacing
+- Reviewing visual correctness of existing code
+
+### Subagent prompt template
+
+```
+You are the Grove design system consultant. Your job is to return structured design guidance.
+
+Read the relevant skill files from .claude/commands/ for this task:
+- Reference skills: color.md, elevation.md, text-on.md, typography.md, spacing.md, borders.md, shadows.md
+- Composite skills: build-surface.md (for containers), build-interactive.md (for buttons/inputs)
+
+Only read the files relevant to the task — not all of them.
+
+Return structured output:
+1. COMPOSITION TREE — the surface nesting with exact CSS custom property names
+2. TOKENS — every token the component needs (surface, text, border, shadow, spacing, typography)
+3. CHECKLIST — verified do/don't items from the composition rules
+
+Use Svelte MCP tools (list-sections, get-documentation, svelte-autofixer) if you need Svelte framework guidance.
+
+Task: {describe the current visual task}
+```
+
+### Manual slash commands
+
+These are also available as standalone commands for quick reference:
+
+| Command | Purpose |
+|---------|---------|
+| `/color` | Primitive palette, usage rules |
+| `/elevation` | Tracks, depths, composition rules |
+| `/text-on` | Text color pairing by surface |
+| `/typography` | Font families, sizes, weights, line heights |
+| `/spacing` | Soft grid, layout grid, breakpoints |
+| `/borders` | Border width, radius, border-around, divider-on |
+| `/shadows` | Shadow structure, Terrace-only rule |
+| `/build-surface` | Composite: build a card, banner, section |
+| `/build-interactive` | Composite: build a button, link, input |
+
 ## Design Token System
 
 Tokens are organized in `src/lib/tokens/` as DTCG JSON files:
@@ -89,13 +137,6 @@ Tokens are organized in `src/lib/tokens/` as DTCG JSON files:
 - **palette/** — primitive colors + semantic colors (light/dark)
 - **spacing/** — soft grid, responsive grid, breakpoints
 - **text/** — font families, weights, sizes, line heights, letter spacing, typography
-
-**Semantic color pattern:**
-- Surfaces: `--semantic-color-surface-{family}-{type}` (families: brand, accent, gray, etc. | types: ground, terrace, path, summit, aurora)
-- Text: `--semantic-color-text-on-{surface}-{family}-{type}-{role}`
-- Borders: `--semantic-color-border-around-{family}-{type}`
-
-**Modifiers:** theme (light/dark), breakpoint (mobile/tablet/laptop/desktop), media (digital/print)
 
 The generated `tokens.css` is the single source of truth — never edit it manually. Edit the JSON source files and run `pnpm build-tokens`.
 
