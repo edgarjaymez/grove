@@ -6,12 +6,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.075, 145],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -21,12 +17,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.075, 145],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -40,12 +32,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.075, 145],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -55,12 +43,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/brand/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.075, 145],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",
@@ -76,12 +60,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.16, 316],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -91,12 +71,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.16, 316],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -110,12 +86,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.16, 316],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -125,12 +97,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/accent/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.16, 316],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",
@@ -146,12 +114,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.01, 70],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -161,12 +125,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.01, 70],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -180,12 +140,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.01, 70],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -195,12 +151,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/gray/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.01, 70],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",
@@ -216,12 +168,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.1, 238],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -231,12 +179,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.1, 238],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -250,12 +194,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.1, 238],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -265,12 +205,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/information/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.1, 238],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",
@@ -286,12 +222,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.15, 22],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -301,12 +233,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.15, 22],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -320,12 +248,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.15, 22],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -335,12 +259,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/danger/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.15, 22],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",
@@ -356,12 +276,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.1, 168],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -371,12 +287,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.1, 168],
 							"alpha": 0.08
 						},
 						"offsetX": "{soft-grid.0}",
@@ -390,12 +302,8 @@
 				"$value": [
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/summit/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.48, 0.1, 168],
 							"alpha": 0.04
 						},
 						"offsetX": "{soft-grid.0}",
@@ -405,12 +313,8 @@
 					},
 					{
 						"color": {
-							"colorSpace": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/colorSpace"
-							},
-							"components": {
-								"$ref": "../palette/semantic-color.dark.tokens.json#/semantic-color/surface/success/aurora/$value/components"
-							},
+							"colorSpace": "oklch",
+							"components": [0.38, 0.1, 168],
 							"alpha": 0.12
 						},
 						"offsetX": "{soft-grid.0}",

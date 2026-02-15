@@ -1,39 +1,29 @@
 {
 	"line-height": {
-		"$type": "dimension",
+		"$type": "number",
 		"single-line": {
-			"2xs": { "$value": "{soft-grid.12}" },
-			"xs": { "$value": "{soft-grid.16}" },
-			"sm": { "$value": "{soft-grid.16}" },
-			"base": { "$value": "{soft-grid.20}" },
-			"md": { "$value": "{soft-grid.24}" },
-			"lg": { "$value": "{soft-grid.28}" },
-			"xl": { "$value": "{soft-grid.36}" },
-			"2xl": { "$value": "{soft-grid.44}" },
-			"3xl": { "$value": "{soft-grid.80}" },
-			"4xl": {
-				"$value": {
-					"value": 15,
-					"unit": "rem"
-				}
-			}
+			"2xs": { "$value": 1.2 },
+			"xs": { "$value": 1.333333333333333 },
+			"sm": { "$value": 1.142857142857143 },
+			"base": { "$value": 1.25 },
+			"md": { "$value": 1.2 },
+			"lg": { "$value": 1.166666666666667 },
+			"xl": { "$value": 1.125 },
+			"2xl": { "$value": 1.1 },
+			"3xl": { "$value": 1 },
+			"4xl": { "$value": 1 }
 		},
 		"multi-line": {
-			"2xs": { "$value": "{soft-grid.16}" },
-			"xs": { "$value": "{soft-grid.20}" },
-			"sm": { "$value": "{soft-grid.20}" },
-			"base": { "$value": "{soft-grid.24}" },
-			"md": { "$value": "{soft-grid.28}" },
-			"lg": { "$value": "{soft-grid.32}" },
-			"xl": { "$value": "{soft-grid.40}" },
-			"2xl": { "$value": "{soft-grid.48}" },
-			"3xl": { "$value": "{soft-grid.96}" },
-			"4xl": {
-				"$value": {
-					"value": 19,
-					"unit": "rem"
-				}
-			}
+			"2xs": { "$value": 1.6 },
+			"xs": { "$value": 1.66666667 },
+			"sm": { "$value": 1.42857143 },
+			"base": { "$value": 1.5 },
+			"md": { "$value": 1.4 },
+			"lg": { "$value": 1.33333333 },
+			"xl": { "$value": 1.25 },
+			"2xl": { "$value": 1.2 },
+			"3xl": { "$value": 1.2 },
+			"4xl": { "$value": 1.26666667 }
 		}
 	}
 }
