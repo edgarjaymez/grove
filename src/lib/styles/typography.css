@@ -1,99 +1,4 @@
-body {
-	background-color: var(--semantic-color-surface-ground);
-}
-
-/* 1. Font faces -------------------- */
-
-/* 1.a Display */
-@font-face {
-	font-family: 'Cakra';
-	font-weight: 400;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/display/Cakra.woff') format('woff'),
-		url('./fonts/display/Cakra.woff2') format('woff2');
-}
-
-/* 1.b Sans serif */
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 200;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-Extralight.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-Extralight.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 200;
-	font-style: italic;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-ExtralightItalic.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-ExtralightItalic.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 400;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-Regular.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-Regular.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 400;
-	font-style: italic;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-Italic.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-Italic.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 600;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-Semibold.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-Semibold.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Switzer';
-	font-weight: 600;
-	font-style: italic;
-	font-display: block;
-	src:
-		url('./fonts/sans-serif/Switzer-SemiboldItalic.woff') format('woff'),
-		url('./fonts/sans-serif/Switzer-SemiboldItalic.woff2') format('woff2');
-}
-
-/* 1.c Icons */
-@font-face {
-	font-family: 'Phosphor';
-	font-weight: 400;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/icons/Phosphor.woff') format('woff'),
-		url('./fonts/icons/Phosphor.woff2') format('woff2');
-}
-@font-face {
-	font-family: 'Phosphor-Fill';
-	font-weight: 400;
-	font-style: normal;
-	font-display: block;
-	src:
-		url('./fonts/icons/Phosphor-Fill.woff') format('woff'),
-		url('./fonts/icons/Phosphor-Fill.woff2') format('woff2');
-}
-
-/* 2. Text styles -------------------- */
-
-/* 2.a Single line */
+/* Single Line -------------------- */
 .hero.singleline {
 	font: var(--typography-single-line-hero-base);
 }
@@ -128,7 +33,7 @@ body {
 	font: var(--typography-single-line-footnote-base);
 }
 
-/* 2.b Multi line */
+/* Multi Line -------------------- */
 .hero.multiline {
 	font: var(--typography-multi-line-hero-base);
 }
@@ -163,7 +68,7 @@ body {
 	font: var(--typography-multi-line-footnote-base);
 }
 
-/* 2.c Emphasis */
+/* Emphasis -------------------- */
 /* By definition, emphasis only changes the font-weight,if this behavior
 were to change, we might need to set up the whole font property */
 .title.emphasis {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Isotype from '$lib/components/Isotype.svelte';
+	import { Isotype } from '$lib/index.js';
 
 	const version = __APP_VERSION__;
 </script>

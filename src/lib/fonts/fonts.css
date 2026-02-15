@@ -1,0 +1,86 @@
+/* Display -------------------- */
+@font-face {
+	font-family: 'Cakra';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./display/Cakra.woff') format('woff'),
+		url('./display/Cakra.woff2') format('woff2');
+}
+
+/* Sans Serif -------------------- */
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 200;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-Extralight.woff') format('woff'),
+		url('./sans-serif/Switzer-Extralight.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 200;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-ExtralightItalic.woff') format('woff'),
+		url('./sans-serif/Switzer-ExtralightItalic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-Regular.woff') format('woff'),
+		url('./sans-serif/Switzer-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 400;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-Italic.woff') format('woff'),
+		url('./sans-serif/Switzer-Italic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 600;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-Semibold.woff') format('woff'),
+		url('./sans-serif/Switzer-Semibold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Switzer';
+	font-weight: 600;
+	font-style: italic;
+	font-display: block;
+	src:
+		url('./sans-serif/Switzer-SemiboldItalic.woff') format('woff'),
+		url('./sans-serif/Switzer-SemiboldItalic.woff2') format('woff2');
+}
+
+/* Icons -------------------- */
+@font-face {
+	font-family: 'Phosphor';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./icons/Phosphor.woff') format('woff'),
+		url('./icons/Phosphor.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Phosphor-Fill';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./icons/Phosphor-Fill.woff') format('woff'),
+		url('./icons/Phosphor-Fill.woff2') format('woff2');
+}
