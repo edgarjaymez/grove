@@ -4,7 +4,7 @@
 
 <main>
 	<div class="title-container">
-		<Icon unicode="" lineHeight="singleline" textStyle="display" fillInHover />
+		<Icon unicode="" fillInHover class="display singleline" />
 		<h1 class="display singleline">Welcome to your library project</h1>
 	</div>
 	<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
