@@ -8,6 +8,7 @@
 
 <style>
 	main {
+		background-color: var(--semantic-color-surface-ground);
 		margin: 0 var(--grid-system-margin);
 	}
 </style>
