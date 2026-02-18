@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Isotype } from '$lib/index.js';
+	import { Isotype, Texture } from '$lib/index.js';
 
 	const version = __APP_VERSION__;
 </script>
@@ -16,6 +16,8 @@
 	<data class="display singleline" value={version}>{version}</data>
 
 	<Isotype class="isotype" color="base" size={1000} tone="dark" />
+
+	<Texture />
 </main>
 
 <style>
@@ -36,6 +38,7 @@
 			display: flex;
 			flex-direction: column;
 			gap: var(--soft-grid-32);
+			z-index: 2;
 
 			p,
 			span {
@@ -47,14 +50,14 @@
 			margin-left: auto;
 			color: var(--semantic-color-text-on-brand-summit-base);
 			text-align: right;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		:global(.isotype) {
 			position: absolute;
 			right: -15rem;
 			bottom: -13.5rem;
-			z-index: 0;
+			z-index: 1;
 		}
 	}
 </style>
