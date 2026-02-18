@@ -223,17 +223,17 @@
 							--semantic-color-border-around-success-aurora: var(--color-success-900);
 							--color-success-950: oklch(23.88% 0.0533 160.9);
 							--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-							--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+							--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 							--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-							--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+							--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 							--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-							--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+							--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 							--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-							--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+							--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 							--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-							--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+							--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 							--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-							--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+							--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 							--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 							--font-family-display: "Cakra", serif;
 							--font-family-icons-fill: "Phosphor-Fill";
@@ -626,9 +626,9 @@
 														--semantic-color-border-around-success-aurora: var(--color-success-900);
 														--color-success-950: oklch(23.75% 0.0707 162.8);
 														--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-														--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+														--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 														--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-														--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+														--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 														--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 													}
 }
@@ -709,9 +709,9 @@
 														--semantic-color-border-around-success-aurora: var(--color-success-900);
 														--color-success-950: oklch(23% 0.1 168);
 														--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-														--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+														--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 														--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-														--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+														--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 														--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 													}
 }
@@ -937,17 +937,17 @@
 							--semantic-color-border-around-success-aurora: var(--color-success-900);
 							--color-success-950: oklch(23.88% 0.0533 160.9);
 							--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-							--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+							--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 							--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-							--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+							--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 							--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-							--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+							--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 							--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-							--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+							--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 							--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-							--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+							--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 							--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-							--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+							--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 							--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 							--font-family-display: "Cakra", serif;
 							--font-family-icons-fill: "Phosphor-Fill";
@@ -1340,9 +1340,9 @@
 														--semantic-color-border-around-success-aurora: var(--color-success-900);
 														--color-success-950: oklch(23.75% 0.0707 162.8);
 														--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-														--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+														--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 														--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-														--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+														--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 														--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 													}
 }
@@ -1423,9 +1423,9 @@
 														--semantic-color-border-around-success-aurora: var(--color-success-900);
 														--color-success-950: oklch(23% 0.1 168);
 														--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-														--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+														--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 														--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-														--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+														--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 														--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 													}
 }
@@ -1652,17 +1652,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -2201,17 +2201,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -2605,9 +2605,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -2687,9 +2687,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 										}
 }
@@ -2771,9 +2771,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -2853,9 +2853,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 										}
 }
@@ -3081,17 +3081,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -3485,9 +3485,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -3569,9 +3569,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -3798,17 +3798,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -4347,17 +4347,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -4751,9 +4751,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -4833,9 +4833,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -4917,9 +4917,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -4999,9 +4999,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -5228,17 +5228,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -5632,9 +5632,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -5716,9 +5716,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -5945,17 +5945,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -6494,17 +6494,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -6898,9 +6898,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -6980,9 +6980,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -7064,9 +7064,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -7146,9 +7146,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -7375,17 +7375,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -7779,9 +7779,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -7863,9 +7863,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -8092,17 +8092,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -8641,17 +8641,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.16 316 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.075 145 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.15 22 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.01 70 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -9045,9 +9045,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -9127,9 +9127,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -9211,9 +9211,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -9293,9 +9293,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 238 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48% 0.1 168 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -9522,17 +9522,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -9926,9 +9926,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -10010,9 +10010,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -10239,17 +10239,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -10643,9 +10643,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -10727,9 +10727,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -10956,17 +10956,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -11360,9 +11360,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -11444,9 +11444,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -11673,17 +11673,17 @@
 								--semantic-color-border-around-success-aurora: var(--color-success-900);
 								--color-success-950: oklch(23.88% 0.0533 160.9);
 								--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-								--drop-shadow-accent-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
+								--drop-shadow-accent-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.16 316 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.16 316 / 0.12);
 								--drop-shadow-accent-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.16 316 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.16 316 / 0.08);
-								--drop-shadow-brand-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
+								--drop-shadow-brand-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.075 145 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.075 145 / 0.12);
 								--drop-shadow-brand-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.075 145 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.075 145 / 0.08);
-								--drop-shadow-danger-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
+								--drop-shadow-danger-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.15 22 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.15 22 / 0.12);
 								--drop-shadow-danger-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.15 22 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.15 22 / 0.08);
-								--drop-shadow-gray-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
+								--drop-shadow-gray-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.01 70 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.01 70 / 0.12);
 								--drop-shadow-gray-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.01 70 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.01 70 / 0.08);
-								--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
+								--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.52% 0.0926 242.7 / 0.12);
 								--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.52% 0.0926 242.7 / 0.08);
-								--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
+								--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
 								--font-family-icons-fill: "Phosphor-Fill";
@@ -12077,9 +12077,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23.75% 0.0707 162.8);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
@@ -12161,9 +12161,9 @@
 												--semantic-color-border-around-success-aurora: var(--color-success-900);
 												--color-success-950: oklch(23% 0.1 168);
 												--semantic-color-text-on-success-terrace-base: var(--color-success-950);
-												--drop-shadow-information-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
+												--drop-shadow-information-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 238 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 238 / 0.12);
 												--drop-shadow-information-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 238 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 238 / 0.08);
-												--drop-shadow-success-peak: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
+												--drop-shadow-success-summit: var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-8) var(--soft-grid-2) oklch(48% 0.1 168 / 0.04), var(--soft-grid-1) var(--soft-grid-1) var(--soft-grid-4) var(--soft-grid-1) oklch(38% 0.1 168 / 0.12);
 												--drop-shadow-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48% 0.1 168 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38% 0.1 168 / 0.08);
 											}
 										}
