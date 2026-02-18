@@ -4,6 +4,7 @@
 	import '$lib/tokens/tokens.css';
 	import '$lib/styles/globals.css';
 	import '$lib/styles/typography.css';
+	import '$lib/styles/shadows.css';
 
 	let { children } = $props();
 </script>
