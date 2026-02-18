@@ -1,0 +1,49 @@
+/* Terrace —-- */
+.drop-shadow-brand-terrace {
+	box-shadow: var(--drop-shadow-brand-terrace);
+}
+
+.drop-shadow-accent-terrace {
+	box-shadow: var(--drop-shadow-accent-terrace);
+}
+
+.drop-shadow-gray-terrace {
+	box-shadow: var(--drop-shadow-gray-terrace);
+}
+
+.drop-shadow-information-terrace {
+	box-shadow: var(--drop-shadow-information-terrace);
+}
+
+.drop-shadow-danger-terrace {
+	box-shadow: var(--drop-shadow-danger-terrace);
+}
+
+.drop-shadow-success-terrace {
+	box-shadow: var(--drop-shadow-success-terrace);
+}
+
+/* Summit —-- */
+.drop-shadow-brand-summit {
+	box-shadow: var(--drop-shadow-brand-summit);
+}
+
+.drop-shadow-accent-summit {
+	box-shadow: var(--drop-shadow-accent-summit);
+}
+
+.drop-shadow-gray-summit {
+	box-shadow: var(--drop-shadow-gray-summit);
+}
+
+.drop-shadow-information-summit {
+	box-shadow: var(--drop-shadow-information-summit);
+}
+
+.drop-shadow-danger-summit {
+	box-shadow: var(--drop-shadow-danger-summit);
+}
+
+.drop-shadow-success-summit {
+	box-shadow: var(--drop-shadow-success-summit);
+}
