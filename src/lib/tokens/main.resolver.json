@@ -40,11 +40,13 @@
 			"contexts": {
 				"light": [
 					{ "$ref": "palette/semantic-color.light.tokens.json" },
-					{ "$ref": "effects/drop-shadow.light.tokens.json" }
+					{ "$ref": "effects/drop-shadow.light.tokens.json" },
+					{ "$ref": "effects/ring-on.light.tokens.json" }
 				],
 				"dark": [
 					{ "$ref": "palette/semantic-color.dark.tokens.json" },
-					{ "$ref": "effects/drop-shadow.dark.tokens.json" }
+					{ "$ref": "effects/drop-shadow.dark.tokens.json" },
+					{ "$ref": "effects/ring-on.dark.tokens.json" }
 				]
 			}
 		},
