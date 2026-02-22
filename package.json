@@ -1,6 +1,6 @@
 {
 	"name": "grove",
-	"version": "v1.14.1",
+	"version": "v1.15.0-alpha-1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",

@@ -1,0 +1,302 @@
+{
+	"dimensions": {
+		"$type": "dimension",
+		"base": {
+			"offsetX": { "$value": "{softGrid.0}" },
+			"offsetY": { "$value": "{softGrid.0}" },
+			"blur": { "$value": "{softGrid.0}" },
+			"spread": { "$value": "{softGrid.8}" }
+		},
+		"offset": {
+			"offsetX": { "$value": "{softGrid.0}" },
+			"offsetY": { "$value": "{softGrid.0}" },
+			"blur": { "$value": "{softGrid.0}" },
+			"spread": { "$value": "{softGrid.4}" }
+		}
+	},
+	"ringOn": {
+		"$type": "shadow",
+		"ground": {
+			"$value": [
+				{
+					"color": "{color.accent.500}",
+					"offsetX": "{dimensions.base.offsetX}",
+					"offsetY": "{dimensions.base.offsetY}",
+					"blur": "{dimensions.base.blur}",
+					"spread": "{dimensions.base.spread}"
+				},
+				{
+					"color": "{semanticColor.surface.ground}",
+					"offsetX": "{dimensions.offset.offsetX}",
+					"offsetY": "{dimensions.offset.offsetY}",
+					"blur": "{dimensions.offset.blur}",
+					"spread": "{dimensions.offset.spread}"
+				}
+			]
+		},
+		"brand": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.brand.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"path": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.brand.path}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.accent.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.brand.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		},
+		"accent": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.brand.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.accent.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.brand.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.accent.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		},
+		"gray": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.gray.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"path": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.gray.path}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.accent.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.gray.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		},
+		"information": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.information.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.accent.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.information.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		},
+		"danger": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.danger.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.accent.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.danger.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		},
+		"success": {
+			"terrace": {
+				"$value": [
+					{
+						"color": "{color.accent.500}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.success.terrace}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			},
+			"summit": {
+				"$value": [
+					{
+						"color": "{color.accent.100}",
+						"offsetX": "{dimensions.base.offsetX}",
+						"offsetY": "{dimensions.base.offsetY}",
+						"blur": "{dimensions.base.blur}",
+						"spread": "{dimensions.base.spread}"
+					},
+					{
+						"color": "{semanticColor.surface.success.summit}",
+						"offsetX": "{dimensions.offset.offsetX}",
+						"offsetY": "{dimensions.offset.offsetY}",
+						"blur": "{dimensions.offset.blur}",
+						"spread": "{dimensions.offset.spread}"
+					}
+				]
+			}
+		}
+	}
+}

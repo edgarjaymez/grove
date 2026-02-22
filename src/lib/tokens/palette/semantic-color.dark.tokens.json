@@ -1,7 +1,7 @@
 {
 	"semanticColor": {
 		"surface": {
-			"ground": { "$value": "{color.base.dark}" },
+			"ground": { "$value": "{color.base.light}" },
 			"brand": {
 				"terrace": { "$value": "{color.brand.100}" },
 				"path": { "$value": "{color.brand.200}" },
