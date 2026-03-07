@@ -227,6 +227,35 @@
 				"summit": { "$value": "{color.success.50}" },
 				"aurora": { "$value": "{color.success.100}" }
 			}
+		},
+		"selectedTextOn": {
+			"ground": { "$value": "{color.accent.100}" },
+			"brand": {
+				"terrace": { "$value": "{color.accent.500}" },
+				"summit": { "$value": "{color.accent.100}" },
+				"aurora": { "$value": "{color.accent.100}" }
+			},
+			"accent": {
+				"terrace": { "$value": "{color.brand.500}" },
+				"aurora": { "$value": "{color.brand.100}" }
+			},
+			"gray": {
+				"terrace": { "$value": "{color.accent.500}" },
+				"summit": { "$value": "{color.accent.100}" },
+				"aurora": { "$value": "{color.accent.100}" }
+			},
+			"information": {
+				"terrace": { "$value": "{color.accent.500}" },
+				"aurora": { "$value": "{color.accent.100}" }
+			},
+			"danger": {
+				"terrace": { "$value": "{color.accent.500}" },
+				"aurora": { "$value": "{color.accent.100}" }
+			},
+			"success": {
+				"terrace": { "$value": "{color.accent.500}" },
+				"aurora": { "$value": "{color.accent.100}" }
+			}
 		}
 	}
 }
