@@ -1,5 +1,5 @@
 {
-	"dropShadowOn": {
+	"dropShadowUnder": {
 		"$type": "shadow",
 		"brand": {
 			"terrace": {
