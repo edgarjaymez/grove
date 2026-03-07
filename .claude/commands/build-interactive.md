@@ -77,7 +77,12 @@ Walk through each step and return structured output for every decision.
 - [ ] Vertical padding: `--soft-grid-8` to `--soft-grid-12` (typical for buttons)
 - [ ] Gap between icon and label: `--soft-grid-8`
 
-### 8. States
+### 8. Shadow (optional)
+- [ ] Summit elements that need visual lift: `drop-shadow-{track}-summit`
+- [ ] Don't combine with heavy borders on the same element
+- [ ] Aurora (hover) inherits the shadow from Summit — don't redefine it
+
+### 9. States
 - [ ] Default: Summit surface
 - [ ] Hover: Aurora surface (`--semantic-color-surface-{track}-aurora`)
 - [ ] Focus: define focus ring (typically `--border-width-heavy` with track color)
@@ -101,6 +106,7 @@ TOKENS:
   Font weight:      --font-weight-normal-{weight}
   Line height:      --line-height-single-line-{size}
   Padding:          --soft-grid-{h} / --soft-grid-{v}
+  Shadow:           drop-shadow-{track}-summit (optional)
 
 STATES:
   Default:  summit surface + base text

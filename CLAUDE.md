@@ -124,7 +124,7 @@ These are also available as standalone commands for quick reference:
 | `/typography` | Font families, sizes, weights, line heights |
 | `/spacing` | Soft grid, layout grid, breakpoints |
 | `/borders` | Border width, radius, border-around, divider-on |
-| `/shadows` | Shadow structure, Terrace-only rule |
+| `/shadows` | Shadow depths (Summit, Terrace) for Terrace & Summit surfaces |
 | `/build-surface` | Composite: build a card, banner, section |
 | `/build-interactive` | Composite: build a button, link, input |
 | `/sync-design-system` | Sync skill files after updating `DESIGN_SYSTEM.md` |

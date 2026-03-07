@@ -2,53 +2,49 @@
 
 Return the correct shadow tokens for the task described below.
 
-## Core Rule
+## Core Rules
 
-Shadows are available for **Terrace surfaces only**. No other depth gets shadows.
+- Only apply shadows to **Terrace and Summit** surfaces — never to Ground, Path, or Aurora
+- Shadows are optional — don't add if surface contrast already communicates depth
+- Don't combine shadows with heavy borders on the same element — choose one signal
+- Match the shadow track to the surface track (brand surface → brand shadow)
 
-## Structure
+## Shadow Depths
 
-Each shadow uses **two layers** for a softer, more natural appearance.
+Two depths, applied as CSS classes: `drop-shadow-{track}-{depth}`
 
-**Token pattern:** `--shadow-{track}-terrace`
+Available tracks: `brand`, `accent`, `gray`, `danger`, `success`, `information`
 
-The shadow uses the track's own color family for cohesive integration.
+| Depth | CSS class | Visual weight | Use for |
+|-------|-----------|---------------|---------|
+| **Summit** | `drop-shadow-{track}-summit` | Tight, balanced | Cards, panels, buttons, form inputs |
+| **Terrace** | `drop-shadow-{track}-terrace` | Wide, airy | Modals, sheets, floating containers, popovers |
 
-### Layer Structure
+## Layer Structure
 
-| Property | Layer 1 (ambient) | Layer 2 (direct) |
-|----------|-------------------|------------------|
-| Color | Track color @ 4% | Track color (darker) @ 8% |
-| Offset X | 16px | 4px |
-| Offset Y | 16px | 4px |
-| Blur | 32px | 16px |
-| Spread | 4px | 2px |
+Each shadow uses two layers. Brand track shown — all tracks follow the same structure with their own hue.
 
-### Example: Brand Terrace Shadow
-
-| Layer | Color | Offset | Blur | Spread |
-|-------|-------|--------|------|--------|
-| Layer 1 | `#416943` @ 4% | 16px 16px | 32px | 4px |
-| Layer 2 | `#264D28` @ 8% | 4px 4px | 16px | 2px |
-
-Every track (brand, accent, gray, danger, success, information) follows this same two-layer structure with its own color family.
+| Depth | Layer | Offset X/Y | Blur | Spread | Opacity |
+|-------|-------|------------|------|--------|---------|
+| Summit | 1 | 4px / 4px | 16px | 2px | 4% |
+| Summit | 2 | 1px / 1px | 4px | 1px | 12% |
+| Terrace | 1 | 16px / 16px | 32px | 4px | 4% |
+| Terrace | 2 | 4px / 4px | 16px | 2px | 8% |
 
 ## CSS Usage
 
-```css
-box-shadow: var(--shadow-{track}-terrace);
+Apply as HTML class:
+
+```html
+<!-- Card on a surface -->
+<div class="drop-shadow-gray-summit">...</div>
+
+<!-- Modal -->
+<div class="drop-shadow-gray-terrace">...</div>
+
+<!-- Brand button -->
+<button class="drop-shadow-brand-summit">...</button>
 ```
-
-Examples:
-- `box-shadow: var(--shadow-brand-terrace);`
-- `box-shadow: var(--shadow-gray-terrace);`
-
-## Rules
-
-- Only apply shadows to Terrace surfaces — never to Ground, Path, Summit, or Aurora
-- Shadows are optional on Terrace — not every card needs one
-- Use shadows to lift a Terrace surface when it needs visual prominence
-- Each track's shadow uses its own color for cohesion — don't mix shadow tracks with surface tracks
 
 ## Task
 

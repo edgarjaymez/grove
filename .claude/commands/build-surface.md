@@ -8,7 +8,7 @@ Read these skills before proceeding:
 - `.claude/commands/elevation.md` — track/depth rules, composition rules
 - `.claude/commands/text-on.md` — text color pairing for each surface
 - `.claude/commands/borders.md` — border-around and divider-on tokens
-- `.claude/commands/shadows.md` — shadow tokens (Terrace only)
+- `.claude/commands/shadows.md` — shadow tokens (Terrace and Summit)
 - `.claude/commands/spacing.md` — padding, gaps, margins
 
 ## Checklist
@@ -42,9 +42,12 @@ Walk through each step and return structured output for every decision.
 - [ ] Choose border-width (default: `base` / 1px)
 - [ ] Choose border-radius (cards: `md` / 12px, large cards: `lg` / 16px)
 
-### 5. Apply shadow (Terrace only)
-- [ ] If Terrace surface and needs visual lift: `--shadow-{track}-terrace`
-- [ ] If not Terrace: no shadow
+### 5. Apply shadow (Terrace and Summit only)
+- [ ] If surface needs visual lift: apply `drop-shadow-{track}-{depth}` class
+  - Terrace surface: `drop-shadow-{track}-terrace` (wide, airy)
+  - Summit surface: `drop-shadow-{track}-summit` (tight, balanced)
+- [ ] Don't combine with heavy borders — choose one signal of elevation
+- [ ] If Ground, Path, or Aurora: no shadow
 
 ### 6. Apply spacing
 - [ ] Internal padding from soft grid tokens
@@ -65,7 +68,7 @@ TOKENS:
   Text:     --semantic-color-text-on-{track}-{depth}-{role} (for each role used)
   Border:   --semantic-color-border-around-{track}-{depth}
   Divider:  --semantic-color-divider-on-{track}-{depth} (if needed)
-  Shadow:   --shadow-{track}-terrace (if Terrace)
+  Shadow:   drop-shadow-{track}-{depth} class (if Terrace or Summit)
   Radius:   --border-radius-{size}
   Padding:  --soft-grid-{n}
   Gap:      --soft-grid-{n}
@@ -73,7 +76,7 @@ TOKENS:
 CHECKLIST:
   [x] Depth progresses forward
   [x] Text roles match depth availability
-  [x] Shadow only on Terrace
+  [x] Shadow only on Terrace or Summit
   ...
 ```
 
