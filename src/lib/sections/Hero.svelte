@@ -4,12 +4,12 @@
 	const version = __APP_VERSION__;
 </script>
 
-<main class="drop-shadow-brand-summit">
+<main class="drop-shadow-under-brand-summit">
 	<header>
 		<h1 class="hero singleline">Grove</h1>
-		<p class="display singleline">Where living systems take root</p>
+		<p class="display singleline">Donde los sistemas vivos echan raíces</p>
 		<span class="title singleline"
-			>by <small class="title singleline emphasis">Edgar Diaz</small></span
+			>por <small class="title singleline emphasis">Edgar Diaz</small></span
 		>
 	</header>
 
@@ -130,6 +130,10 @@
 			header {
 				gap: var(--soft-grid-32);
 
+				p {
+					width: 50%;
+				}
+
 				h1.hero.singleline {
 					font-size: 12rem;
 					letter-spacing: var(--letter-spacing-extra-loose);
@@ -147,10 +151,9 @@
 			}
 
 			data.display.singleline {
-				margin-left: auto;
 				font-size: 5rem;
 				letter-spacing: var(--letter-spacing-loose);
-				text-align: right;
+				text-align: left;
 			}
 
 			:global(.isotype) {
