@@ -15,19 +15,24 @@
 	margin: 0;
 }
 
-/* 3. Enable keyword animations */
+/* 3. Remove default focus */
+*:focus {
+	outline: none;
+}
+
+/* 4. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
 	html {
 		interpolate-size: allow-keywords;
 	}
 }
 
+/* 5. Improve text rendering */
 body {
-	/* 4. Improve text rendering */
 	-webkit-font-smoothing: antialiased;
 }
 
-/* 5. Improve media defaults */
+/* 6. Improve media defaults */
 img,
 picture,
 video,
@@ -37,7 +42,7 @@ svg {
 	max-width: 100%;
 }
 
-/* 6. Inherit fonts for form controls */
+/* 7. Inherit fonts for form controls */
 input,
 button,
 textarea,
@@ -45,7 +50,7 @@ select {
 	font: inherit;
 }
 
-/* 7. Avoid text overflows */
+/* 8. Avoid text overflows */
 p,
 h1,
 h2,
@@ -56,7 +61,7 @@ h6 {
 	overflow-wrap: break-word;
 }
 
-/* 8. Improve line wrapping */
+/* 9. Improve line wrapping */
 p {
 	text-wrap: pretty;
 }
@@ -70,7 +75,7 @@ h6 {
 }
 
 /*
-  9. Create a root stacking context
+  10. Create a root stacking context
 */
 #root,
 #__next {

@@ -1,0 +1,60 @@
+/* Drop Shadow --------- */
+
+/* Terrace —-- */
+.drop-shadow-under-brand-terrace {
+	box-shadow: var(--drop-shadow-under-brand-terrace);
+}
+
+.drop-shadow-under-accent-terrace {
+	box-shadow: var(--drop-shadow-under-accent-terrace);
+}
+
+.drop-shadow-under-gray-terrace {
+	box-shadow: var(--drop-shadow-under-gray-terrace);
+}
+
+.drop-shadow-under-information-terrace {
+	box-shadow: var(--drop-shadow-under-information-terrace);
+}
+
+.drop-shadow-under-danger-terrace {
+	box-shadow: var(--drop-shadow-under-danger-terrace);
+}
+
+.drop-shadow-under-success-terrace {
+	box-shadow: var(--drop-shadow-under-success-terrace);
+}
+
+/* Summit —-- */
+.drop-shadow-under-brand-summit {
+	box-shadow: var(--drop-shadow-under-brand-summit);
+}
+
+.drop-shadow-under-accent-summit {
+	box-shadow: var(--drop-shadow-under-accent-summit);
+}
+
+.drop-shadow-under-gray-summit {
+	box-shadow: var(--drop-shadow-under-gray-summit);
+}
+
+.drop-shadow-under-information-summit {
+	box-shadow: var(--drop-shadow-under-information-summit);
+}
+
+.drop-shadow-under-danger-summit {
+	box-shadow: var(--drop-shadow-under-danger-summit);
+}
+
+.drop-shadow-under-success-summit {
+	box-shadow: var(--drop-shadow-under-success-summit);
+}
+
+/* Focus Ring --------- */
+
+/* Ground —-- */
+.surface-ground *:focus {
+	box-shadow: var(--ring-on-ground);
+}
+
+/* Terrace —-- */
