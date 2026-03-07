@@ -21,6 +21,7 @@
 		align-items: center;
 		font-style: normal;
 		font-weight: var(--font-weight-regular);
+		color: inherit;
 	}
 
 	/* Icon weight styles */
