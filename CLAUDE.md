@@ -79,6 +79,41 @@ Every component follows this structure:
 - Use TypeScript for all component logic
 - Reference design tokens as CSS custom properties (e.g., `var(--semantic-color-surface-brand-summit)`)
 - Always support an optional `class` prop for consumer-side styling
+- Use a `text: string` prop for simple text content — not a `children` snippet unless rich/structured content is needed
+
+### Typography in CSS
+
+Always use composite typography tokens via the CSS `font` shorthand — never set `font-size`, `line-height`, or `font-family` individually:
+
+```css
+/* ✅ correct */
+.element {
+  font: var(--typography-single-line-base-base);
+  letter-spacing: var(--letter-spacing-base); /* set separately — not in font shorthand */
+}
+
+/* ❌ wrong */
+.element {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-single-line-md);
+  font-family: var(--font-family-sans-serif);
+}
+```
+
+Available composite token families: `--typography-single-line-{scale}-{variant}` and `--typography-multi-line-{scale}-{variant}`.
+
+### Focus Rings
+
+Focus rings are handled by a **global surface-scoped CSS system** — interactive components must NOT declare any focus styles or pass CSS custom properties for focus. A global rule like `.surface-ground *:focus-visible { ... }` applies the correct `ring-on-{surface}` token automatically based on the parent surface.
+
+### Figma Annotations
+
+When implementing from Figma, always check for **all annotation attribute types** in the node output — not just one kind. Current known types:
+
+- `data-development-annotations` — CSS/layout implementation notes
+- `data-interaction-annotations` — cursor, pointer, and interaction behavior notes
+
+All annotations are implementation requirements and must be reflected in the code.
 
 ## Design System — Subagent Orchestration
 

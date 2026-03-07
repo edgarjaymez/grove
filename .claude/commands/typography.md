@@ -74,12 +74,32 @@ The `typography.css` stylesheet provides utility classes:
 
 **Usage:** `<h1 class="hero singleline">` / `<p class="base multiline">`
 
+## Composite Typography Tokens
+
+Prefer composite tokens over individual atomic tokens. They set `font-weight`, `font-size`, `line-height`, and `font-family` in a single CSS `font` shorthand value.
+
+**Single-line:** `--typography-single-line-{scale}-{variant}`
+**Multi-line:** `--typography-multi-line-{scale}-{variant}`
+
+Where `{scale}` is the hierarchy level (label, caption, subtle, base, subheading, heading, title, display, hero) and `{variant}` is `base` or `emphasis`.
+
+```css
+/* ✅ Use composite token */
+font: var(--typography-single-line-base-base);
+letter-spacing: var(--letter-spacing-base); /* set separately — not in font shorthand */
+
+/* ❌ Do not set atomic tokens individually */
+font-size: var(--font-size-md);
+line-height: var(--line-height-single-line-md);
+```
+
 ## Rules
 
 - Cakra (display) is for headings and marketing — never for body text
 - Switzer (sans-serif) is the default for all UI text
 - Always pair font-size with the matching line-height mode
 - Use `tight` letter spacing with Cakra, `normal` with Switzer
+- Always use composite `font` shorthand tokens in CSS — never individual atomic tokens
 
 ## Task
 

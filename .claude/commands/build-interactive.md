@@ -58,11 +58,16 @@ Walk through each step and return structured output for every decision.
 - No `emphasis`, no links on Summit/Aurora
 
 ### 5. Typography for labels
-- [ ] Font family: `--font-family-sans-serif` (Switzer)
-- [ ] Font size: typically `sm` (14px) or `base` (16px) for buttons
-- [ ] Font weight: `--font-weight-normal-semi-bold` for primary, `--font-weight-normal-regular` for secondary
-- [ ] Line height: single-line mode (`--line-height-single-line-{size}`)
-- [ ] Letter spacing: `normal` (Switzer default)
+
+Use the composite `font` shorthand token — never set `font-size`, `line-height`, or `font-family` individually:
+
+```css
+font: var(--typography-single-line-{scale}-{variant});
+letter-spacing: var(--letter-spacing-base); /* always set separately */
+```
+
+- [ ] Choose the appropriate `--typography-single-line-{scale}-{variant}` token from the typography system
+- [ ] Always set `letter-spacing` separately as it is not part of the CSS `font` shorthand
 
 ### 6. Border and shape
 - [ ] Border color: `--semantic-color-border-around-{track}-{depth}` (if bordered style)
@@ -83,10 +88,15 @@ Walk through each step and return structured output for every decision.
 - [ ] Aurora (hover) inherits the shadow from Summit — don't redefine it
 
 ### 9. States
-- [ ] Default: Summit surface
-- [ ] Hover: Aurora surface (`--semantic-color-surface-{track}-aurora`)
-- [ ] Focus: define focus ring (typically `--border-width-heavy` with track color)
-- [ ] Disabled: gray/terrace surface with `text-on/gray/terrace/subtle`
+- [ ] Default: own surface/style
+- [ ] Hover: Aurora surface (`--semantic-color-surface-{track}-aurora`) + aurora text + drop shadow; transition: `300ms`
+- [ ] Active: same as hover but no drop shadow
+- [ ] Focus: handled by the global surface-scoped CSS system — do NOT declare focus styles in the component
+- [ ] Disabled: `opacity: 0.5` + `cursor: not-allowed` — do NOT use `pointer-events: none` (cursor must remain visible)
+
+**Outlined style extra rules:**
+- Compensate vertical padding for border width to preserve height: `calc(spacing - var(--border-width-base))`
+- On hover/active: set `border-color: transparent` (keep border in DOM to preserve box model)
 
 ## Output Format
 
@@ -101,18 +111,17 @@ TOKENS:
   Label (hover):    --semantic-color-text-on-{track}-aurora-base
   Border:           --semantic-color-border-around-{track}-summit (if bordered)
   Radius:           --border-radius-{size}
-  Font:             --font-family-sans-serif
-  Font size:        --font-size-{size}
-  Font weight:      --font-weight-normal-{weight}
-  Line height:      --line-height-single-line-{size}
+  Font:             --typography-single-line-{scale}-{variant} (composite shorthand)
+  Letter spacing:   --letter-spacing-base
   Padding:          --soft-grid-{h} / --soft-grid-{v}
   Shadow:           drop-shadow-{track}-summit (optional)
 
 STATES:
-  Default:  summit surface + base text
-  Hover:    aurora surface + base text
-  Focus:    {focus ring definition}
-  Disabled: gray/terrace + subtle text
+  Default:  own surface + base text
+  Hover:    aurora surface + aurora text + drop shadow (300ms transition)
+  Active:   aurora surface + aurora text + no shadow
+  Focus:    global system — no styles declared in component
+  Disabled: opacity 0.5 + cursor not-allowed
 
 CHECKLIST:
   [x] Summit deeper than parent
