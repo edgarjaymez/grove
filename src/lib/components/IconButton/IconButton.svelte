@@ -2,16 +2,12 @@
 	import type { ClassValue } from 'svelte/elements';
 	import Icon from '../Icon/Icon.svelte';
 
-	type IconButtonVariant = 'filled' | 'tonal' | 'outlined' | 'ghost';
-	type IconButtonColor = 'accent' | 'gray';
-	type IconButtonSize = 'lg' | 'md' | 'sm';
-
 	interface IIconButton {
 		class?: ClassValue;
 		icon: string;
-		variant?: IconButtonVariant;
-		color?: IconButtonColor;
-		size?: IconButtonSize;
+		variant?: 'filled' | 'tonal' | 'outlined' | 'ghost';
+		color?: 'accent' | 'gray';
+		size?: 'lg' | 'md' | 'sm';
 		disabled?: boolean;
 		onclick?: (e: MouseEvent) => void;
 	}
@@ -21,7 +17,7 @@
 		icon,
 		variant = 'filled',
 		color = 'accent',
-		size = 'md',
+		size = 'lg',
 		disabled = false,
 		onclick,
 		...rest
@@ -44,13 +40,17 @@
 		justify-content: center;
 		overflow: hidden;
 		border-radius: var(--border-radius-8xl);
-		border: var(--border-width-base) solid transparent;
+		border: none;
 		cursor: pointer;
 		transition:
-			background-color 300ms,
-			color 300ms,
-			border-color 300ms,
-			box-shadow 300ms;
+			background 300ms ease-in-out,
+			color 300ms ease-in-out,
+			box-shadow 300ms ease-in-out,
+			border-color 300ms ease-in-out;
+	}
+
+	.icon-btn--outlined {
+		border: var(--border-width-base) solid transparent;
 	}
 
 	/* Sizes — font shorthand sets line-height context for Icon's 1lh sizing */
@@ -85,30 +85,34 @@
 		background: var(--semantic-color-surface-accent-summit);
 		color: var(--semantic-color-text-on-accent-summit-base);
 		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.icon-btn--filled.icon-btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-	}
-	.icon-btn--filled.icon-btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.icon-btn--filled.icon-btn--gray {
 		background: var(--semantic-color-surface-gray-summit);
 		color: var(--semantic-color-text-on-gray-summit-base);
 		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.icon-btn--filled.icon-btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-	}
-	.icon-btn--filled.icon-btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Tonal ---- */
@@ -116,99 +120,123 @@
 		background: var(--semantic-color-surface-accent-terrace);
 		color: var(--semantic-color-text-on-accent-terrace-base);
 		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.icon-btn--tonal.icon-btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-	}
-	.icon-btn--tonal.icon-btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.icon-btn--tonal.icon-btn--gray {
 		background: var(--semantic-color-surface-gray-terrace);
 		color: var(--semantic-color-text-on-gray-terrace-base);
 		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.icon-btn--tonal.icon-btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-	}
-	.icon-btn--tonal.icon-btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Outlined ---- */
 	.icon-btn--outlined.icon-btn--accent {
+		background: transparent;
 		border-color: var(--semantic-color-border-around-accent-aurora);
 		color: var(--semantic-color-text-on-accent-terrace-base);
-	}
-	.icon-btn--outlined.icon-btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		border-color: transparent;
-		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.icon-btn--outlined.icon-btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		border-color: transparent;
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			border-color: transparent;
+			box-shadow: var(--drop-shadow-under-accent-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			border-color: transparent;
+			box-shadow: none;
+		}
 	}
 
 	.icon-btn--outlined.icon-btn--gray {
+		background: transparent;
 		border-color: var(--semantic-color-border-around-gray-aurora);
 		color: var(--semantic-color-text-on-gray-terrace-base);
-	}
-	.icon-btn--outlined.icon-btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		border-color: transparent;
-		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.icon-btn--outlined.icon-btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		border-color: transparent;
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			border-color: transparent;
+			box-shadow: var(--drop-shadow-under-gray-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			border-color: transparent;
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Ghost ---- */
 	.icon-btn--ghost.icon-btn--accent {
+		background: transparent;
 		color: var(--semantic-color-text-on-accent-terrace-base);
-	}
-	.icon-btn--ghost.icon-btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.icon-btn--ghost.icon-btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: var(--drop-shadow-under-accent-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.icon-btn--ghost.icon-btn--gray {
+		background: transparent;
 		color: var(--semantic-color-text-on-gray-terrace-base);
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: var(--drop-shadow-under-gray-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
-	.icon-btn--ghost.icon-btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.icon-btn--ghost.icon-btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+	/* ---- Icon fill on hover ---- */
+	.icon-btn:not(:disabled):hover :global(i) {
+		font-family: var(--font-family-icons-fill) !important;
 	}
 
 	/* ---- Disabled ---- */
 	.icon-btn:disabled {
 		opacity: 0.5;
-		cursor: not-allowed;
+
+		&:hover {
+			cursor: not-allowed;
+		}
 	}
 </style>

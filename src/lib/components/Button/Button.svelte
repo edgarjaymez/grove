@@ -2,16 +2,12 @@
 	import type { ClassValue } from 'svelte/elements';
 	import Icon from '../Icon/Icon.svelte';
 
-	type ButtonVariant = 'filled' | 'tonal' | 'outlined' | 'ghost';
-	type ButtonColor = 'accent' | 'gray';
-	type ButtonSize = 'lg' | 'md' | 'sm';
-
 	interface IButton {
 		class?: ClassValue;
 		text: string;
-		variant?: ButtonVariant;
-		color?: ButtonColor;
-		size?: ButtonSize;
+		variant?: 'filled' | 'tonal' | 'outlined' | 'ghost';
+		color?: 'accent' | 'gray';
+		size?: 'lg' | 'md' | 'sm';
 		icon?: string;
 		disabled?: boolean;
 		onclick?: (e: MouseEvent) => void;
@@ -22,7 +18,7 @@
 		text,
 		variant = 'filled',
 		color = 'accent',
-		size = 'md',
+		size = 'lg',
 		icon,
 		disabled = false,
 		onclick,
@@ -56,16 +52,20 @@
 		justify-content: center;
 		overflow: hidden;
 		border-radius: var(--border-radius-8xl);
-		border: var(--border-width-base) solid transparent;
+		border: none;
 		cursor: pointer;
 		white-space: nowrap;
 		letter-spacing: var(--letter-spacing-base);
 		text-decoration: none;
 		transition:
-			background-color 300ms,
-			color 300ms,
-			border-color 300ms,
-			box-shadow 300ms;
+			background 300ms ease-in-out,
+			color 300ms ease-in-out,
+			box-shadow 300ms ease-in-out,
+			border-color 300ms ease-in-out;
+	}
+
+	.btn--outlined {
+		border: var(--border-width-base) solid transparent;
 	}
 
 	/* Sizes */
@@ -75,7 +75,7 @@
 		font: var(--typography-single-line-base-base);
 	}
 	.btn--lg.btn--has-icon {
-		padding-left: var(--soft-grid-16);
+		padding-inline-start: var(--soft-grid-16);
 	}
 
 	.btn--md {
@@ -84,7 +84,7 @@
 		font: var(--typography-single-line-subtle-emphasis);
 	}
 	.btn--md.btn--has-icon {
-		padding-left: var(--soft-grid-12);
+		padding-inline-start: var(--soft-grid-12);
 	}
 
 	.btn--sm {
@@ -93,7 +93,7 @@
 		font: var(--typography-single-line-label-base);
 	}
 	.btn--sm.btn--has-icon {
-		padding-left: var(--soft-grid-8);
+		padding-inline-start: var(--soft-grid-8);
 	}
 
 	/* Outlined: compensate vertical padding for border to preserve height */
@@ -112,30 +112,34 @@
 		background: var(--semantic-color-surface-accent-summit);
 		color: var(--semantic-color-text-on-accent-summit-base);
 		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.btn--filled.btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-	}
-	.btn--filled.btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.btn--filled.btn--gray {
 		background: var(--semantic-color-surface-gray-summit);
 		color: var(--semantic-color-text-on-gray-summit-base);
 		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.btn--filled.btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-	}
-	.btn--filled.btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Tonal ---- */
@@ -143,99 +147,122 @@
 		background: var(--semantic-color-surface-accent-terrace);
 		color: var(--semantic-color-text-on-accent-terrace-base);
 		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.btn--tonal.btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-	}
-	.btn--tonal.btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.btn--tonal.btn--gray {
 		background: var(--semantic-color-surface-gray-terrace);
 		color: var(--semantic-color-text-on-gray-terrace-base);
 		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.btn--tonal.btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-	}
-	.btn--tonal.btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Outlined ---- */
 	.btn--outlined.btn--accent {
+		background: transparent;
 		border-color: var(--semantic-color-border-around-accent-aurora);
 		color: var(--semantic-color-text-on-accent-terrace-base);
-	}
-	.btn--outlined.btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		border-color: transparent;
-		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.btn--outlined.btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		border-color: transparent;
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			border-color: transparent;
+			box-shadow: var(--drop-shadow-under-accent-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			border-color: transparent;
+			box-shadow: none;
+		}
 	}
 
 	.btn--outlined.btn--gray {
+		background: transparent;
 		border-color: var(--semantic-color-border-around-gray-aurora);
 		color: var(--semantic-color-text-on-gray-terrace-base);
-	}
-	.btn--outlined.btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		border-color: transparent;
-		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.btn--outlined.btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		border-color: transparent;
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			border-color: transparent;
+			box-shadow: var(--drop-shadow-under-gray-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			border-color: transparent;
+			box-shadow: none;
+		}
 	}
 
 	/* ---- Ghost ---- */
 	.btn--ghost.btn--accent {
+		background: transparent;
 		color: var(--semantic-color-text-on-accent-terrace-base);
-	}
-	.btn--ghost.btn--accent:hover {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: var(--drop-shadow-under-accent-summit);
-	}
-	.btn--ghost.btn--accent:active {
-		background: var(--semantic-color-surface-accent-aurora);
-		color: var(--semantic-color-text-on-accent-aurora-base);
-		box-shadow: none;
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: var(--drop-shadow-under-accent-summit);
+		}
+
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-accent-aurora);
+			color: var(--semantic-color-text-on-accent-aurora-base);
+			box-shadow: none;
+		}
 	}
 
 	.btn--ghost.btn--gray {
+		background: transparent;
 		color: var(--semantic-color-text-on-gray-terrace-base);
+
+		&:not(:disabled):hover {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: var(--drop-shadow-under-gray-summit);
+		}
+		&:not(:disabled):active {
+			background: var(--semantic-color-surface-gray-aurora);
+			color: var(--semantic-color-text-on-gray-aurora-base);
+			box-shadow: none;
+		}
 	}
-	.btn--ghost.btn--gray:hover {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: var(--drop-shadow-under-gray-summit);
-	}
-	.btn--ghost.btn--gray:active {
-		background: var(--semantic-color-surface-gray-aurora);
-		color: var(--semantic-color-text-on-gray-aurora-base);
-		box-shadow: none;
+
+	/* ---- Icon fill on hover ---- */
+	.btn:not(:disabled):hover :global(i) {
+		font-family: var(--font-family-icons-fill) !important;
 	}
 
 	/* ---- Disabled ---- */
 	.btn:disabled {
 		opacity: 0.5;
-		cursor: not-allowed;
+
+		&:hover {
+			cursor: not-allowed;
+		}
 	}
 </style>
