@@ -7,9 +7,9 @@
 <main class="drop-shadow-under-brand-summit">
 	<header>
 		<h1 class="hero singleline">Grove</h1>
-		<p class="display singleline">Donde los sistemas vivos echan raíces</p>
+		<p class="display singleline">Where living systems take root</p>
 		<span class="title singleline"
-			>por <small class="title singleline emphasis">Edgar Diaz</small></span
+			>by <small class="title singleline emphasis">Edgar Diaz</small></span
 		>
 	</header>
 
