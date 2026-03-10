@@ -11,7 +11,7 @@
 		class?: ClassValue;
 	}
 
-	let { title, summary, body, type = 'generic', class: className }: IDocSection = $props();
+	let { title, body, type = 'generic', class: className }: IDocSection = $props();
 
 	const sectionId = $derived(
 		title
@@ -193,12 +193,15 @@
 	const renderedBody = $derived(parseMarkdown(body, type));
 </script>
 
-<section class={['doc-section', className]}>
+<section id={sectionId} class={['doc-section', className]}>
 	<div class="doc-section-inner">
 		<header class="doc-section-header">
-			{#if type !== 'generic'}
+			<!-- section-tag: reserved for future use as a category badge (e.g. "color", "typography").
+			     Hidden for now because it duplicates the section title visually (e.g. "typography" + "Typography").
+			     The `type` prop still drives live token previews (swatches, shadows, type samples) in the body. -->
+			<!-- {#if type !== 'generic'}
 				<span class="section-tag">{type}</span>
-			{/if}
+			{/if} -->
 			<h2>{title}</h2>
 			<!-- <p class="section-summary">{summary ?? 'A comprehensive overview of this design system section and how to apply its tokens and patterns.'}</p> -->
 		</header>
