@@ -1,0 +1,324 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Home" />
+
+<div className="grove-home">
+
+  <div className="grove-hero">
+    <div className="grove-hero-logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 240 240" fill="none">
+        <path
+          d="M167.383 195.976C131.811 216.443 85.9169 209.345 58.4225 173.109L45.525 180.53L32 157.023L45.3136 149.363C29.3546 108.151 47.9223 65.3487 81.6223 45.9589C107.833 30.8779 134.917 28.8626 161.504 40.4233L150.958 67.8118C132.657 60.0667 114.348 59.5256 95.418 70.4174C74.8236 82.2668 63.1119 108.111 71.3166 134.402L184.69 69.1704L197.617 91.6371C216.049 123.673 210.236 171.32 167.383 195.976ZM84.2176 158.268C102.829 180.509 131.121 184.444 154.628 170.919C175.638 158.83 188.604 134.203 173.044 107.16L84.2176 158.268Z"
+          fill="var(--color-brand-500)"
+        />
+      </svg>
+      <span className="grove-wordmark">Grove</span>
+    </div>
+    <p className="grove-tagline">
+      A Svelte 5 component library and design system — built with runes, typed end-to-end, and grounded in a semantic token system.
+    </p>
+    <div className="grove-badges">
+      <span className="grove-badge">Svelte 5</span>
+      <span className="grove-badge">TypeScript</span>
+      <span className="grove-badge">OKLCH tokens</span>
+      <span className="grove-badge">Accessible</span>
+    </div>
+  </div>
+
+  <div className="grove-section">
+    <h2 className="grove-section-heading">Install</h2>
+    <div className="grove-install">
+      <pre className="grove-code"><code>pnpm add grove</code></pre>
+    </div>
+    <p className="grove-section-body">
+      Then import the styles and tokens in your app's entry point:
+    </p>
+    <div className="grove-install">
+      <pre className="grove-code"><code>{`import 'grove/tokens.css';
+import 'grove/reset.css';
+import 'grove/globals.css';
+import 'grove/fonts.css';`}</code></pre>
+    </div>
+  </div>
+
+  <div className="grove-section">
+    <h2 className="grove-section-heading">Components</h2>
+    <p className="grove-section-body">Browse all components in the sidebar. Here's what's available today:</p>
+    <div className="grove-grid">
+      <div className="grove-card">
+        <div className="grove-card-icon">⬛</div>
+        <h3 className="grove-card-title">Button</h3>
+        <p className="grove-card-desc">Four variants — filled, tonal, outlined, ghost. Two colors, three sizes, optional icon.</p>
+      </div>
+      <div className="grove-card">
+        <div className="grove-card-icon">◉</div>
+        <h3 className="grove-card-title">Icon Button</h3>
+        <p className="grove-card-desc">Icon-only action button with the same variant and color system as Button.</p>
+      </div>
+      <div className="grove-card">
+        <div className="grove-card-icon">✦</div>
+        <h3 className="grove-card-title">Icon</h3>
+        <p className="grove-card-desc">Renders a Material Symbols glyph by Unicode code point.</p>
+      </div>
+      <div className="grove-card">
+        <div className="grove-card-icon">◎</div>
+        <h3 className="grove-card-title">Isotype</h3>
+        <p className="grove-card-desc">Grove's logo mark in brand, accent, or base color — light and dark tones.</p>
+      </div>
+      <div className="grove-card">
+        <div className="grove-card-icon">▦</div>
+        <h3 className="grove-card-title">Texture</h3>
+        <p className="grove-card-desc">Decorative surface texture for visual depth.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="grove-section">
+    <h2 className="grove-section-heading">Design system</h2>
+    <div className="grove-pillars">
+      <div className="grove-pillar">
+        <h3 className="grove-pillar-title">Semantic tokens</h3>
+        <p className="grove-pillar-desc">
+          Every color, spacing, shadow, border, and typography value is a CSS custom property. Never hardcode a value — reference a token.
+        </p>
+      </div>
+      <div className="grove-pillar">
+        <h3 className="grove-pillar-title">OKLCH color space</h3>
+        <p className="grove-pillar-desc">
+          The entire palette is defined in OKLCH for perceptually uniform, accessible color steps with wide-gamut support.
+        </p>
+      </div>
+      <div className="grove-pillar">
+        <h3 className="grove-pillar-title">Elevation system</h3>
+        <p className="grove-pillar-desc">
+          Three surface depths — Ground, Terrace, Summit — each with matching text, border, and shadow tokens.
+        </p>
+      </div>
+      <div className="grove-pillar">
+        <h3 className="grove-pillar-title">Focus by surface</h3>
+        <p className="grove-pillar-desc">
+          Focus rings are applied globally via surface-scoped CSS. Components never declare their own — it's handled automatically.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="grove-section">
+    <h2 className="grove-section-heading">Resources</h2>
+    <div className="grove-links">
+      <a className="grove-link-card" href="https://github.com/grovedesignsystem/grove" target="_blank">
+        <span className="grove-link-card-title">GitHub</span>
+        <span className="grove-link-card-desc">Source code, issues, and contributions</span>
+      </a>
+      <a className="grove-link-card" href="https://www.npmjs.com/package/grove" target="_blank">
+        <span className="grove-link-card-title">npm</span>
+        <span className="grove-link-card-desc">Package releases and changelogs</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<style>{`
+  .grove-home {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 32px 80px;
+    font-family: var(--font-family-sans-serif, system-ui, sans-serif);
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  /* ── Hero ── */
+  .grove-hero {
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--semantic-color-border-divider-on-ground, rgba(0,0,0,0.08));
+    margin-bottom: 56px;
+  }
+
+  .grove-hero-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .grove-wordmark {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--semantic-color-text-on-ground-base, #111);
+    line-height: 1;
+  }
+
+  .grove-tagline {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--semantic-color-text-on-ground-subtle, #555);
+    max-width: 560px;
+    margin: 0 0 20px;
+  }
+
+  .grove-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .grove-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--semantic-color-surface-brand-terrace, oklch(0.94 0.04 150));
+    color: var(--semantic-color-text-on-brand-terrace-base, oklch(0.3 0.08 150));
+  }
+
+  /* ── Section ── */
+  .grove-section {
+    margin-bottom: 56px;
+  }
+
+  .grove-section-heading {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 16px;
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  .grove-section-body {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--semantic-color-text-on-ground-subtle, #555);
+    margin: 0 0 20px;
+  }
+
+  /* ── Install block ── */
+  .grove-install {
+    margin-bottom: 16px;
+  }
+
+  .grove-code {
+    background: var(--semantic-color-surface-gray-terrace, #f4f4f5);
+    border: 1px solid var(--semantic-color-border-divider-on-ground, rgba(0,0,0,0.08));
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 0;
+    font-size: 13px;
+    font-family: var(--font-family-mono, monospace);
+    line-height: 1.7;
+    overflow-x: auto;
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  /* ── Components grid ── */
+  .grove-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  .grove-card {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--semantic-color-border-divider-on-ground, rgba(0,0,0,0.08));
+    background: var(--semantic-color-surface-gray-terrace, #fafafa);
+  }
+
+  .grove-card-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+  }
+
+  .grove-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  .grove-card-desc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--semantic-color-text-on-ground-subtle, #666);
+    margin: 0;
+  }
+
+  /* ── Design system pillars ── */
+  .grove-pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+  }
+
+  .grove-pillar {
+    padding: 0;
+  }
+
+  .grove-pillar-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  .grove-pillar-desc {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--semantic-color-text-on-ground-subtle, #666);
+    margin: 0;
+  }
+
+  /* ── Resource links ── */
+  .grove-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .grove-link-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--semantic-color-border-divider-on-ground, rgba(0,0,0,0.08));
+    background: var(--semantic-color-surface-gray-terrace, #fafafa);
+    text-decoration: none;
+    min-width: 180px;
+    transition: background 150ms ease, border-color 150ms ease;
+  }
+
+  .grove-link-card:hover {
+    background: var(--semantic-color-surface-brand-terrace, oklch(0.94 0.04 150));
+    border-color: var(--semantic-color-border-around-brand-aurora, oklch(0.8 0.08 150));
+  }
+
+  .grove-link-card-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--semantic-color-text-on-ground-base, #111);
+  }
+
+  .grove-link-card-desc {
+    font-size: 12px;
+    color: var(--semantic-color-text-on-ground-subtle, #666);
+  }
+
+  @media (max-width: 600px) {
+    .grove-home {
+      padding: 32px 20px 60px;
+    }
+
+    .grove-wordmark {
+      font-size: 32px;
+    }
+
+    .grove-hero-logo svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+`}</style>
