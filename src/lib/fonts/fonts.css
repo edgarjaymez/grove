@@ -24,3 +24,23 @@
 	font-display: block;
 	src: url('./sans-serif/InclusiveSans-Italic.woff2') format('woff2');
 }
+
+/* Icons -------------------- */
+@font-face {
+	font-family: 'Phosphor';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./icons/Phosphor.woff') format('woff'),
+		url('./icons/Phosphor.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Phosphor-Fill';
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+	src:
+		url('./icons/Phosphor-Fill.woff') format('woff'),
+		url('./icons/Phosphor-Fill.woff2') format('woff2');
+}
