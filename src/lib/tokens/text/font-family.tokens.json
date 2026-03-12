@@ -2,7 +2,7 @@
 	"fontFamily": {
 		"$type": "fontFamily",
 		"sansSerif": {
-			"$value": ["Switzer", "system-ui", "sans-serif"]
+			"$value": ["Inclusive Sans", "system-ui", "sans-serif"]
 		},
 		"display": {
 			"$value": ["Cakra", "serif"]
