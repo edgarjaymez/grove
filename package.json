@@ -1,6 +1,20 @@
 {
 	"name": "@edgarjaymez/grove",
-	"version": "0.19.0-alpha.3",
+	"version": "0.19.0-alpha.4",
+	"description": "Grove Design System — Where living systems take root.",
+	"license": "MIT",
+	"author": {
+		"name": "Edgar Diaz",
+		"url": "https://github.com/edgarjaymez"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/edgarjaymez/grove.git"
+	},
+	"homepage": "https://grove-ds.vercel.app",
+	"bugs": {
+		"url": "https://github.com/edgarjaymez/grove/issues"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -81,6 +95,12 @@
 		"vitest-browser-svelte": "2.0.2"
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"design-system",
+		"design-tokens",
+		"components",
+		"web-components",
+		"ui",
+		"grove"
 	]
 }
