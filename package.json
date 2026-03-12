@@ -34,7 +34,9 @@
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
 		},
-		"./tokens.css": "./dist/tokens/tokens.css"
+		"./tokens.css": "./dist/tokens/tokens.css",
+		"./fonts/*": "./dist/fonts/*",
+		"./fonts.css": "./dist/fonts/fonts.css"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
