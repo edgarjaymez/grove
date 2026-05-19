@@ -8,7 +8,7 @@
 		component: Button,
 		tags: ['autodocs'],
 		argTypes: {
-			variant: {
+			style: {
 				control: { type: 'select' },
 				options: ['filled', 'tonal', 'outlined', 'ghost']
 			},
@@ -26,7 +26,7 @@
 		},
 		args: {
 			text: 'Button',
-			variant: 'filled',
+			style: 'filled',
 			color: 'accent',
 			size: 'lg',
 			disabled: false,
@@ -39,9 +39,9 @@
 <Story name="Default" />
 
 <!-- Variants -->
-<Story name="Tonal" args={{ variant: 'tonal' }} />
-<Story name="Outlined" args={{ variant: 'outlined' }} />
-<Story name="Ghost" args={{ variant: 'ghost' }} />
+<Story name="Tonal" args={{ style: 'tonal' }} />
+<Story name="Outlined" args={{ style: 'outlined' }} />
+<Story name="Ghost" args={{ style: 'ghost' }} />
 
 <!-- Colors -->
 <Story name="Gray" args={{ color: 'gray' }} />

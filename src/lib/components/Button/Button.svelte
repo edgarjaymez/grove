@@ -5,7 +5,7 @@
 	interface IButton {
 		class?: ClassValue;
 		text: string;
-		variant?: 'filled' | 'tonal' | 'outlined' | 'ghost';
+		style?: 'filled' | 'tonal' | 'outlined' | 'ghost';
 		color?: 'accent' | 'gray';
 		size?: 'lg' | 'md' | 'sm';
 		icon?: string;
@@ -16,7 +16,7 @@
 	let {
 		class: className,
 		text,
-		variant = 'filled',
+		style = 'filled',
 		color = 'accent',
 		size = 'lg',
 		icon,
@@ -29,7 +29,7 @@
 <button
 	class={[
 		'btn',
-		`btn--${variant}`,
+		`btn--${style}`,
 		`btn--${color}`,
 		`btn--${size}`,
 		icon && 'btn--has-icon',
