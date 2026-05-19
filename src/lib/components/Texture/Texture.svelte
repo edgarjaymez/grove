@@ -3,13 +3,20 @@
 
 	interface ITexture {
 		class?: ClassValue;
+		opacity?: number;
 	}
 
-	let { class: className }: ITexture = $props();
+	let { class: className, opacity = 1 }: ITexture = $props();
 </script>
 
 <div class={['texture', className]}>
-	<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="100%"
+		height="100%"
+		fill="none"
+		style="opacity: {opacity}"
+	>
 		<g filter="url(#grove-noise)">
 			<rect width="100%" height="100%" fill="black" />
 		</g>
