@@ -18,7 +18,7 @@
 		text,
 		style = 'filled',
 		color = 'accent',
-		size = 'lg',
+		size = 'md',
 		icon,
 		disabled = false,
 		onclick,

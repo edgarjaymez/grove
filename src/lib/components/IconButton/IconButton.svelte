@@ -5,7 +5,8 @@
 	interface IIconButton {
 		class?: ClassValue;
 		icon: string;
-		variant?: 'filled' | 'tonal' | 'outlined' | 'ghost';
+		'aria-label': string;
+		style?: 'filled' | 'tonal' | 'outlined' | 'ghost';
 		color?: 'accent' | 'gray';
 		size?: 'lg' | 'md' | 'sm';
 		disabled?: boolean;
@@ -15,7 +16,8 @@
 	let {
 		class: className,
 		icon,
-		variant = 'filled',
+		'aria-label': ariaLabel,
+		style = 'filled',
 		color = 'accent',
 		size = 'lg',
 		disabled = false,
@@ -25,8 +27,10 @@
 </script>
 
 <button
-	class={['icon-btn', `icon-btn--${variant}`, `icon-btn--${color}`, `icon-btn--${size}`, className]}
+	class={['icon-btn', `icon-btn--${style}`, `icon-btn--${color}`, `icon-btn--${size}`, className]}
 	{disabled}
+	aria-disabled={disabled}
+	aria-label={ariaLabel}
 	{onclick}
 	{...rest}
 >
