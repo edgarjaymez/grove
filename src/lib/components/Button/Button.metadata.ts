@@ -2,10 +2,11 @@ export const ButtonMetadata = {
 	component: {
 		name: 'Button',
 		category: 'atoms',
-		description: 'Interactive button component for actions and form submissions',
+		description:
+			'Primary interactive element for triggering actions. Supports visual hierarchy through style and color variants, optional leading icon, and three sizes.',
 		type: 'interactive',
 		path: 'src/lib/components/Button/Button.svelte',
-		version: '1.1.0',
+		version: '1.1.1',
 		created: '2026/03/08',
 		modified: '2026/05/19'
 	},
@@ -13,39 +14,64 @@ export const ButtonMetadata = {
 	usage: {
 		useCases: [
 			'primary-call-to-action',
-			'secondary-call-to-action',
-			'tertiary-call-to-action',
-			'actions-inside-inputs',
-			'form-submission'
+			'secondary-action',
+			'cancel-or-dismiss',
+			'form-submission',
+			'inline-action-in-card-or-modal',
+			'toolbar-text-action'
 		],
+
 		requiredProps: ['text'],
+
 		commonPatterns: [
 			{
-				name: 'landing-cta',
-				description: 'Main call-to-action button for non in-line rows',
+				name: 'page-level-cta',
+				description: 'Primary action on a landing section or hero — highest visual prominence',
 				composition: `<Button text="Get Started" style="filled" color="accent" size="lg" icon="" />`
 			},
 			{
-				name: 'form-submission-inline',
-				description: 'Medium size button to match the height of inputs and other atoms',
-				composition: `<Button text="Send" style="tonal" color="accent" size="md" icon="" />`
+				name: 'form-submit',
+				description: 'Confirm or submit action in a form, matched to input height with md size',
+				composition: `<Button text="Save changes" style="filled" color="accent" size="md" />`
 			},
 			{
-				name: 'cancel-button',
-				description: 'Tertiary buttonfor actions that should have lower hierarchy',
-				composition: `<Button text="No, go back" style="outlined" color="gray" size="md" />`
+				name: 'primary-action',
+				description: 'Alternative action paired alongside a primary filled button',
+				composition: `<Button text="Learn more" style="tonal" color="accent" size="md" />`
+			},
+			{
+				name: 'secondary-button',
+				description: 'Low-prominence dismiss or cancel action — should not compete visually',
+				composition: `<Button text="Cancel" style="outlined" color="gray" size="md" />`
+			},
+			{
+				name: 'tertiary-action',
+				description: 'Tertiary or contextual action with minimal visual weight',
+				composition: `<Button text="View details" style="ghost" color="gray" size="sm" />`
 			}
 		],
+
 		antiPatterns: [
 			{
-				scenario: 'Multiple filled buttons in same section',
-				reason: 'Creates visual hierarchy confusion',
-				alternative: 'Use one filled for the main actions and tonal/outlined for other actions'
+				scenario: 'Multiple filled buttons competing in the same section',
+				reason: 'Filled is the highest-prominence style — having two creates hierarchy confusion',
+				alternative: 'Use one filled for the primary action; use tonal or outlined for others'
 			},
 			{
-				scenario: 'Very long text labels',
-				reason: 'Buttons should be concise and action-oriented',
-				alternative: 'Use short, clear action verbs (max 2-4 words)'
+				scenario: 'Using Button for page navigation',
+				reason: 'Buttons trigger actions; links navigate to new pages or routes',
+				alternative: 'Use an anchor tag or a Link component styled as a button'
+			},
+			{
+				scenario: 'Long or multi-clause text labels',
+				reason: 'Buttons should be concise and scannable',
+				alternative: 'Use short action verbs — ideally 1–4 words (e.g. "Save", "Get started")'
+			},
+			{
+				scenario: 'Using ghost style for a primary action',
+				reason: 'Ghost buttons have minimal affordance and can be missed by users',
+				alternative:
+					'Reserve ghost for tertiary or in-context utility actions; use filled or tonal for primary'
 			}
 		]
 	},
@@ -53,6 +79,7 @@ export const ButtonMetadata = {
 	composition: {
 		slots: null,
 		nestedComponents: [{ name: 'Icon', source: '../Icon/Icon.svelte' }],
+		commonPartners: ['IconButton', 'Input', 'Modal', 'Card', 'Form'],
 		parentConstraints: null
 	},
 
@@ -60,8 +87,11 @@ export const ButtonMetadata = {
 		states: ['DEFAULT', 'hover', 'active', 'disabled'],
 
 		interactions: {
-			click: 'Action triggered',
-			focus: 'Add ring around button according to the surface its being placed on'
+			click: 'Triggers onclick handler',
+			hover: 'Background transitions to aurora surface level; icon switches to filled variant',
+			active: 'Background stays at aurora level; drop shadow removed',
+			focus: 'Visible focus ring applied by global surface-scoped CSS — do not override',
+			disabled: '50% opacity; cursor changes to not-allowed; pointer events blocked'
 		}
 	},
 
@@ -70,51 +100,52 @@ export const ButtonMetadata = {
 			options: ['filled', 'tonal', 'outlined', 'ghost'],
 			default: 'filled',
 			purpose: {
-				filled:
-					'Highest visual prominence with elevation shadow. Main call-to-action in a section.',
+				filled: 'Highest visual prominence with elevation shadow. Main CTA in a section.',
 				tonal:
-					'Medium prominence using a terrace surface. Secondary action that still needs presence.',
+					'Medium prominence on a terrace surface. Secondary action that still needs visual weight.',
 				outlined:
 					'Low prominence with a border and transparent fill. Alternative or cancel actions.',
 				ghost:
-					'Minimal visual weight, no border or fill until interaction. Tertiary or in-context actions.'
+					'Minimal visual weight — no border or fill until hovered. Tertiary or in-context actions.'
 			}
 		},
 		color: {
 			options: ['accent', 'gray'],
 			default: 'accent',
 			purpose: {
-				accent: 'Primary brand emphasis. Default for the main action a user should take.',
-				gray: 'Neutral emphasis. Use when the action is present but should not compete with an accent action in the same section.'
+				accent:
+					'Primary brand emphasis. Default when the action is the main thing a user should do.',
+				gray: 'Neutral emphasis. Use when the action is utility or should not compete with an accent action nearby.'
 			}
 		},
 		size: {
 			options: ['lg', 'md', 'sm'],
 			default: 'md',
 			purpose: {
-				lg: 'Default size. Standalone or primary actions, forms, page-level CTAs.',
-				md: 'Denser contexts such as toolbars, cards, or grouped actions.',
-				sm: 'Compact UI such as table rows, tags, or inline controls where space is constrained.'
+				lg: 'Standalone or page-level primary actions with generous tap target.',
+				md: 'Default for most contexts: forms, cards, modals, and grouped action rows.',
+				sm: 'Compact UI such as table rows or inline controls where space is constrained.'
 			}
 		}
 	},
 
 	accessibility: {
 		role: 'button',
-		keyboardSupport: 'Native browser support - Space/Enter',
-		screenReader: 'Announces as button with text content',
+		keyboardSupport: 'Native browser support — Space/Enter to activate',
+		screenReader: 'Announces button role with visible text content as the accessible name',
+		focusManagement:
+			'Focus ring applied by global surface-scoped CSS; component must not declare its own focus styles',
 		wcag: 'AA',
-		notes: ['Always provide descriptive text content', 'For icon-only buttons, add aria-label']
+		notes: [
+			'text prop is the accessible name — keep it descriptive and action-oriented',
+			'Disabled state uses the HTML disabled attribute; pointer events are blocked natively'
+		]
 	},
 
 	aiHints: {
 		priority: 'high',
-		keywords: ['button', 'cta', 'submit', 'action', 'click'],
-		selectionCriteria: {
-			usePrimary: 'Main action user should take on page/section',
-			useSecondary: 'Alternative actions, cancel buttons',
-			useGhost: 'Tertiary actions, minimal visual weight',
-			useDanger: 'Delete, remove, destructive actions'
-		}
+		keywords: ['button', 'cta', 'submit', 'action', 'click', 'trigger', 'call-to-action'],
+		context:
+			'Use for any user-initiated action. Choose style and color based on visual hierarchy: filled accent for primary, tonal for secondary, outlined/ghost for tertiary. Add icon for reinforcement, never as the sole label.'
 	}
 };

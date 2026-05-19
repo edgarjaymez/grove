@@ -9,7 +9,9 @@
 		color?: 'accent' | 'gray';
 		size?: 'lg' | 'md' | 'sm';
 		icon?: string;
+		type?: 'button' | 'submit' | 'reset';
 		disabled?: boolean;
+		'aria-label'?: string;
 		onclick?: (e: MouseEvent) => void;
 	}
 
@@ -20,7 +22,9 @@
 		color = 'accent',
 		size = 'md',
 		icon,
+		type = 'button',
 		disabled = false,
+		'aria-label': ariaLabel,
 		onclick,
 		...rest
 	}: IButton = $props();
@@ -35,7 +39,9 @@
 		icon && 'btn--has-icon',
 		className
 	]}
+	{type}
 	{disabled}
+	aria-label={ariaLabel}
 	{onclick}
 	{...rest}
 >
