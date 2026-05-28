@@ -5,8 +5,8 @@ import { classMap } from 'lit/directives/class-map.js';
 @customElement('gv-icon')
 export class Icon extends LitElement {
 	@property({ type: String }) unicode = '';
-	@property({ type: Boolean }) isFilled = false;
-	@property({ type: Boolean }) fillInHover = false;
+	@property({ type: Boolean, attribute: 'is-filled' }) isFilled = false;
+	@property({ type: Boolean, attribute: 'fill-in-hover' }) fillInHover = false;
 
 	static styles = css`
 		i {
