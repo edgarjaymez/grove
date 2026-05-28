@@ -102,5 +102,8 @@
 		"web-components",
 		"ui",
 		"grove"
-	]
+	],
+	"dependencies": {
+		"lit": "^3.3.3"
+	}
 }
