@@ -9,7 +9,8 @@ type Color = 'brand' | 'accent' | 'information' | 'gray';
 export class ToDoCategoryToggler extends LitElement {
 	@property({ type: String }) category = 'Category';
 	@property({ type: String }) color: Color = 'brand';
-	@property({ type: String }) count = '3';
+	@property({ type: String }) icon = '';
+	@property({ type: Number }) count = 0;
 	@property({ type: Boolean, reflect: true }) disabled = false;
 	@property({ type: Boolean, attribute: 'is-selected', reflect: true }) isSelected = false;
 
@@ -209,7 +210,7 @@ export class ToDoCategoryToggler extends LitElement {
 				<div class="btn__header">
 					<span class="btn__count">${this.count}</span>
 					<div class="btn__icon-wrap">
-						<gv-icon is-filled unicode=${''}></gv-icon>
+						<gv-icon is-filled unicode=${this.icon}></gv-icon>
 					</div>
 				</div>
 				<span class="btn__category">${this.category}</span>

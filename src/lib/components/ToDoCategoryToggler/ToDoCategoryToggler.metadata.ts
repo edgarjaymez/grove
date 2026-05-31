@@ -8,7 +8,7 @@ export const ToDoCategoryTogglerMetadata = {
 		path: 'src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts',
 		version: '1.0.0',
 		created: '2026/02/18',
-		modified: '2026/05/30'
+		modified: '2026/05/31'
 	},
 
 	usage: {
@@ -34,6 +34,12 @@ export const ToDoCategoryTogglerMetadata = {
 				name: 'pre-selected',
 				description: 'Start a toggler in the selected state on mount',
 				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" is-selected></gv-todo-category-toggler>`
+			},
+			{
+				name: 'with-icon',
+				description:
+					'Pass a Phosphor icon codepoint to the icon prop to render a filled glyph in the header',
+				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" icon="&#xe416;"></gv-todo-category-toggler>`
 			},
 			{
 				name: 'controlled-toggle',
@@ -67,7 +73,7 @@ export const ToDoCategoryTogglerMetadata = {
 			},
 			{
 				scenario: 'Hardcoding a numeric count without binding to data',
-				reason: 'count is a display string; it should reflect live data, not a static label',
+				reason: 'count is a numeric display value; it should reflect live data, not a static label',
 				alternative: 'Pass a derived count value: count="${tasks.length}"'
 			}
 		]
@@ -142,9 +148,10 @@ export const ToDoCategoryTogglerMetadata = {
 			'count',
 			'summary',
 			'selected',
-			'overview'
+			'overview',
+			'icon'
 		],
 		context:
-			'Use when the UI needs a compact, color-coded toggle button for filtering or selecting a task category. Choose the color track that matches the surrounding design language — brand (green) for primary, accent (purple) for secondary, information (blue) for informational, gray for neutral. Always listen to the toggle CustomEvent to react to state changes.'
+			'Use when the UI needs a compact, color-coded toggle button for filtering or selecting a task category. Choose the color track that matches the surrounding design language — brand (green) for primary, accent (purple) for secondary, information (blue) for informational, gray for neutral. Pass a Phosphor icon codepoint to the optional icon prop to show a filled glyph in the header (e.g. icon="&#xe416;"); omit it to leave the icon slot empty. Always listen to the toggle CustomEvent to react to state changes.'
 	}
 };
