@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './header.css';
-	import { Button } from '$lib/index.js';
+	import '$lib/components/Button/Button.js';
 
 	interface Props {
 		user?: { name: string };
@@ -35,10 +35,10 @@
 				<span class="welcome">
 					Welcome, <b>{user.name}</b>!
 				</span>
-				<Button style="outlined" size="sm" onclick={onLogout} text="Log out" />
+				<gv-button variant="outlined" size="sm" onclick={onLogout} text="Log out"></gv-button>
 			{:else}
-				<Button style="tonal" size="sm" onclick={onLogin} text="Log in" />
-				<Button style="outlined" size="sm" onclick={onCreateAccount} text="Sign up" />
+				<gv-button variant="tonal" size="sm" onclick={onLogin} text="Log in"></gv-button>
+				<gv-button variant="outlined" size="sm" onclick={onCreateAccount} text="Sign up"></gv-button>
 			{/if}
 		</div>
 	</div>
