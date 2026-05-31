@@ -10,7 +10,8 @@ export default defineConfig({
 	},
 	plugins: [
 		dts({
-			include: ['src/lib/components', 'src/lib/index.ts'],
+			include: ['src/lib/index.ts', 'src/lib/components/**/*.ts'],
+			exclude: ['src/lib/components/**/*.stories.ts', 'src/lib/components/**/*.metadata.ts'],
 			outDirs: 'dist',
 			entryRoot: 'src/lib'
 		}),
@@ -18,10 +19,10 @@ export default defineConfig({
 			name: 'copy-static-assets',
 			apply: 'build' as const,
 			async closeBundle() {
-				const { copyFile, cp, mkdir } = await import('node:fs/promises')
-				await mkdir('dist/tokens', { recursive: true })
-				await copyFile('src/lib/tokens/tokens.css', 'dist/tokens/tokens.css')
-				await cp('src/lib/fonts', 'dist/fonts', { recursive: true })
+				const { copyFile, cp, mkdir } = await import('node:fs/promises');
+				await mkdir('dist/tokens', { recursive: true });
+				await copyFile('src/lib/tokens/tokens.css', 'dist/tokens/tokens.css');
+				await cp('src/lib/fonts', 'dist/fonts', { recursive: true });
 			}
 		}
 	],
