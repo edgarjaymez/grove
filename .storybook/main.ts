@@ -8,6 +8,7 @@ const config: StorybookConfig = {
 		'@storybook/addon-a11y',
 		'@storybook/addon-docs'
 	],
-	framework: '@storybook/web-components-vite'
+	framework: '@storybook/web-components-vite',
+	staticDirs: ['../static']
 };
 export default config;

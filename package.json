@@ -86,13 +86,13 @@
 		"vitest": "4.1.7"
 	},
 	"keywords": [
-		"lit",
-		"design-system",
-		"design-tokens",
-		"components",
-		"web-components",
+		"grove",
 		"ui",
-		"grove"
+		"agentic-design-system",
+		"design-tokens",
+		"lit",
+		"web-components",
+		"components"
 	],
 	"dependencies": {},
 	"pnpm": {

@@ -1,2 +1,2 @@
-export { ToDoCategoryToggler } from './ToDoCategoryToggler.ts';
-export { ToDoCategoryTogglerMetadata } from './ToDoCategoryToggler.metadata.ts';
+export { ToDoCategoryToggler } from './ToDoCategoryToggler.js';
+export { ToDoCategoryTogglerMetadata } from './ToDoCategoryToggler.metadata.js';
