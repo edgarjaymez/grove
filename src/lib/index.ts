@@ -1,4 +1,7 @@
+export { componentReset } from './styles/component-reset.js';
 export { Button } from './components/Button/Button.js';
+export { ColorSwatch } from './components/ColorSwatch/ColorSwatch.js';
+export type { ColorFamily, ColorShade, ColorText } from './components/ColorSwatch/ColorSwatch.js';
 export { Checkbox } from './components/Checkbox/Checkbox.js';
 export { IconButton } from './components/IconButton/IconButton.js';
 export { Icon } from './components/Icon/Icon.js';

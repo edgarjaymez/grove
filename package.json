@@ -47,7 +47,8 @@
 		},
 		"./tokens.css": "./dist/tokens/tokens.css",
 		"./fonts/*": "./dist/fonts/*",
-		"./fonts.css": "./dist/fonts/fonts.css"
+		"./fonts.css": "./dist/fonts/fonts.css",
+		"./grove.css": "./dist/styles/grove.css"
 	},
 	"peerDependencies": {
 		"lit": "^3.0.0"
