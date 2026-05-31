@@ -103,7 +103,7 @@ export const ToDoCategoryTogglerMetadata = {
 		},
 
 		responsive: {
-			note: 'Fixed width (163px). Wrap multiple togglers in a flex container with wrapping enabled for narrow viewports.'
+			note: 'Width is auto-sized to content. Wrap multiple togglers in a flex container with wrapping enabled for narrow viewports.'
 		}
 	},
 

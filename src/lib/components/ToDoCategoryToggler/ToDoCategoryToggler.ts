@@ -25,7 +25,8 @@ export class ToDoCategoryToggler extends LitElement {
 			border: none;
 			cursor: pointer;
 			text-align: left;
-			width: 163px;
+			width: auto;
+			display: flex;
 			transition:
 				background 300ms ease-in-out,
 				color 300ms ease-in-out,
@@ -64,11 +65,6 @@ export class ToDoCategoryToggler extends LitElement {
 		.btn:disabled {
 			opacity: 0.5;
 			cursor: not-allowed;
-		}
-
-		.btn--layout {
-			display: flex;
-			width: 100%;
 		}
 
 		/* Brand — default */
@@ -206,7 +202,6 @@ export class ToDoCategoryToggler extends LitElement {
 				class=${classMap({
 					btn: true,
 					[`btn--${this.color}`]: true,
-					'btn--layout': true,
 					'btn--selected': this.isSelected
 				})}
 				?disabled=${this.disabled}
