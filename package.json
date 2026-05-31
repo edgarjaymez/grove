@@ -1,6 +1,6 @@
 {
 	"name": "@edgarjaymez/grove",
-	"version": "0.23.0-beta.1",
+	"version": "0.26.0-beta.2",
 	"description": "Grove Design System — Where living systems take root.",
 	"license": "MIT",
 	"author": {
@@ -11,7 +11,7 @@
 		"type": "git",
 		"url": "https://github.com/edgarjaymez/grove.git"
 	},
-	"homepage": "https://grove-ds.vercel.app",
+	"homepage": "https://grove.edgarjaymez.com",
 	"bugs": {
 		"url": "https://github.com/edgarjaymez/grove/issues"
 	},
