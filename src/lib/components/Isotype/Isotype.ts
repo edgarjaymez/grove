@@ -1,6 +1,7 @@
 import { LitElement, html, css, nothing } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import type { PropertyValues } from 'lit';
+import { componentReset } from '../../styles/component-reset.js';
 
 type IsotypeColor = 'base' | 'brand' | 'accent';
 type IsotypeTone = 'light' | 'dark';
@@ -18,7 +19,7 @@ export class Isotype extends LitElement {
 	@property({ type: String }) tone: IsotypeTone = 'light';
 	@property({ type: String }) label?: string;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		:host {
 			display: inline-block;
 			width: var(--gv-isotype-size, 40px);
@@ -30,7 +31,7 @@ export class Isotype extends LitElement {
 			width: 100%;
 			height: 100%;
 		}
-	`;
+	`];
 
 	updated(changedProperties: PropertyValues<this>) {
 		if (changedProperties.has('size')) {

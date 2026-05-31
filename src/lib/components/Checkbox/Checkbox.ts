@@ -1,6 +1,7 @@
 import { LitElement, html, css, nothing } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 type CheckboxResponsive = 'default' | 'xl';
 
@@ -10,7 +11,7 @@ export class Checkbox extends LitElement {
 	@property({ type: String }) responsive: CheckboxResponsive = 'default';
 	@property({ type: Boolean, reflect: true }) disabled = false;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		.checkbox {
 			position: relative;
 			display: inline-flex;
@@ -78,7 +79,7 @@ export class Checkbox extends LitElement {
 			width: 16px;
 			height: 11.816px;
 		}
-	`;
+	`];
 
 	private _toggle() {
 		this.checked = !this.checked;

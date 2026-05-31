@@ -3,6 +3,7 @@ import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import '../Icon/Icon.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 type ButtonVariant = 'filled' | 'tonal' | 'outlined' | 'ghost';
 type ButtonColor = 'accent' | 'gray';
@@ -20,7 +21,7 @@ export class Button extends LitElement {
 	@property({ type: Boolean, reflect: true }) disabled = false;
 	@property({ type: String, attribute: 'aria-label' }) ariaLabel: string | null = null;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		.btn {
 			display: inline-flex;
 			align-items: center;
@@ -224,7 +225,7 @@ export class Button extends LitElement {
 		.btn:disabled:hover {
 			cursor: not-allowed;
 		}
-	`;
+	`];
 
 	render() {
 		const hasIcon = Boolean(this.icon);

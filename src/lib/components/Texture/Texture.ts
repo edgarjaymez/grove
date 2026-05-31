@@ -1,11 +1,12 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 @customElement('gv-texture')
 export class Texture extends LitElement {
 	@property({ type: Number }) opacity = 1;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		:host {
 			display: block;
 			position: absolute;
@@ -20,7 +21,7 @@ export class Texture extends LitElement {
 			width: 100%;
 			height: 100%;
 		}
-	`;
+	`];
 
 	render() {
 		return html`

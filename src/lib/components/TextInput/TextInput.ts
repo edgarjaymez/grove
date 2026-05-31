@@ -2,6 +2,7 @@ import { LitElement, html, css, nothing } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 type InputType = 'text' | 'email' | 'password' | 'search' | 'tel' | 'url' | 'number';
 type InputColor = 'brand' | 'gray';
@@ -19,7 +20,7 @@ export class TextInput extends LitElement {
 	@property({ type: String, attribute: 'aria-label' }) ariaLabel: string | null = null;
 	@property({ type: String, attribute: 'aria-describedby' }) ariaDescribedby: string | null = null;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		:host {
 			display: block;
 		}
@@ -123,7 +124,7 @@ export class TextInput extends LitElement {
 			background: var(--semantic-color-surface-danger-terrace);
 			border-bottom-color: var(--semantic-color-border-around-danger-summit);
 		}
-	`;
+	`];
 
 	private _handleInput(e: Event) {
 		e.stopPropagation();

@@ -1,7 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
-import '../Icon/Icon.ts';
+import '../Icon/Icon.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 type Color = 'brand' | 'accent' | 'information' | 'gray';
 
@@ -14,7 +15,7 @@ export class ToDoCategoryToggler extends LitElement {
 	@property({ type: Boolean, reflect: true }) disabled = false;
 	@property({ type: Boolean, attribute: 'is-selected', reflect: true }) isSelected = false;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		.btn {
 			display: flex;
 			flex-direction: column;
@@ -186,7 +187,7 @@ export class ToDoCategoryToggler extends LitElement {
 		.btn--gray.btn--selected .btn__count {
 			color: var(--semantic-color-text-on-gray-summit-base);
 		}
-	`;
+	`];
 
 	private _toggle() {
 		this.isSelected = !this.isSelected;

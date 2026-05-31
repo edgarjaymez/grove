@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
+import { componentReset } from '../../styles/component-reset.js';
 
 @customElement('gv-icon')
 export class Icon extends LitElement {
@@ -8,7 +9,7 @@ export class Icon extends LitElement {
 	@property({ type: Boolean, attribute: 'is-filled' }) isFilled = false;
 	@property({ type: Boolean, attribute: 'fill-in-hover' }) fillInHover = false;
 
-	static styles = css`
+	static styles = [componentReset, css`
 		i {
 			width: 1lh;
 			display: inline-flex;
@@ -26,7 +27,7 @@ export class Icon extends LitElement {
 		i.fill-hover:hover {
 			font-family: var(--gv-icon-font-family, var(--font-family-icons-fill)) !important;
 		}
-	`;
+	`];
 
 	render() {
 		return html`
