@@ -128,13 +128,17 @@ export class TextInput extends LitElement {
 	private _handleInput(e: Event) {
 		e.stopPropagation();
 		this.value = (e.target as HTMLInputElement).value;
-		this.dispatchEvent(new CustomEvent('input', { detail: this.value, bubbles: true, composed: true }));
+		this.dispatchEvent(
+			new CustomEvent('input', { detail: this.value, bubbles: true, composed: true })
+		);
 	}
 
 	private _handleChange(e: Event) {
 		e.stopPropagation();
 		this.value = (e.target as HTMLInputElement).value;
-		this.dispatchEvent(new CustomEvent('change', { detail: this.value, bubbles: true, composed: true }));
+		this.dispatchEvent(
+			new CustomEvent('change', { detail: this.value, bubbles: true, composed: true })
+		);
 	}
 
 	render() {

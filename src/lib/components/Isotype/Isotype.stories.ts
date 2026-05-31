@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/web-components';
+import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html, nothing } from 'lit';
 import './Isotype.js';
 
@@ -19,12 +19,7 @@ const meta: Meta<Args> = {
 				: 'var(--semantic-color-surface-ground)';
 		return html`
 			<span style="background-color: ${bg}; padding: 16px; display: inline-block">
-				<gv-isotype
-					color=${color}
-					size=${size}
-					tone=${tone}
-					label=${label || nothing}
-				></gv-isotype>
+				<gv-isotype color=${color} size=${size} tone=${tone} label=${label || nothing}></gv-isotype>
 			</span>
 		`;
 	},

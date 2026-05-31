@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/web-components';
+import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html } from 'lit';
 import './Texture.js';
 
@@ -25,8 +25,7 @@ const SURFACE_WRAPPER = (bg: string, opacity: number) => html`
 const meta: Meta<Args> = {
 	title: 'Components/gv-texture',
 	tags: ['autodocs'],
-	render: ({ opacity }) =>
-		SURFACE_WRAPPER('var(--semantic-color-surface-brand-summit)', opacity),
+	render: ({ opacity }) => SURFACE_WRAPPER('var(--semantic-color-surface-brand-summit)', opacity),
 	argTypes: {
 		opacity: { control: { type: 'range', min: 0, max: 1, step: 0.01 } }
 	},
@@ -39,13 +38,11 @@ type Story = StoryObj<Args>;
 export const Default: Story = {};
 
 export const OnTerrace: Story = {
-	render: ({ opacity }) =>
-		SURFACE_WRAPPER('var(--semantic-color-surface-accent-terrace)', opacity),
+	render: ({ opacity }) => SURFACE_WRAPPER('var(--semantic-color-surface-accent-terrace)', opacity),
 	args: { opacity: 0.4 }
 };
 
 export const OnGround: Story = {
-	render: ({ opacity }) =>
-		SURFACE_WRAPPER('var(--semantic-color-surface-ground)', opacity),
+	render: ({ opacity }) => SURFACE_WRAPPER('var(--semantic-color-surface-ground)', opacity),
 	args: { opacity: 0.25 }
 };

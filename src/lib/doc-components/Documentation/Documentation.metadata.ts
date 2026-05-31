@@ -63,7 +63,8 @@ export const DocumentationMetadata = {
 
 		contentSource: {
 			file: 'src/DESIGN_SYSTEM.md',
-			import: 'Static raw import via Vite (?raw) — content is bundled at build time, not fetched at runtime',
+			import:
+				'Static raw import via Vite (?raw) — content is bundled at build time, not fetched at runtime',
 			splitting:
 				'The file is split on lines beginning with "## " — each h2 heading becomes one gv-doc-section',
 			typeMapping: {
@@ -96,13 +97,7 @@ export const DocumentationMetadata = {
 
 	aiHints: {
 		priority: 'low',
-		keywords: [
-			'documentation',
-			'design system docs',
-			'full page',
-			'DESIGN_SYSTEM.md',
-			'no props'
-		],
+		keywords: ['documentation', 'design system docs', 'full page', 'DESIGN_SYSTEM.md', 'no props'],
 		context:
 			'Single-use page-level component — drop it in the documentation route and it renders itself. All content comes from DESIGN_SYSTEM.md. To change content, edit the markdown file, not this component. To add a new section with token previews, update the typeMap.'
 	}

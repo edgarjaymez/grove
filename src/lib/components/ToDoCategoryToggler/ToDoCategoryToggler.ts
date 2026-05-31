@@ -209,7 +209,7 @@ export class ToDoCategoryToggler extends LitElement {
 				<div class="btn__header">
 					<span class="btn__count">${this.count}</span>
 					<div class="btn__icon-wrap">
-						<gv-icon is-filled unicode="&#xE416;"></gv-icon>
+						<gv-icon is-filled unicode=${''}></gv-icon>
 					</div>
 				</div>
 				<span class="btn__category">${this.category}</span>

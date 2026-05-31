@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/web-components';
+import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html } from 'lit';
 import './Documentation.ts';
 
@@ -9,7 +9,7 @@ const meta: Meta = {
 		<div style="background-color: var(--semantic-color-surface-ground)">
 			<gv-documentation></gv-documentation>
 		</div>
-	`,
+	`
 };
 export default meta;
 

@@ -24,11 +24,7 @@ export class Texture extends LitElement {
 
 	render() {
 		return html`
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				style="opacity: ${this.opacity}"
-			>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" style="opacity: ${this.opacity}">
 				<g filter="url(#grove-noise)">
 					<rect width="100%" height="100%" fill="black" />
 				</g>

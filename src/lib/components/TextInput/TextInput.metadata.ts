@@ -68,7 +68,8 @@ export const TextInputMetadata = {
 			},
 			{
 				scenario: 'Setting error and disabled simultaneously',
-				reason: 'Disabled inputs cannot be corrected — showing an error state is semantically misleading',
+				reason:
+					'Disabled inputs cannot be corrected — showing an error state is semantically misleading',
 				alternative: 'Only set error on fields the user can currently interact with'
 			},
 			{
@@ -91,13 +92,17 @@ export const TextInputMetadata = {
 		states: ['DEFAULT', 'hover', 'focus', 'active', 'disabled', 'error'],
 
 		interactions: {
-			hover: 'Border steps up to summit weight; brand background unchanged, gray background transitions to terrace surface',
-			focus: 'Background transitions to summit surface; border stays at summit weight; global focus ring applied by surface-scoped CSS',
+			hover:
+				'Border steps up to summit weight; brand background unchanged, gray background transitions to terrace surface',
+			focus:
+				'Background transitions to summit surface; border stays at summit weight; global focus ring applied by surface-scoped CSS',
 			active: 'Same visual treatment as focus — active and focus share identical surface tokens',
 			disabled:
 				'brand: gray-terrace background / gray-terrace border. gray: gray-path background / gray-path border. Cursor changes to not-allowed.',
-			error: 'Danger-terrace surface and border, regardless of color prop. Hover steps border to danger-summit. Focus keeps danger-terrace surface.',
-			input: 'Dispatches an input CustomEvent (detail: string) on every keystroke and a change CustomEvent on blur; isFilled class toggled automatically based on current value'
+			error:
+				'Danger-terrace surface and border, regardless of color prop. Hover steps border to danger-summit. Focus keeps danger-terrace surface.',
+			input:
+				'Dispatches an input CustomEvent (detail: string) on every keystroke and a change CustomEvent on blur; isFilled class toggled automatically based on current value'
 		}
 	},
 
@@ -106,7 +111,8 @@ export const TextInputMetadata = {
 			options: ['brand', 'gray'],
 			default: 'brand',
 			purpose: {
-				brand: 'Warm brand surface — use on ground or neutral surfaces where brand emphasis is appropriate. Default for most forms.',
+				brand:
+					'Warm brand surface — use on ground or neutral surfaces where brand emphasis is appropriate. Default for most forms.',
 				gray: 'Neutral gray surface — use when the field sits on a brand-colored parent or where brand warmth would be visually excessive.'
 			}
 		},
@@ -123,8 +129,10 @@ export const TextInputMetadata = {
 			default: 'text',
 			purpose: {
 				text: 'General single-line text entry.',
-				email: 'Email address — triggers email keyboard on mobile and enables browser email validation.',
-				password: 'Password entry — masks characters. Supports autocomplete="current-password" or "new-password".',
+				email:
+					'Email address — triggers email keyboard on mobile and enables browser email validation.',
+				password:
+					'Password entry — masks characters. Supports autocomplete="current-password" or "new-password".',
 				search: 'Search query — may show a clear button in some browsers.',
 				tel: 'Phone number — triggers numeric keyboard on mobile.',
 				url: 'URL entry — triggers URL keyboard on mobile.',

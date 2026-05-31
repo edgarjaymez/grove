@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/sveltekit';
+import type { Preview } from '@storybook/web-components';
 import '../src/lib/tokens/tokens.css';
 import '../src/lib/styles/reset.css';
 import '../src/lib/styles/globals.css';

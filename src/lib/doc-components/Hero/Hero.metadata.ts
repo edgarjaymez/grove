@@ -19,7 +19,8 @@ export const HeroMetadata = {
 		commonPatterns: [
 			{
 				name: 'documentation-page-hero',
-				description: 'Placed as the first element of the documentation landing page, above gv-documentation',
+				description:
+					'Placed as the first element of the documentation landing page, above gv-documentation',
 				composition: `<gv-hero></gv-hero>`
 			}
 		],
@@ -27,14 +28,17 @@ export const HeroMetadata = {
 		antiPatterns: [
 			{
 				scenario: 'Using gv-hero for a generic marketing or product hero',
-				reason: 'All content (title, tagline, author, version) is hardcoded — it is not a configurable hero component',
+				reason:
+					'All content (title, tagline, author, version) is hardcoded — it is not a configurable hero component',
 				alternative:
 					'Build a new configurable hero component with title, subtitle, and CTA props if a reusable hero is needed'
 			},
 			{
 				scenario: 'Placing gv-hero inside a constrained-height or overflow-hidden container',
-				reason: 'The component uses 100svh for its height with viewport-relative margin — it must be a direct child of a full-width page layout',
-				alternative: 'Mount it at the top level of the page route with no height constraints on the parent'
+				reason:
+					'The component uses 100svh for its height with viewport-relative margin — it must be a direct child of a full-width page layout',
+				alternative:
+					'Mount it at the top level of the page route with no height constraints on the parent'
 			}
 		]
 	},
@@ -68,7 +72,8 @@ export const HeroMetadata = {
 		responsive: {
 			mobile: '8px margin, border-radius-2xl, 6rem h1, 3rem subtitle, 60svh isotype',
 			tablet: '768px+ — 16px margin, border-radius-4xl, 8rem h1, 3.5rem subtitle, 70svh isotype',
-			laptop: '1280px+ — 24px margin, border-radius-8xl, 12rem h1, 5rem subtitle, space-between layout, 100svh isotype',
+			laptop:
+				'1280px+ — 24px margin, border-radius-8xl, 12rem h1, 5rem subtitle, space-between layout, 100svh isotype',
 			desktop: '1536px+ — 32px margin, border-radius-12xl, 15rem h1, 110svh isotype'
 		},
 

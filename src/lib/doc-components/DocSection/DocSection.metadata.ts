@@ -40,8 +40,7 @@ export const DocSectionMetadata = {
 			},
 			{
 				name: 'typography-token-table',
-				description:
-					'Renders live "Aa" type previews inline for --typography-* tokens in tables',
+				description: 'Renders live "Aa" type previews inline for --typography-* tokens in tables',
 				composition: `<gv-doc-section title="Typography" body={typographyMarkdown} type="typography"></gv-doc-section>`
 			}
 		],
@@ -49,17 +48,21 @@ export const DocSectionMetadata = {
 		antiPatterns: [
 			{
 				scenario: 'Passing raw HTML as the body prop',
-				reason: 'The body prop expects markdown — raw HTML will be escaped and rendered as plain text',
+				reason:
+					'The body prop expects markdown — raw HTML will be escaped and rendered as plain text',
 				alternative: 'Always pass well-formed markdown strings to the body prop'
 			},
 			{
 				scenario: 'Using type="color" for non-token tables',
-				reason: 'The type prop activates token preview injection in table cells — mismatching it produces unexpected swatch/preview elements',
-				alternative: 'Use type="generic" unless the table contains the matching token prefix (--color-*, --drop-shadow-*, --typography-*)'
+				reason:
+					'The type prop activates token preview injection in table cells — mismatching it produces unexpected swatch/preview elements',
+				alternative:
+					'Use type="generic" unless the table contains the matching token prefix (--color-*, --drop-shadow-*, --typography-*)'
 			},
 			{
 				scenario: 'Nesting gv-doc-section inside another gv-doc-section',
-				reason: 'The component is designed as a top-level page section with its own layout grid and divider border',
+				reason:
+					'The component is designed as a top-level page section with its own layout grid and divider border',
 				alternative: 'Use h3/h4 headings in the body markdown to create sub-sections instead'
 			}
 		]
@@ -91,7 +94,8 @@ export const DocSectionMetadata = {
 		markdownSupport: {
 			headings: 'h3 (###) and h4 (####)',
 			inlineFormatting: '**bold**, _italic_, `code`, [link](url)',
-			blocks: 'paragraphs, blockquotes (>), fenced code blocks (```), unordered lists (- *), ordered lists (1.)',
+			blocks:
+				'paragraphs, blockquotes (>), fenced code blocks (```), unordered lists (- *), ordered lists (1.)',
 			tables:
 				'Markdown pipe tables; cells containing token names get visual previews injected based on the type prop',
 			dividers: '--- renders as a styled accent-surface rule (not a plain <hr>)'
@@ -104,10 +108,10 @@ export const DocSectionMetadata = {
 			default: 'generic',
 			purpose: {
 				generic: 'No token preview injection — use for prose, component docs, or mixed content.',
-				color: 'Injects color swatches next to --color-* and --semantic-color-* tokens in table cells.',
+				color:
+					'Injects color swatches next to --color-* and --semantic-color-* tokens in table cells.',
 				shadows: 'Injects box-shadow preview boxes next to --drop-shadow-* tokens in table cells.',
-				typography:
-					'Injects live "Aa" type samples next to --typography-* tokens in table cells.'
+				typography: 'Injects live "Aa" type samples next to --typography-* tokens in table cells.'
 			}
 		}
 	},

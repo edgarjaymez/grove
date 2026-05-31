@@ -1,25 +1,23 @@
-// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
 import storybook from 'eslint-plugin-storybook';
-
 import prettier from 'eslint-config-prettier';
 import path from 'node:path';
 import { includeIgnoreFile } from '@eslint/compat';
 import js from '@eslint/js';
-import svelte from 'eslint-plugin-svelte';
+import lit from 'eslint-plugin-lit';
+import litA11y from 'eslint-plugin-lit-a11y';
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import ts from 'typescript-eslint';
-import svelteConfig from './svelte.config.js';
 
 const gitignorePath = path.resolve(import.meta.dirname, '.gitignore');
 
 export default defineConfig(
 	includeIgnoreFile(gitignorePath),
+	{ ignores: ['.claude/'] },
 	js.configs.recommended,
 	...ts.configs.recommended,
-	...svelte.configs.recommended,
 	prettier,
-	...svelte.configs.prettier,
+	...storybook.configs['flat/recommended'],
 	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } },
 		rules: {
@@ -29,14 +27,11 @@ export default defineConfig(
 		}
 	},
 	{
-		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
-		languageOptions: {
-			parserOptions: {
-				projectService: true,
-				extraFileExtensions: ['.svelte'],
-				parser: ts.parser,
-				svelteConfig
-			}
+		files: ['**/*.ts'],
+		plugins: { lit, 'lit-a11y': litA11y },
+		rules: {
+			...lit.configs.recommended.rules,
+			...litA11y.configs.recommended.rules
 		}
 	}
 );

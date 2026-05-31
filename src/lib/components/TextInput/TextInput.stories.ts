@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/web-components';
+import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { html } from 'lit';
 import './TextInput.js';
 
@@ -30,15 +30,18 @@ const meta: Meta<Args> = {
 		color: { control: 'select', options: ['brand', 'gray'] },
 		error: { control: 'boolean' },
 		disabled: { control: 'boolean' },
-		type: { control: 'select', options: ['text', 'email', 'password', 'search', 'tel', 'url', 'number'] },
+		type: {
+			control: 'select',
+			options: ['text', 'email', 'password', 'search', 'tel', 'url', 'number']
+		}
 	},
 	args: {
 		color: 'brand',
 		error: false,
 		disabled: false,
 		placeholder: 'Enter text…',
-		type: 'text',
-	},
+		type: 'text'
+	}
 };
 export default meta;
 
@@ -47,13 +50,13 @@ type Story = StoryObj<Args>;
 export const Default: Story = {};
 
 export const Gray: Story = {
-	args: { color: 'gray' },
+	args: { color: 'gray' }
 };
 
 export const Error: Story = {
-	args: { error: true, placeholder: 'Invalid value' },
+	args: { error: true, placeholder: 'Invalid value' }
 };
 
 export const Disabled: Story = {
-	args: { disabled: true, placeholder: 'Disabled field' },
+	args: { disabled: true, placeholder: 'Disabled field' }
 };
