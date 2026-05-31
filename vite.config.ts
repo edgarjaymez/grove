@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { defineConfig } from 'vitest/config';
-import dts from 'vite-plugin-dts';
+import dts from 'unplugin-dts/vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf-8'));
