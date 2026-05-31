@@ -66,6 +66,11 @@ export class ToDoCategoryToggler extends LitElement {
 			cursor: not-allowed;
 		}
 
+		.btn--layout {
+			display: flex;
+			width: 100%;
+		}
+
 		/* Brand — default */
 		.btn--brand {
 			background: var(--semantic-color-surface-brand-terrace);
@@ -201,6 +206,7 @@ export class ToDoCategoryToggler extends LitElement {
 				class=${classMap({
 					btn: true,
 					[`btn--${this.color}`]: true,
+					'btn--layout': true,
 					'btn--selected': this.isSelected
 				})}
 				?disabled=${this.disabled}
