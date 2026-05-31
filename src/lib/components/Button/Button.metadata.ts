@@ -5,10 +5,10 @@ export const ButtonMetadata = {
 		description:
 			'Primary interactive element for triggering actions. Supports visual hierarchy through style and color variants, optional leading icon, and three sizes.',
 		type: 'interactive',
-		path: 'src/lib/components/Button/Button.svelte',
+		path: 'src/lib/components/Button/Button.ts',
 		version: '1.1.1',
 		created: '2026/03/08',
-		modified: '2026/05/19'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -27,27 +27,27 @@ export const ButtonMetadata = {
 			{
 				name: 'page-level-cta',
 				description: 'Primary action on a landing section or hero — highest visual prominence',
-				composition: `<Button text="Get Started" style="filled" color="accent" size="lg" icon="" />`
+				composition: `<gv-button text="Get Started" variant="filled" color="accent" size="lg"></gv-button>`
 			},
 			{
 				name: 'form-submit',
 				description: 'Confirm or submit action in a form, matched to input height with md size',
-				composition: `<Button text="Save changes" style="filled" color="accent" size="md" />`
+				composition: `<gv-button text="Save changes" variant="filled" color="accent" size="md"></gv-button>`
 			},
 			{
 				name: 'primary-action',
 				description: 'Alternative action paired alongside a primary filled button',
-				composition: `<Button text="Learn more" style="tonal" color="accent" size="md" />`
+				composition: `<gv-button text="Learn more" variant="tonal" color="accent" size="md"></gv-button>`
 			},
 			{
 				name: 'secondary-button',
 				description: 'Low-prominence dismiss or cancel action — should not compete visually',
-				composition: `<Button text="Cancel" style="outlined" color="gray" size="md" />`
+				composition: `<gv-button text="Cancel" variant="outlined" color="gray" size="md"></gv-button>`
 			},
 			{
 				name: 'tertiary-action',
 				description: 'Tertiary or contextual action with minimal visual weight',
-				composition: `<Button text="View details" style="ghost" color="gray" size="sm" />`
+				composition: `<gv-button text="View details" variant="ghost" color="gray" size="sm"></gv-button>`
 			}
 		],
 
@@ -78,7 +78,7 @@ export const ButtonMetadata = {
 
 	composition: {
 		slots: null,
-		nestedComponents: [{ name: 'Icon', source: '../Icon/Icon.svelte' }],
+		nestedComponents: [{ name: 'Icon', source: '../Icon/Icon.js' }],
 		commonPartners: ['IconButton', 'Input', 'Modal', 'Card', 'Form'],
 		parentConstraints: null
 	},

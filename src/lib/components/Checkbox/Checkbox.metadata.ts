@@ -5,10 +5,10 @@ export const CheckboxMetadata = {
 		description:
 			'A toggle input that represents a binary checked/unchecked state. Renders as a square button with a brand-green fill and white checkmark when checked. Supports default (24px) and xl (28px) sizes.',
 		type: 'input',
-		path: 'src/lib/components/Checkbox/Checkbox.svelte',
+		path: 'src/lib/components/Checkbox/Checkbox.ts',
 		version: '1.0.0',
 		created: '2026/05/20',
-		modified: '2026/05/20'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -27,25 +27,29 @@ export const CheckboxMetadata = {
 			{
 				name: 'labeled-form-field',
 				description: 'Pair with a label element for accessible form inputs',
-				composition: `<label class="flex items-center gap-2">
-  <Checkbox bind:checked={agreed} />
+				composition: `<label style="display:flex;align-items:center;gap:8px">
+  <gv-checkbox id="agree"></gv-checkbox>
   <span>I agree to the terms and conditions</span>
 </label>`
 			},
 			{
 				name: 'controlled-toggle',
-				description: 'Controlled state with an explicit onchange handler',
-				composition: `<Checkbox checked={isSelected} onchange={(v) => (isSelected = v)} />`
+				description: 'Listen to the change CustomEvent (detail: boolean) to react to state changes',
+				composition: `<gv-checkbox id="my-check"></gv-checkbox>
+<script>
+  const el = document.querySelector('#my-check');
+  el.addEventListener('change', (e) => { isSelected = e.detail; });
+</script>`
 			},
 			{
 				name: 'xl-size-for-touch',
 				description: 'Larger 28px size for mobile or touch-heavy contexts',
-				composition: `<Checkbox bind:checked={value} responsive="xl" />`
+				composition: `<gv-checkbox responsive="xl"></gv-checkbox>`
 			},
 			{
 				name: 'disabled-preset',
 				description: 'Non-interactive pre-selected state for read-only displays',
-				composition: `<Checkbox checked={true} disabled />`
+				composition: `<gv-checkbox checked disabled></gv-checkbox>`
 			}
 		],
 
@@ -81,7 +85,7 @@ export const CheckboxMetadata = {
 		states: ['DEFAULT', 'checked', 'hover', 'active', 'disabled', 'disabled-checked'],
 
 		interactions: {
-			click: 'Toggles checked state; calls onchange handler with the new boolean value',
+			click: 'Toggles checked state; dispatches a change CustomEvent with detail: boolean',
 			hover:
 				'Unchecked: border darkens. Checked: background shifts from brand/summit to brand/600 (intermediate hover tone)',
 			active: 'Checked: background shifts to brand/aurora (brand/700)',
@@ -112,7 +116,7 @@ export const CheckboxMetadata = {
 		notes: [
 			'Always wrap in a <label> or use aria-label/aria-labelledby for an accessible name',
 			'disabled prop sets the HTML disabled attribute — browser blocks pointer events natively',
-			'checked uses $bindable() — supports both bind:checked two-way binding and controlled onchange patterns'
+			'State changes dispatch a change CustomEvent (bubbles: true, composed: true) with detail: boolean — listen with addEventListener("change", (e) => use(e.detail))'
 		]
 	},
 

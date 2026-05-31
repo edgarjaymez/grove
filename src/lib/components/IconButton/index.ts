@@ -1,2 +1,2 @@
-export { default as IconButton } from './IconButton.svelte';
-export { IconButtonMetadata } from './IconButton.metadata.ts';
+export { IconButton } from './IconButton.js';
+export { IconButtonMetadata } from './IconButton.metadata.js';

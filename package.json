@@ -1,6 +1,6 @@
 {
 	"name": "@edgarjaymez/grove",
-	"version": "0.19.0-alpha.4",
+	"version": "0.23.0-beta.1",
 	"description": "Grove Design System — Where living systems take root.",
 	"license": "MIT",
 	"author": {
@@ -17,12 +17,11 @@
 	},
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run prepack",
+		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"prepack": "npm run build-tokens && svelte-kit sync && svelte-package && publint",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"prepack": "pnpm build-tokens && vite build && publint",
+		"check": "tsc --noEmit",
+		"check:watch": "tsc --noEmit --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:unit": "vitest",
@@ -40,13 +39,11 @@
 	"sideEffects": [
 		"**/*.css"
 	],
-	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js",
 			"default": "./dist/index.js"
 		},
 		"./tokens.css": "./dist/tokens/tokens.css",
@@ -54,53 +51,53 @@
 		"./fonts.css": "./dist/fonts/fonts.css"
 	},
 	"peerDependencies": {
-		"svelte": "^5.0.0"
+		"lit": "^3.0.0"
 	},
 	"devDependencies": {
-		"@chromatic-com/storybook": "5.0.0",
-		"@eslint/compat": "2.0.2",
-		"@eslint/js": "9.39.2",
-		"@playwright/test": "1.58.1",
-		"@storybook/addon-a11y": "10.2.4",
-		"@storybook/addon-docs": "10.2.4",
-		"@storybook/addon-svelte-csf": "5.0.10",
-		"@storybook/addon-vitest": "10.2.4",
-		"@storybook/sveltekit": "10.2.4",
-		"@sveltejs/adapter-auto": "7.0.0",
-		"@sveltejs/kit": "2.50.2",
-		"@sveltejs/package": "2.5.7",
-		"@sveltejs/vite-plugin-svelte": "6.2.4",
-		"@terrazzo/cli": "2.0.0-beta.4",
-		"@terrazzo/plugin-css": "2.0.0-beta.4",
-		"@types/node": "25.2.0",
-		"@vitest/browser-playwright": "4.0.18",
-		"@vitest/coverage-v8": "4.0.18",
-		"eslint": "9.39.2",
+		"@chromatic-com/storybook": "5.2.1",
+		"@eslint/compat": "2.1.0",
+		"@eslint/js": "10.0.1",
+		"@playwright/test": "1.60.0",
+		"@storybook/addon-a11y": "10.4.1",
+		"@storybook/addon-docs": "10.4.1",
+		"@storybook/addon-vitest": "10.4.1",
+		"@storybook/web-components": "10.4.1",
+		"@storybook/web-components-vite": "10.4.1",
+		"@terrazzo/cli": "2.2.0",
+		"@terrazzo/plugin-css": "2.2.0",
+		"@types/node": "25.9.1",
+		"@vitest/coverage-v8": "4.1.7",
+		"eslint": "10.4.0",
 		"eslint-config-prettier": "10.1.8",
-		"eslint-plugin-storybook": "10.2.4",
-		"eslint-plugin-svelte": "3.14.0",
-		"globals": "17.3.0",
-		"playwright": "1.58.1",
-		"prettier": "3.8.1",
-		"prettier-plugin-svelte": "3.4.1",
-		"publint": "0.3.17",
-		"storybook": "10.2.4",
-		"svelte": "5.49.1",
-		"svelte-check": "4.3.6",
-		"typescript": "5.9.3",
-		"typescript-eslint": "8.54.0",
-		"vite": "7.3.1",
-		"vite-plugin-devtools-json": "1.0.0",
-		"vitest": "4.0.18",
-		"vitest-browser-svelte": "2.0.2"
+		"eslint-plugin-storybook": "10.4.1",
+		"eslint-plugin-lit": "2.3.1",
+		"eslint-plugin-lit-a11y": "5.1.1",
+		"globals": "17.6.0",
+		"lit": "3.3.3",
+		"playwright": "1.60.0",
+		"prettier": "3.8.3",
+		"publint": "0.3.21",
+		"storybook": "10.4.1",
+		"typescript": "6.0.3",
+		"typescript-eslint": "8.60.0",
+		"vite": "8.0.14",
+		"unplugin-dts": "1.0.1",
+		"vite-plugin-static-copy": "4.1.0",
+		"vitest": "4.1.7"
 	},
 	"keywords": [
-		"svelte",
-		"design-system",
-		"design-tokens",
-		"components",
-		"web-components",
+		"grove",
 		"ui",
-		"grove"
-	]
+		"agentic-design-system",
+		"design-tokens",
+		"lit",
+		"web-components",
+		"components"
+	],
+	"dependencies": {},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	}
 }

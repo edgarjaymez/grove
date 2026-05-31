@@ -4,118 +4,143 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 <div className="grove-home">
 
-  <div className="grove-hero">
-    <div className="grove-hero-logo">
-      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 240 240" fill="none">
-        <path
-          d="M167.383 195.976C131.811 216.443 85.9169 209.345 58.4225 173.109L45.525 180.53L32 157.023L45.3136 149.363C29.3546 108.151 47.9223 65.3487 81.6223 45.9589C107.833 30.8779 134.917 28.8626 161.504 40.4233L150.958 67.8118C132.657 60.0667 114.348 59.5256 95.418 70.4174C74.8236 82.2668 63.1119 108.111 71.3166 134.402L184.69 69.1704L197.617 91.6371C216.049 123.673 210.236 171.32 167.383 195.976ZM84.2176 158.268C102.829 180.509 131.121 184.444 154.628 170.919C175.638 158.83 188.604 134.203 173.044 107.16L84.2176 158.268Z"
-          fill="var(--color-brand-500)"
-        />
-      </svg>
-      <span className="grove-wordmark">Grove</span>
-    </div>
-    <p className="grove-tagline">
-      A Svelte 5 component library and design system — built with runes, typed end-to-end, and grounded in a semantic token system.
-    </p>
-    <div className="grove-badges">
-      <span className="grove-badge">Svelte 5</span>
-      <span className="grove-badge">TypeScript</span>
-      <span className="grove-badge">OKLCH tokens</span>
-      <span className="grove-badge">Accessible</span>
-    </div>
-  </div>
+<div className="grove-hero">
+	<div className="grove-hero-logo">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="56"
+			height="56"
+			viewBox="0 0 240 240"
+			fill="none"
+		>
+			<path
+				d="M167.383 195.976C131.811 216.443 85.9169 209.345 58.4225 173.109L45.525 180.53L32 157.023L45.3136 149.363C29.3546 108.151 47.9223 65.3487 81.6223 45.9589C107.833 30.8779 134.917 28.8626 161.504 40.4233L150.958 67.8118C132.657 60.0667 114.348 59.5256 95.418 70.4174C74.8236 82.2668 63.1119 108.111 71.3166 134.402L184.69 69.1704L197.617 91.6371C216.049 123.673 210.236 171.32 167.383 195.976ZM84.2176 158.268C102.829 180.509 131.121 184.444 154.628 170.919C175.638 158.83 188.604 134.203 173.044 107.16L84.2176 158.268Z"
+				fill="var(--color-brand-500)"
+			/>
+		</svg>
+		<span className="grove-wordmark">Grove</span>
+	</div>
+	<p className="grove-tagline">
+		A Svelte 5 component library and design system — built with runes, typed end-to-end, and
+		grounded in a semantic token system.
+	</p>
+	<div className="grove-badges">
+		<span className="grove-badge">Svelte 5</span>
+		<span className="grove-badge">TypeScript</span>
+		<span className="grove-badge">OKLCH tokens</span>
+		<span className="grove-badge">Accessible</span>
+	</div>
+</div>
 
-  <div className="grove-section">
-    <h2 className="grove-section-heading">Install</h2>
-    <div className="grove-install">
-      <pre className="grove-code"><code>pnpm add grove</code></pre>
-    </div>
-    <p className="grove-section-body">
-      Then import the styles and tokens in your app's entry point:
-    </p>
-    <div className="grove-install">
-      <pre className="grove-code"><code>{`import 'grove/tokens.css';
+<div className="grove-section">
+	<h2 className="grove-section-heading">Install</h2>
+	<div className="grove-install">
+		<pre className="grove-code">
+			<code>pnpm add grove</code>
+		</pre>
+	</div>
+	<p className="grove-section-body">Then import the styles and tokens in your app's entry point:</p>
+	<div className="grove-install">
+		<pre className="grove-code">
+			<code>{`import 'grove/tokens.css';
 import 'grove/reset.css';
 import 'grove/globals.css';
-import 'grove/fonts.css';`}</code></pre>
-    </div>
-  </div>
+import 'grove/fonts.css';`}</code>
+		</pre>
+	</div>
+</div>
 
-  <div className="grove-section">
-    <h2 className="grove-section-heading">Components</h2>
-    <p className="grove-section-body">Browse all components in the sidebar. Here's what's available today:</p>
-    <div className="grove-grid">
-      <div className="grove-card">
-        <div className="grove-card-icon">⬛</div>
-        <h3 className="grove-card-title">Button</h3>
-        <p className="grove-card-desc">Four variants — filled, tonal, outlined, ghost. Two colors, three sizes, optional icon.</p>
-      </div>
-      <div className="grove-card">
-        <div className="grove-card-icon">◉</div>
-        <h3 className="grove-card-title">Icon Button</h3>
-        <p className="grove-card-desc">Icon-only action button with the same variant and color system as Button.</p>
-      </div>
-      <div className="grove-card">
-        <div className="grove-card-icon">✦</div>
-        <h3 className="grove-card-title">Icon</h3>
-        <p className="grove-card-desc">Renders a Material Symbols glyph by Unicode code point.</p>
-      </div>
-      <div className="grove-card">
-        <div className="grove-card-icon">◎</div>
-        <h3 className="grove-card-title">Isotype</h3>
-        <p className="grove-card-desc">Grove's logo mark in brand, accent, or base color — light and dark tones.</p>
-      </div>
-      <div className="grove-card">
-        <div className="grove-card-icon">▦</div>
-        <h3 className="grove-card-title">Texture</h3>
-        <p className="grove-card-desc">Decorative surface texture for visual depth.</p>
-      </div>
-    </div>
-  </div>
+<div className="grove-section">
+	<h2 className="grove-section-heading">Components</h2>
+	<p className="grove-section-body">
+		Browse all components in the sidebar. Here's what's available today:
+	</p>
+	<div className="grove-grid">
+		<div className="grove-card">
+			<div className="grove-card-icon">⬛</div>
+			<h3 className="grove-card-title">Button</h3>
+			<p className="grove-card-desc">
+				Four variants — filled, tonal, outlined, ghost. Two colors, three sizes, optional icon.
+			</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">◉</div>
+			<h3 className="grove-card-title">Icon Button</h3>
+			<p className="grove-card-desc">
+				Icon-only action button with the same variant and color system as Button.
+			</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">✦</div>
+			<h3 className="grove-card-title">Icon</h3>
+			<p className="grove-card-desc">Renders a Material Symbols glyph by Unicode code point.</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">◎</div>
+			<h3 className="grove-card-title">Isotype</h3>
+			<p className="grove-card-desc">
+				Grove's logo mark in brand, accent, or base color — light and dark tones.
+			</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">▦</div>
+			<h3 className="grove-card-title">Texture</h3>
+			<p className="grove-card-desc">Decorative surface texture for visual depth.</p>
+		</div>
+	</div>
+</div>
 
-  <div className="grove-section">
-    <h2 className="grove-section-heading">Design system</h2>
-    <div className="grove-pillars">
-      <div className="grove-pillar">
-        <h3 className="grove-pillar-title">Semantic tokens</h3>
-        <p className="grove-pillar-desc">
-          Every color, spacing, shadow, border, and typography value is a CSS custom property. Never hardcode a value — reference a token.
-        </p>
-      </div>
-      <div className="grove-pillar">
-        <h3 className="grove-pillar-title">OKLCH color space</h3>
-        <p className="grove-pillar-desc">
-          The entire palette is defined in OKLCH for perceptually uniform, accessible color steps with wide-gamut support.
-        </p>
-      </div>
-      <div className="grove-pillar">
-        <h3 className="grove-pillar-title">Elevation system</h3>
-        <p className="grove-pillar-desc">
-          Three surface depths — Ground, Terrace, Summit — each with matching text, border, and shadow tokens.
-        </p>
-      </div>
-      <div className="grove-pillar">
-        <h3 className="grove-pillar-title">Focus by surface</h3>
-        <p className="grove-pillar-desc">
-          Focus rings are applied globally via surface-scoped CSS. Components never declare their own — it's handled automatically.
-        </p>
-      </div>
-    </div>
-  </div>
+<div className="grove-section">
+	<h2 className="grove-section-heading">Design system</h2>
+	<div className="grove-pillars">
+		<div className="grove-pillar">
+			<h3 className="grove-pillar-title">Semantic tokens</h3>
+			<p className="grove-pillar-desc">
+				Every color, spacing, shadow, border, and typography value is a CSS custom property. Never
+				hardcode a value — reference a token.
+			</p>
+		</div>
+		<div className="grove-pillar">
+			<h3 className="grove-pillar-title">OKLCH color space</h3>
+			<p className="grove-pillar-desc">
+				The entire palette is defined in OKLCH for perceptually uniform, accessible color steps with
+				wide-gamut support.
+			</p>
+		</div>
+		<div className="grove-pillar">
+			<h3 className="grove-pillar-title">Elevation system</h3>
+			<p className="grove-pillar-desc">
+				Three surface depths — Ground, Terrace, Summit — each with matching text, border, and shadow
+				tokens.
+			</p>
+		</div>
+		<div className="grove-pillar">
+			<h3 className="grove-pillar-title">Focus by surface</h3>
+			<p className="grove-pillar-desc">
+				Focus rings are applied globally via surface-scoped CSS. Components never declare their own
+				— it's handled automatically.
+			</p>
+		</div>
+	</div>
+</div>
 
-  <div className="grove-section">
-    <h2 className="grove-section-heading">Resources</h2>
-    <div className="grove-links">
-      <a className="grove-link-card" href="https://github.com/grovedesignsystem/grove" target="_blank">
-        <span className="grove-link-card-title">GitHub</span>
-        <span className="grove-link-card-desc">Source code, issues, and contributions</span>
-      </a>
-      <a className="grove-link-card" href="https://www.npmjs.com/package/grove" target="_blank">
-        <span className="grove-link-card-title">npm</span>
-        <span className="grove-link-card-desc">Package releases and changelogs</span>
-      </a>
-    </div>
-  </div>
+<div className="grove-section">
+	<h2 className="grove-section-heading">Resources</h2>
+	<div className="grove-links">
+		<a
+			className="grove-link-card"
+			href="https://github.com/grovedesignsystem/grove"
+			target="_blank"
+		>
+			<span className="grove-link-card-title">GitHub</span>
+			<span className="grove-link-card-desc">Source code, issues, and contributions</span>
+		</a>
+		<a className="grove-link-card" href="https://www.npmjs.com/package/grove" target="_blank">
+			<span className="grove-link-card-title">npm</span>
+			<span className="grove-link-card-desc">Package releases and changelogs</span>
+		</a>
+	</div>
+</div>
 
 </div>
 
