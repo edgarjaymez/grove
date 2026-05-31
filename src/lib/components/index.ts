@@ -1,4 +1,5 @@
 export * from './Button/Button.js';
+export * from './ColorSwatch/ColorSwatch.js';
 export * from './Checkbox/Checkbox.js';
 export * from './Icon/Icon.js';
 export * from './IconButton/IconButton.js';
