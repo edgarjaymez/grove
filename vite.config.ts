@@ -18,14 +18,9 @@ export default defineConfig({
 			name: 'copy-static-assets',
 			apply: 'build' as const,
 			async closeBundle() {
-				const { access, copyFile, cp, mkdir, constants } = await import('node:fs/promises')
-				const tokensExist = await access('src/lib/tokens/tokens.css', constants.F_OK)
-					.then(() => true)
-					.catch(() => false)
-				if (tokensExist) {
-					await mkdir('dist/tokens', { recursive: true })
-					await copyFile('src/lib/tokens/tokens.css', 'dist/tokens/tokens.css')
-				}
+				const { copyFile, cp, mkdir } = await import('node:fs/promises')
+				await mkdir('dist/tokens', { recursive: true })
+				await copyFile('src/lib/tokens/tokens.css', 'dist/tokens/tokens.css')
 				await cp('src/lib/fonts', 'dist/fonts', { recursive: true })
 			}
 		}

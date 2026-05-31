@@ -1,6 +1,6 @@
 {
 	"name": "@edgarjaymez/grove",
-	"version": "0.26.0",
+	"version": "0.26.1",
 	"description": "Grove Design System — Where living systems take root.",
 	"license": "MIT",
 	"author": {
@@ -16,17 +16,14 @@
 		"url": "https://github.com/edgarjaymez/grove/issues"
 	},
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepack": "pnpm build-tokens && vite build && publint",
+		"build": "pnpm build-tokens && vite build",
+		"prepack": "pnpm build && publint",
 		"check": "tsc --noEmit",
 		"check:watch": "tsc --noEmit --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run && npm run test:e2e",
-		"test:e2e": "playwright test",
+		"test": "pnpm test:unit -- --run",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"build-tokens": "tz build"
@@ -57,7 +54,6 @@
 		"@chromatic-com/storybook": "5.2.1",
 		"@eslint/compat": "2.1.0",
 		"@eslint/js": "10.0.1",
-		"@playwright/test": "1.60.0",
 		"@storybook/addon-a11y": "10.4.1",
 		"@storybook/addon-docs": "10.4.1",
 		"@storybook/addon-vitest": "10.4.1",
@@ -74,7 +70,6 @@
 		"eslint-plugin-lit-a11y": "5.1.1",
 		"globals": "17.6.0",
 		"lit": "3.3.3",
-		"playwright": "1.60.0",
 		"prettier": "3.8.3",
 		"publint": "0.3.21",
 		"storybook": "10.4.1",
