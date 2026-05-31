@@ -1,2 +1,2 @@
-export { default as Button } from './Button.svelte';
-export { ButtonMetadata } from './Button.metadata.ts';
+export { Button } from './Button.js';
+export { ButtonMetadata } from './Button.metadata.js';
