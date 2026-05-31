@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { defineConfig } from 'vitest/config';
 import dts from 'unplugin-dts/vite';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf-8'));
 
@@ -13,14 +12,23 @@ export default defineConfig({
 		dts({
 			include: ['src/lib/components', 'src/lib/index.ts'],
 			outDir: 'dist',
-			rollupTypes: true
+			entryRoot: 'src/lib'
 		}),
-		viteStaticCopy({
-			targets: [
-				{ src: 'src/lib/tokens/tokens.css', dest: 'tokens' },
-				{ src: 'src/lib/fonts/**/*', dest: 'fonts' }
-			]
-		})
+		{
+			name: 'copy-static-assets',
+			apply: 'build' as const,
+			async closeBundle() {
+				const { access, copyFile, cp, mkdir, constants } = await import('node:fs/promises')
+				const tokensExist = await access('src/lib/tokens/tokens.css', constants.F_OK)
+					.then(() => true)
+					.catch(() => false)
+				if (tokensExist) {
+					await mkdir('dist/tokens', { recursive: true })
+					await copyFile('src/lib/tokens/tokens.css', 'dist/tokens/tokens.css')
+				}
+				await cp('src/lib/fonts', 'dist/fonts', { recursive: true })
+			}
+		}
 	],
 	build: {
 		lib: {
