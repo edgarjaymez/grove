@@ -5,7 +5,7 @@ export const DocumentationMetadata = {
 		description:
 			'Full design system documentation page. Parses DESIGN_SYSTEM.md at build time, splits it into ## sections, and renders each as a gv-doc-section with the correct type for token preview injection. Zero props — the content is entirely driven by the source markdown file.',
 		type: 'container',
-		path: 'src/lib/doc-components/Documentation/Documentation.ts',
+		path: 'src/lib/components/Documentation/Documentation.ts',
 		version: '1.0.0',
 		created: '2026/05/30',
 		modified: '2026/05/30'

@@ -21,11 +21,11 @@ import { Meta } from '@storybook/addon-docs/blocks';
 		<span className="grove-wordmark">Grove</span>
 	</div>
 	<p className="grove-tagline">
-		A Svelte 5 component library and design system — built with runes, typed end-to-end, and
+		A Lit 3 web component library and design system — custom elements, typed end-to-end, and
 		grounded in a semantic token system.
 	</p>
 	<div className="grove-badges">
-		<span className="grove-badge">Svelte 5</span>
+		<span className="grove-badge">Lit 3</span>
 		<span className="grove-badge">TypeScript</span>
 		<span className="grove-badge">OKLCH tokens</span>
 		<span className="grove-badge">Accessible</span>
@@ -36,16 +36,14 @@ import { Meta } from '@storybook/addon-docs/blocks';
 	<h2 className="grove-section-heading">Install</h2>
 	<div className="grove-install">
 		<pre className="grove-code">
-			<code>pnpm add grove</code>
+			<code>pnpm add @edgarjaymez/grove</code>
 		</pre>
 	</div>
-	<p className="grove-section-body">Then import the styles and tokens in your app's entry point:</p>
+	<p className="grove-section-body">Then import the tokens and fonts in your app's entry point:</p>
 	<div className="grove-install">
 		<pre className="grove-code">
-			<code>{`import 'grove/tokens.css';
-import 'grove/reset.css';
-import 'grove/globals.css';
-import 'grove/fonts.css';`}</code>
+			<code>{`import '@edgarjaymez/grove/tokens.css';
+import '@edgarjaymez/grove/fonts.css';`}</code>
 		</pre>
 	</div>
 </div>
@@ -60,7 +58,7 @@ import 'grove/fonts.css';`}</code>
 			<div className="grove-card-icon">⬛</div>
 			<h3 className="grove-card-title">Button</h3>
 			<p className="grove-card-desc">
-				Four variants — filled, tonal, outlined, ghost. Two colors, three sizes, optional icon.
+				Four variants — filled, tonal, outlined, ghost. Accent and gray colors, three sizes, optional icon.
 			</p>
 		</div>
 		<div className="grove-card">
@@ -73,7 +71,7 @@ import 'grove/fonts.css';`}</code>
 		<div className="grove-card">
 			<div className="grove-card-icon">✦</div>
 			<h3 className="grove-card-title">Icon</h3>
-			<p className="grove-card-desc">Renders a Material Symbols glyph by Unicode code point.</p>
+			<p className="grove-card-desc">Renders a Phosphor glyph by Unicode code point. Regular and fill variants.</p>
 		</div>
 		<div className="grove-card">
 			<div className="grove-card-icon">◎</div>
@@ -86,6 +84,27 @@ import 'grove/fonts.css';`}</code>
 			<div className="grove-card-icon">▦</div>
 			<h3 className="grove-card-title">Texture</h3>
 			<p className="grove-card-desc">Decorative surface texture for visual depth.</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">☑</div>
+			<h3 className="grove-card-title">Checkbox</h3>
+			<p className="grove-card-desc">
+				Accessible checkbox with default and xl sizes. Checked, unchecked, and disabled states.
+			</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">▬</div>
+			<h3 className="grove-card-title">Text Input</h3>
+			<p className="grove-card-desc">
+				Text field with brand and gray color tracks. Error state and support for multiple input types.
+			</p>
+		</div>
+		<div className="grove-card">
+			<div className="grove-card-icon">◧</div>
+			<h3 className="grove-card-title">Category Toggler</h3>
+			<p className="grove-card-desc">
+				Toggle button showing a category label and item count. Brand, accent, information, and gray color tracks.
+			</p>
 		</div>
 	</div>
 </div>
@@ -129,13 +148,13 @@ import 'grove/fonts.css';`}</code>
 	<div className="grove-links">
 		<a
 			className="grove-link-card"
-			href="https://github.com/grovedesignsystem/grove"
+			href="https://github.com/edgarjaymez/grove"
 			target="_blank"
 		>
 			<span className="grove-link-card-title">GitHub</span>
 			<span className="grove-link-card-desc">Source code, issues, and contributions</span>
 		</a>
-		<a className="grove-link-card" href="https://www.npmjs.com/package/grove" target="_blank">
+		<a className="grove-link-card" href="https://www.npmjs.com/package/@edgarjaymez/grove" target="_blank">
 			<span className="grove-link-card-title">npm</span>
 			<span className="grove-link-card-desc">Package releases and changelogs</span>
 		</a>

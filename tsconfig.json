@@ -12,8 +12,9 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"resolveJsonModule": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"types": ["vite/client"]
 	},
 	"include": ["src"],
-	"exclude": ["node_modules", "src/lib/doc-components"]
+	"exclude": ["node_modules"]
 }

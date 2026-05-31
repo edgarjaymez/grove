@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import '../../components/Isotype/Isotype.ts';
-import '../../components/Texture/Texture.ts';
+import '../Isotype/Isotype.ts';
+import '../Texture/Texture.ts';
 
 declare const __APP_VERSION__: string;
 

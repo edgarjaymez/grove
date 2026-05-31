@@ -5,7 +5,7 @@ export const HeroMetadata = {
 		description:
 			'Full-viewport documentation landing hero for the Grove design system page. Hardcoded content — "Grove" wordmark, tagline, author attribution, and version number — displayed on a brand-summit surface with a decorative Isotype and Texture overlay. Zero props.',
 		type: 'display',
-		path: 'src/lib/doc-components/Hero/Hero.ts',
+		path: 'src/lib/components/Hero/Hero.ts',
 		version: '1.0.0',
 		created: '2026/05/30',
 		modified: '2026/05/30'
@@ -48,12 +48,12 @@ export const HeroMetadata = {
 		nestedComponents: [
 			{
 				name: 'Isotype',
-				source: '../../components/Isotype/Isotype.ts',
+				source: '../Isotype/Isotype.ts',
 				role: 'Decorative brand mark positioned absolutely in the bottom-right corner; color="base" tone="dark" size="1000"'
 			},
 			{
 				name: 'Texture',
-				source: '../../components/Texture/Texture.ts',
+				source: '../Texture/Texture.ts',
 				role: 'Full-bleed decorative texture overlay applied over the brand-summit surface'
 			}
 		],

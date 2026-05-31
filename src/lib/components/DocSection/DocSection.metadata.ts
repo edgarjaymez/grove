@@ -5,7 +5,7 @@ export const DocSectionMetadata = {
 		description:
 			'Documentation page section that renders a sticky titled header alongside markdown-formatted body content. Used to structure design system documentation pages with consistent layout, typography, and token preview tables.',
 		type: 'container',
-		path: 'src/lib/doc-components/DocSection/DocSection.ts',
+		path: 'src/lib/components/DocSection/DocSection.ts',
 		version: '1.0.0',
 		created: '2026/05/30',
 		modified: '2026/05/30'

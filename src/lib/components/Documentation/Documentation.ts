@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import raw from '../../../DESIGN_SYSTEM.md?raw';
+import raw from '../../../../DESIGN_SYSTEM.md?raw';
 import '../DocSection/DocSection.ts';
 
 type SectionType = 'color' | 'shadows' | 'typography' | 'generic';

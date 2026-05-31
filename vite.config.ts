@@ -12,7 +12,6 @@ export default defineConfig({
 	plugins: [
 		dts({
 			include: ['src/lib/components', 'src/lib/index.ts'],
-			exclude: ['src/lib/doc-components'],
 			outDir: 'dist',
 			rollupTypes: true
 		}),
