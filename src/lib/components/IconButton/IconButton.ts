@@ -9,7 +9,7 @@ type IconButtonSize = 'lg' | 'md' | 'sm';
 
 @customElement('gv-icon-button')
 export class IconButton extends LitElement {
-	@property({ type: String }) icon = '';
+	@property({ type: String }) icon = '';
 	@property({ type: String }) variant: IconButtonVariant = 'filled';
 	@property({ type: String }) color: IconButtonColor = 'accent';
 	@property({ type: String }) size: IconButtonSize = 'lg';

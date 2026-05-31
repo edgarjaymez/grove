@@ -1,7 +1,7 @@
 export const ToDoCategoryTogglerMetadata = {
 	component: {
 		name: 'ToDoCategoryToggler',
-		category: 'molecules',
+		category: 'atoms',
 		description:
 			'A color-coded toggle button that displays a task count and category label. Pressing it toggles a selected state and dispatches a toggle CustomEvent. Used in dashboards and overview surfaces to filter or highlight task categories.',
 		type: 'interactive',
@@ -39,7 +39,7 @@ export const ToDoCategoryTogglerMetadata = {
 				name: 'with-icon',
 				description:
 					'Pass a Phosphor icon codepoint to the icon prop to render a filled glyph in the header',
-				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" icon="&#xe416;"></gv-todo-category-toggler>`
+				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" icon="U+E6DA"></gv-todo-category-toggler>`
 			},
 			{
 				name: 'controlled-toggle',

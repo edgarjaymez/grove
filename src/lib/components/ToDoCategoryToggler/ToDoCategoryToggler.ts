@@ -9,7 +9,7 @@ type Color = 'brand' | 'accent' | 'information' | 'gray';
 export class ToDoCategoryToggler extends LitElement {
 	@property({ type: String }) category = 'Category';
 	@property({ type: String }) color: Color = 'brand';
-	@property({ type: String }) icon = '';
+	@property({ type: String }) icon = '';
 	@property({ type: Number }) count = 0;
 	@property({ type: Boolean, reflect: true }) disabled = false;
 	@property({ type: Boolean, attribute: 'is-selected', reflect: true }) isSelected = false;
