@@ -1,6 +1,6 @@
 {
 	"name": "@edgarjaymez/grove",
-	"version": "0.26.1",
+	"version": "0.26.2",
 	"description": "Grove Design System — Where living systems take root.",
 	"license": "MIT",
 	"author": {
@@ -16,7 +16,7 @@
 		"url": "https://github.com/edgarjaymez/grove/issues"
 	},
 	"scripts": {
-		"build": "pnpm build-tokens && vite build",
+		"build": "pnpm build-tokens && storybook build",
 		"prepack": "pnpm build && publint",
 		"check": "tsc --noEmit",
 		"check:watch": "tsc --noEmit --watch",

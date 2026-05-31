@@ -247,3 +247,9 @@ export class Button extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-button': Button;
+	}
+}

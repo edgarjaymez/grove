@@ -165,3 +165,9 @@ export class TextInput extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-text-input': TextInput;
+	}
+}

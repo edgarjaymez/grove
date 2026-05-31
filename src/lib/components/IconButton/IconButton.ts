@@ -223,3 +223,9 @@ export class IconButton extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-icon-button': IconButton;
+	}
+}

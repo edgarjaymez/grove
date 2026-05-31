@@ -67,3 +67,9 @@ export class Texture extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-texture': Texture;
+	}
+}

@@ -1,7 +1,6 @@
-import type { StorybookConfig } from '@storybook/web-components-vite';
+import { defineMain } from '@storybook/web-components-vite/node';
 
-const config: StorybookConfig = {
-	stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|ts)'],
+export default defineMain({
 	addons: [
 		'@chromatic-com/storybook',
 		'@storybook/addon-vitest',
@@ -9,6 +8,6 @@ const config: StorybookConfig = {
 		'@storybook/addon-docs'
 	],
 	framework: '@storybook/web-components-vite',
-	staticDirs: ['../static']
-};
-export default config;
+	staticDirs: ['../static'],
+	stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|ts)']
+});

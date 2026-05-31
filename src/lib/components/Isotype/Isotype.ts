@@ -58,3 +58,9 @@ export class Isotype extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-isotype': Isotype;
+	}
+}

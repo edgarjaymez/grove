@@ -11,7 +11,7 @@ export default defineConfig({
 	plugins: [
 		dts({
 			include: ['src/lib/components', 'src/lib/index.ts'],
-			outDir: 'dist',
+			outDirs: 'dist',
 			entryRoot: 'src/lib'
 		}),
 		{

@@ -217,3 +217,9 @@ export class ToDoCategoryToggler extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-todo-category-toggler': ToDoCategoryToggler;
+	}
+}

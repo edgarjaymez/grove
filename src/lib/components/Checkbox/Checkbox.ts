@@ -112,3 +112,9 @@ export class Checkbox extends LitElement {
 		`;
 	}
 }
+
+declare global {
+	interface HTMLElementTagNameMap {
+		'gv-checkbox': Checkbox;
+	}
+}

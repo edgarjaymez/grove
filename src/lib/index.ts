@@ -1,7 +1,4 @@
 export { Button } from './components/Button/index.js';
-export { DocSection } from './components/DocSection/index.js';
-export { Documentation } from './components/Documentation/index.js';
-export { Hero } from './components/Hero/index.js';
 export { Checkbox } from './components/Checkbox/index.js';
 export { IconButton } from './components/IconButton/index.js';
 export { Icon } from './components/Icon/index.js';
