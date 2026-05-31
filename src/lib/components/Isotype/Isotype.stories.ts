@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
-import { html, nothing } from 'lit';
+import { html } from 'lit';
+import { ifDefined } from 'lit/directives/if-defined.js';
 import './Isotype.js';
 
 interface Args {
@@ -19,7 +20,7 @@ const meta: Meta<Args> = {
 				: 'var(--semantic-color-surface-ground)';
 		return html`
 			<span style="background-color: ${bg}; padding: 16px; display: inline-block">
-				<gv-isotype color=${color} size=${size} tone=${tone} label=${label || nothing}></gv-isotype>
+				<gv-isotype color=${color} size=${size} tone=${tone} label=${ifDefined(label || undefined)}></gv-isotype>
 			</span>
 		`;
 	},
