@@ -16,7 +16,7 @@
 		"url": "https://github.com/edgarjaymez/grove/issues"
 	},
 	"scripts": {
-		"build": "pnpm build-tokens && storybook build",
+		"build": "pnpm build-tokens && vite build",
 		"prepack": "pnpm build && publint",
 		"check": "tsc --noEmit",
 		"check:watch": "tsc --noEmit --watch",
@@ -89,6 +89,9 @@
 		"components"
 	],
 	"dependencies": {},
+	"engines": {
+		"node": ">=20"
+	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"esbuild"

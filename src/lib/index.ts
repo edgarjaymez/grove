@@ -1,8 +1,8 @@
-export { Button } from './components/Button/index.js';
-export { Checkbox } from './components/Checkbox/index.js';
-export { IconButton } from './components/IconButton/index.js';
-export { Icon } from './components/Icon/index.js';
-export { Isotype } from './components/Isotype/index.js';
-export { Texture } from './components/Texture/index.js';
-export { TextInput } from './components/TextInput/index.js';
-export { ToDoCategoryToggler } from './components/ToDoCategoryToggler/index.js';
+export { Button } from './components/Button/Button.js';
+export { Checkbox } from './components/Checkbox/Checkbox.js';
+export { IconButton } from './components/IconButton/IconButton.js';
+export { Icon } from './components/Icon/Icon.js';
+export { Isotype } from './components/Isotype/Isotype.js';
+export { Texture } from './components/Texture/Texture.js';
+export { TextInput } from './components/TextInput/TextInput.js';
+export { ToDoCategoryToggler } from './components/ToDoCategoryToggler/ToDoCategoryToggler.js';
