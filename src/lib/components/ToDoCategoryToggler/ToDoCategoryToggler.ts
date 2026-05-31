@@ -25,7 +25,7 @@ export class ToDoCategoryToggler extends LitElement {
 			border: none;
 			cursor: pointer;
 			text-align: left;
-			width: auto;
+			width: 100%;
 			display: flex;
 			transition:
 				background 300ms ease-in-out,
