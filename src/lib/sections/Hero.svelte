@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Texture } from '$lib/index.js';
 	import '$lib/components/Isotype/Isotype.js';
+	import '$lib/components/Texture/Texture.js';
 
 	const version = __APP_VERSION__;
 </script>
@@ -18,7 +18,7 @@
 
 	<gv-isotype class="isotype" color="base" size="1000" tone="dark"></gv-isotype>
 
-	<Texture />
+	<gv-texture></gv-texture>
 </main>
 
 <style>

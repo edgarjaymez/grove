@@ -1,2 +1,2 @@
-export { default as Texture } from './Texture.svelte';
-export { TextureMetadata } from './Texture.metadata.ts';
+export { Texture } from './Texture.js';
+export { TextureMetadata } from './Texture.metadata.js';
