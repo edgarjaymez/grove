@@ -4,10 +4,10 @@ export const TextureMetadata = {
 		category: 'atoms',
 		description: 'Absolutely positioned SVG noise overlay that adds organic grain to surfaces',
 		type: 'display',
-		path: 'src/lib/components/Texture/Texture.svelte',
+		path: 'src/lib/components/Texture/Texture.ts',
 		version: '1.1.0',
 		created: '2026/02/18',
-		modified: '2026/05/19'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -22,21 +22,21 @@ export const TextureMetadata = {
 				name: 'on-brand',
 				description: 'Full-strength grain on the darkest brand surface',
 				composition: `<div style="position: relative; overflow: hidden; background-color: var(--semantic-color-surface-brand-summit);">
-  <Texture />
+  <gv-texture></gv-texture>
 </div>`
 			},
 			{
 				name: 'on-accent',
 				description: 'Reduced grain on terrace surfaces to avoid overpowering the surface',
 				composition: `<div style="position: relative; overflow: hidden; background-color: var(--semantic-color-surface-accent-terrace);">
-  <Texture opacity={0.4} />
+  <gv-texture opacity="0.4"></gv-texture>
 </div>`
 			},
 			{
 				name: 'on-ground',
 				description: 'Subtle grain on light ground surfaces',
 				composition: `<div style="position: relative; overflow: hidden; background-color: var(--semantic-color-surface-ground);">
-  <Texture opacity={0.25} />
+  <gv-texture opacity="0.25"></gv-texture>
 </div>`
 			}
 		],

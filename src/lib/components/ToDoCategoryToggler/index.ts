@@ -1,2 +1,2 @@
 export { ToDoCategoryToggler } from './ToDoCategoryToggler.ts';
-export { toDoCardMetadata } from './ToDoCategoryToggler.metadata.ts';
+export { ToDoCategoryTogglerMetadata } from './ToDoCategoryToggler.metadata.ts';

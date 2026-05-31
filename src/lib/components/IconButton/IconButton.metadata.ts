@@ -4,10 +4,10 @@ export const IconButtonMetadata = {
 		category: 'atoms',
 		description: 'Icon-only button for triggering actions where a text label is not needed',
 		type: 'interactive',
-		path: 'src/lib/components/IconButton/IconButton.svelte',
+		path: 'src/lib/components/IconButton/IconButton.ts',
 		version: '1.0.0',
 		created: '2026/03/07',
-		modified: '2026/03/08'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -26,17 +26,17 @@ export const IconButtonMetadata = {
 			{
 				name: 'toolbar-action',
 				description: 'Compact action in a toolbar or action row',
-				composition: `<IconButton icon="" size="sm" variant="ghost" color="gray" aria-label="Underline text" />`
+				composition: `<gv-icon-button icon="" size="sm" variant="ghost" color="gray" aria-label="Underline text"></gv-icon-button>`
 			},
 			{
 				name: 'card-close',
 				description: 'Dismiss or close a card, modal, or panel',
-				composition: `<IconButton icon="" size="md" variant="ghost" color="gray" aria-label="Close" />`
+				composition: `<gv-icon-button icon="" size="md" variant="ghost" color="gray" aria-label="Close"></gv-icon-button>`
 			},
 			{
 				name: 'primary-icon-cta',
 				description: 'Prominent icon action where color draws attention',
-				composition: `<IconButton icon="" size="lg" variant="filled" color="accent" aria-label="Add item" />`
+				composition: `<gv-icon-button icon="" size="lg" variant="filled" color="accent" aria-label="Add item"></gv-icon-button>`
 			}
 		],
 
@@ -67,7 +67,7 @@ export const IconButtonMetadata = {
 
 	composition: {
 		slots: null,
-		nestedComponents: [{ name: 'Icon', source: '../Icon/Icon.svelte' }],
+		nestedComponents: [{ name: 'Icon', source: '../Icon/Icon.js' }],
 		commonPartners: ['Button', 'Toolbar', 'Card', 'Modal', 'Input'],
 		parentConstraints: null
 	},

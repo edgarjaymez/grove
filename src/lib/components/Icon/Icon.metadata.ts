@@ -4,10 +4,10 @@ export const IconMetadata = {
 		category: 'atoms',
 		description: 'Phosphor icon rendered via icon font, supports regular and filled weights',
 		type: 'display',
-		path: 'src/lib/components/Icon/Icon.svelte',
+		path: 'src/lib/components/Icon/Icon.ts',
 		version: '1.0.0',
 		created: '2026/02/15',
-		modified: '2026/05/19'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -23,17 +23,17 @@ export const IconMetadata = {
 			{
 				name: 'regular',
 				description: 'Default outlined weight — use in most contexts',
-				composition: `<Icon unicode="" />`
+				composition: `<gv-icon unicode=""></gv-icon>`
 			},
 			{
 				name: 'filled',
 				description: 'Filled weight for selected, active, or toggled states',
-				composition: `<Icon unicode="" isFilled={true} />`
+				composition: `<gv-icon unicode="" is-filled></gv-icon>`
 			},
 			{
 				name: 'fill-on-hover',
 				description: 'Transitions from regular to filled on hover — use for interactive affordance',
-				composition: `<Icon unicode="" fillInHover={true} />`
+				composition: `<gv-icon unicode="" fill-in-hover></gv-icon>`
 			}
 		],
 		antiPatterns: [
@@ -57,8 +57,8 @@ export const IconMetadata = {
 		slots: null,
 		nestedComponents: null,
 		commonPartners: [
-			{ name: 'Button', source: '../Button/Button.svelte' },
-			{ name: 'IconButton', source: '../IconButton/IconButton.svelte' }
+			{ name: 'Button', source: '../Button/Button.js' },
+			{ name: 'IconButton', source: '../IconButton/IconButton.js' }
 		],
 		parentConstraints: [
 			'Parent must set a color token — Icon inherits color from its nearest colored ancestor'

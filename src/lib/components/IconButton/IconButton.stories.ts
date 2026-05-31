@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
-import './IconButton.js';
+import './IconButton.ts';
 
 interface Args {
 	icon: string;

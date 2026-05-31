@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
-import './Checkbox.js';
+import './Checkbox.ts';
 
 interface Args {
 	checked: boolean;
@@ -12,12 +12,10 @@ const meta: Meta<Args> = {
 	title: 'Components/gv-checkbox',
 	tags: ['autodocs'],
 	render: ({ checked, responsive, disabled }) => html`
-		<span style="background-color: var(--semantic-color-surface-ground); padding: 16px; display: inline-block">
-			<gv-checkbox
-				?checked=${checked}
-				responsive=${responsive}
-				?disabled=${disabled}
-			></gv-checkbox>
+		<span
+			style="background-color: var(--semantic-color-surface-ground); padding: 16px; display: inline-block"
+		>
+			<gv-checkbox ?checked=${checked} responsive=${responsive} ?disabled=${disabled}></gv-checkbox>
 		</span>
 	`,
 	argTypes: {

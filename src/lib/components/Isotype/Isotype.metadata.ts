@@ -4,10 +4,10 @@ export const IsotypeMetadata = {
 		category: 'atoms',
 		description: 'Brand logo mark rendered as an inline SVG, adapts fill to surface tone',
 		type: 'display',
-		path: 'src/lib/components/Isotype/Isotype.svelte',
+		path: 'src/lib/components/Isotype/Isotype.ts',
 		version: '1.0.0',
 		created: '2026/02/15',
-		modified: '2026/05/19'
+		modified: '2026/05/30'
 	},
 
 	usage: {
@@ -23,22 +23,22 @@ export const IsotypeMetadata = {
 			{
 				name: 'brand-on-light',
 				description: 'Brand color isotype on a light or ground surface',
-				composition: `<Isotype color="brand" size={176} tone="light" />`
+				composition: `<gv-isotype color="brand" size="176" tone="light"></gv-isotype>`
 			},
 			{
 				name: 'brand-on-dark',
 				description: 'Brand isotype on a dark surface',
-				composition: `<Isotype color="brand" size={176} tone="dark" />`
+				composition: `<gv-isotype color="brand" size="176" tone="dark"></gv-isotype>`
 			},
 			{
 				name: 'accent-on-light',
 				description: 'Accent color variant for branded accent surfaces on light backgrounds',
-				composition: `<Isotype color="accent" size={176} tone="light" />`
+				composition: `<gv-isotype color="accent" size="176" tone="light"></gv-isotype>`
 			},
 			{
 				name: 'base-neutral',
 				description: 'Neutral monochrome isotype for low-emphasis contexts',
-				composition: `<Isotype color="base" size={40} tone="light" />`
+				composition: `<gv-isotype color="base" size="40" tone="light"></gv-isotype>`
 			}
 		],
 		antiPatterns: [

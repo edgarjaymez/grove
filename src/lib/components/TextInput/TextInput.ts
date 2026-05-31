@@ -152,7 +152,7 @@ export class TextInput extends LitElement {
 				id=${ifDefined(this.inputId)}
 				name=${ifDefined(this.name)}
 				type=${this.type}
-				aria-invalid=${this.error ? 'true' : nothing}
+				aria-invalid=${ifDefined(this.error ? 'true' : undefined)}
 				aria-label=${this.ariaLabel ?? nothing}
 				aria-describedby=${this.ariaDescribedby ?? nothing}
 				@input=${this._handleInput}
