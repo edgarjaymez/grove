@@ -37,7 +37,8 @@ export const toDoCardMetadata = {
 			},
 			{
 				scenario: 'Hardcoding a numeric count as text without binding to data',
-				reason: 'The count prop is a display string; it should reflect live data, not a static label.',
+				reason:
+					'The count prop is a display string; it should reflect live data, not a static label.',
 				alternative: 'Pass a derived or reactive count value: count={String(tasks.length)}'
 			},
 			{
@@ -95,4 +96,4 @@ export const toDoCardMetadata = {
 		context:
 			'Use ToDoCard when the UI needs a compact, color-coded count card for a category of tasks. Choose the color track that matches the surrounding design language — brand (green) for primary, accent (purple) for secondary, information (blue) for informational, gray for neutral/other. Never use it as a button or link.'
 	}
-}
+};
