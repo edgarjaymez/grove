@@ -88,23 +88,23 @@
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.48, 0.16, 316],
-							"alpha": 0.04
+							"alpha": 0.08
 						},
-						"offsetX": "{softGrid.4}",
-						"offsetY": "{softGrid.4}",
-						"blur": "{softGrid.8}",
-						"spread": "{softGrid.2}"
+						"offsetX": "{softGrid.8}",
+						"offsetY": "{softGrid.8}",
+						"blur": "{softGrid.16}",
+						"spread": "{softGrid.4}"
 					},
 					{
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.38, 0.16, 316],
-							"alpha": 0.12
+							"alpha": 0.24
 						},
-						"offsetX": "{softGrid.1}",
-						"offsetY": "{softGrid.1}",
-						"blur": "{softGrid.4}",
-						"spread": "{softGrid.1}"
+						"offsetX": "{softGrid.2}",
+						"offsetY": "{softGrid.2}",
+						"blur": "{softGrid.8}",
+						"spread": "{softGrid.2}"
 					}
 				]
 			}
@@ -142,23 +142,23 @@
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.48, 0.01, 70],
-							"alpha": 0.04
+							"alpha": 0.08
 						},
-						"offsetX": "{softGrid.4}",
-						"offsetY": "{softGrid.4}",
-						"blur": "{softGrid.8}",
-						"spread": "{softGrid.2}"
+						"offsetX": "{softGrid.8}",
+						"offsetY": "{softGrid.8}",
+						"blur": "{softGrid.16}",
+						"spread": "{softGrid.4}"
 					},
 					{
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.38, 0.01, 70],
-							"alpha": 0.12
+							"alpha": 0.24
 						},
-						"offsetX": "{softGrid.1}",
-						"offsetY": "{softGrid.1}",
-						"blur": "{softGrid.4}",
-						"spread": "{softGrid.1}"
+						"offsetX": "{softGrid.2}",
+						"offsetY": "{softGrid.2}",
+						"blur": "{softGrid.8}",
+						"spread": "{softGrid.2}"
 					}
 				]
 			}
@@ -196,23 +196,23 @@
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.48, 0.1, 238],
-							"alpha": 0.04
+							"alpha": 0.08
 						},
-						"offsetX": "{softGrid.4}",
-						"offsetY": "{softGrid.4}",
-						"blur": "{softGrid.8}",
-						"spread": "{softGrid.2}"
+						"offsetX": "{softGrid.8}",
+						"offsetY": "{softGrid.8}",
+						"blur": "{softGrid.16}",
+						"spread": "{softGrid.4}"
 					},
 					{
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.38, 0.1, 238],
-							"alpha": 0.12
+							"alpha": 0.24
 						},
-						"offsetX": "{softGrid.1}",
-						"offsetY": "{softGrid.1}",
-						"blur": "{softGrid.4}",
-						"spread": "{softGrid.1}"
+						"offsetX": "{softGrid.2}",
+						"offsetY": "{softGrid.2}",
+						"blur": "{softGrid.8}",
+						"spread": "{softGrid.2}"
 					}
 				]
 			}
@@ -250,23 +250,23 @@
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.48, 0.15, 22],
-							"alpha": 0.04
+							"alpha": 0.08
 						},
-						"offsetX": "{softGrid.4}",
-						"offsetY": "{softGrid.4}",
-						"blur": "{softGrid.8}",
-						"spread": "{softGrid.2}"
+						"offsetX": "{softGrid.8}",
+						"offsetY": "{softGrid.8}",
+						"blur": "{softGrid.16}",
+						"spread": "{softGrid.4}"
 					},
 					{
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.38, 0.15, 22],
-							"alpha": 0.12
+							"alpha": 0.24
 						},
-						"offsetX": "{softGrid.1}",
-						"offsetY": "{softGrid.1}",
-						"blur": "{softGrid.4}",
-						"spread": "{softGrid.1}"
+						"offsetX": "{softGrid.2}",
+						"offsetY": "{softGrid.2}",
+						"blur": "{softGrid.8}",
+						"spread": "{softGrid.2}"
 					}
 				]
 			}
@@ -304,23 +304,23 @@
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.48, 0.1, 168],
-							"alpha": 0.04
+							"alpha": 0.08
 						},
-						"offsetX": "{softGrid.4}",
-						"offsetY": "{softGrid.4}",
-						"blur": "{softGrid.8}",
-						"spread": "{softGrid.2}"
+						"offsetX": "{softGrid.8}",
+						"offsetY": "{softGrid.8}",
+						"blur": "{softGrid.16}",
+						"spread": "{softGrid.4}"
 					},
 					{
 						"color": {
 							"colorSpace": "oklch",
 							"components": [0.38, 0.1, 168],
-							"alpha": 0.12
+							"alpha": 0.24
 						},
-						"offsetX": "{softGrid.1}",
-						"offsetY": "{softGrid.1}",
-						"blur": "{softGrid.4}",
-						"spread": "{softGrid.1}"
+						"offsetX": "{softGrid.2}",
+						"offsetY": "{softGrid.2}",
+						"blur": "{softGrid.8}",
+						"spread": "{softGrid.2}"
 					}
 				]
 			}
