@@ -55,5 +55,5 @@ export const Ghost: Story = { args: { variant: 'ghost' } };
 export const Gray: Story = { args: { color: 'gray' } };
 export const Large: Story = { args: { size: 'lg' } };
 export const Small: Story = { args: { size: 'sm' } };
-export const WithIcon: Story = { args: { icon: '' } };
+export const WithIcon: Story = { args: { icon: 'tree' } };
 export const Disabled: Story = { args: { disabled: true } };

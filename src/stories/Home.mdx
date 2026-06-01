@@ -46,6 +46,17 @@ import { Meta } from '@storybook/addon-docs/blocks';
 import '@edgarjaymez/grove/fonts.css';`}</code>
 		</pre>
 	</div>
+	<p className="grove-section-body">
+		Icons are powered by <code>@phosphor-icons/webcomponents</code>. Install it and import the
+		icons you use — <code>gv-icon</code> renders them by name:
+	</p>
+	<div className="grove-install">
+		<pre className="grove-code">
+			<code>{`pnpm add @phosphor-icons/webcomponents
+
+import '@phosphor-icons/webcomponents/PhTree'; // for name="tree"`}</code>
+		</pre>
+	</div>
 </div>
 
 <div className="grove-section">
@@ -58,7 +69,8 @@ import '@edgarjaymez/grove/fonts.css';`}</code>
 			<div className="grove-card-icon">⬛</div>
 			<h3 className="grove-card-title">Button</h3>
 			<p className="grove-card-desc">
-				Four variants — filled, tonal, outlined, ghost. Accent and gray colors, three sizes, optional icon.
+				Four variants — filled, tonal, outlined, ghost. Accent and gray colors, three sizes,
+				optional icon.
 			</p>
 		</div>
 		<div className="grove-card">
@@ -71,7 +83,9 @@ import '@edgarjaymez/grove/fonts.css';`}</code>
 		<div className="grove-card">
 			<div className="grove-card-icon">✦</div>
 			<h3 className="grove-card-title">Icon</h3>
-			<p className="grove-card-desc">Renders a Phosphor glyph by Unicode code point. Regular and fill variants.</p>
+			<p className="grove-card-desc">
+				Renders a Phosphor icon (SVG) by name. Regular and fill variants.
+			</p>
 		</div>
 		<div className="grove-card">
 			<div className="grove-card-icon">◎</div>
@@ -96,14 +110,16 @@ import '@edgarjaymez/grove/fonts.css';`}</code>
 			<div className="grove-card-icon">▬</div>
 			<h3 className="grove-card-title">Text Input</h3>
 			<p className="grove-card-desc">
-				Text field with brand and gray color tracks. Error state and support for multiple input types.
+				Text field with brand and gray color tracks. Error state and support for multiple input
+				types.
 			</p>
 		</div>
 		<div className="grove-card">
 			<div className="grove-card-icon">◧</div>
 			<h3 className="grove-card-title">Category Toggler</h3>
 			<p className="grove-card-desc">
-				Toggle button showing a category label and item count. Brand, accent, information, and gray color tracks.
+				Toggle button showing a category label and item count. Brand, accent, information, and gray
+				color tracks.
 			</p>
 		</div>
 	</div>
@@ -146,15 +162,15 @@ import '@edgarjaymez/grove/fonts.css';`}</code>
 <div className="grove-section">
 	<h2 className="grove-section-heading">Resources</h2>
 	<div className="grove-links">
-		<a
-			className="grove-link-card"
-			href="https://github.com/edgarjaymez/grove"
-			target="_blank"
-		>
+		<a className="grove-link-card" href="https://github.com/edgarjaymez/grove" target="_blank">
 			<span className="grove-link-card-title">GitHub</span>
 			<span className="grove-link-card-desc">Source code, issues, and contributions</span>
 		</a>
-		<a className="grove-link-card" href="https://www.npmjs.com/package/@edgarjaymez/grove" target="_blank">
+		<a
+			className="grove-link-card"
+			href="https://www.npmjs.com/package/@edgarjaymez/grove"
+			target="_blank"
+		>
 			<span className="grove-link-card-title">npm</span>
 			<span className="grove-link-card-desc">Package releases and changelogs</span>
 		</a>

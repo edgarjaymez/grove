@@ -39,7 +39,7 @@ const meta: Meta<Args> = {
 	args: {
 		category: 'Category',
 		color: 'brand',
-		icon: '',
+		icon: 'tree',
 		count: 3,
 		disabled: false,
 		isSelected: false
@@ -60,5 +60,5 @@ export const SelectedAccent: Story = {
 };
 export const Disabled: Story = { args: { disabled: true } };
 export const WithIcon: Story = {
-	args: { icon: '', category: 'Design', count: 5 }
+	args: { icon: 'tree', category: 'Design', count: 5 }
 };

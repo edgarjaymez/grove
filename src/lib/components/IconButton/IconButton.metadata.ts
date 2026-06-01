@@ -26,17 +26,17 @@ export const IconButtonMetadata = {
 			{
 				name: 'toolbar-action',
 				description: 'Compact action in a toolbar or action row',
-				composition: `<gv-icon-button icon="" size="sm" variant="ghost" color="gray" aria-label="Underline text"></gv-icon-button>`
+				composition: `<gv-icon-button icon="tree" size="sm" variant="ghost" color="gray" aria-label="Underline text"></gv-icon-button>`
 			},
 			{
 				name: 'card-close',
 				description: 'Dismiss or close a card, modal, or panel',
-				composition: `<gv-icon-button icon="" size="md" variant="ghost" color="gray" aria-label="Close"></gv-icon-button>`
+				composition: `<gv-icon-button icon="tree" size="md" variant="ghost" color="gray" aria-label="Close"></gv-icon-button>`
 			},
 			{
 				name: 'primary-icon-cta',
 				description: 'Prominent icon action where color draws attention',
-				composition: `<gv-icon-button icon="" size="lg" variant="filled" color="accent" aria-label="Add item"></gv-icon-button>`
+				composition: `<gv-icon-button icon="tree" size="lg" variant="filled" color="accent" aria-label="Add item"></gv-icon-button>`
 			}
 		],
 

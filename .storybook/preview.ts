@@ -4,6 +4,7 @@ import '../src/lib/styles/globals.css';
 import '../src/lib/styles/typography.css';
 import '../src/lib/styles/effects.css';
 import '../src/lib/fonts/fonts.css';
+import '@phosphor-icons/webcomponents';
 
 const preview: Preview = {
 	parameters: {

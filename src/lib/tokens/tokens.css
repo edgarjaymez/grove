@@ -274,8 +274,6 @@
 							--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 							--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 							--font-family-display: "Cakra", serif;
-							--font-family-icons-fill: "Phosphor-Fill";
-							--font-family-icons-regular: "Phosphor";
 							--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 							--font-size-2xl: var(--soft-grid-40);
 							--font-size-2xs: var(--soft-grid-10);
@@ -1058,8 +1056,6 @@
 							--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 							--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 							--font-family-display: "Cakra", serif;
-							--font-family-icons-fill: "Phosphor-Fill";
-							--font-family-icons-regular: "Phosphor";
 							--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 							--font-size-2xl: var(--soft-grid-40);
 							--font-size-2xs: var(--soft-grid-10);
@@ -1843,8 +1839,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -2430,8 +2424,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -3412,8 +3404,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -4199,8 +4189,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -4786,8 +4774,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -5769,8 +5755,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -6556,8 +6540,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -7143,8 +7125,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -8126,8 +8106,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -8913,8 +8891,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -9500,8 +9476,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.12);
 								--drop-shadow-under-success-terrace: var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) var(--soft-grid-0) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-40);
 								--font-size-2xs: var(--soft-grid-10);
@@ -10483,8 +10457,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-32);
 								--font-size-2xs: var(--soft-grid-6);
@@ -11270,8 +11242,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-32);
 								--font-size-2xs: var(--soft-grid-6);
@@ -12057,8 +12027,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-32);
 								--font-size-2xs: var(--soft-grid-6);
@@ -12844,8 +12812,6 @@
 								--drop-shadow-under-success-summit: var(--soft-grid-8) var(--soft-grid-8) var(--soft-grid-16) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.08), var(--soft-grid-2) var(--soft-grid-2) var(--soft-grid-8) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.24);
 								--drop-shadow-under-success-terrace: var(--soft-grid-16) var(--soft-grid-16) var(--soft-grid-32) var(--soft-grid-4) oklch(48.11% 0.098 167.5 / 0.04), var(--soft-grid-4) var(--soft-grid-4) var(--soft-grid-16) var(--soft-grid-2) oklch(38.9% 0.0836 163.4 / 0.08);
 								--font-family-display: "Cakra", serif;
-								--font-family-icons-fill: "Phosphor-Fill";
-								--font-family-icons-regular: "Phosphor";
 								--font-family-sans-serif: "Inclusive Sans", system-ui, sans-serif;
 								--font-size-2xl: var(--soft-grid-32);
 								--font-size-2xs: var(--soft-grid-6);

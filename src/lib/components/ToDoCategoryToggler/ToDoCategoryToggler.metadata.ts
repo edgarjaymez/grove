@@ -38,8 +38,8 @@ export const ToDoCategoryTogglerMetadata = {
 			{
 				name: 'with-icon',
 				description:
-					'Pass a Phosphor icon codepoint to the icon prop to render a filled glyph in the header',
-				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" icon="U+E6DA"></gv-todo-category-toggler>`
+					'Pass a Phosphor icon name to the icon prop to render a filled glyph in the header',
+				composition: `<gv-todo-category-toggler color="brand" category="Design" count="5" icon="tree"></gv-todo-category-toggler>`
 			},
 			{
 				name: 'controlled-toggle',
@@ -152,6 +152,6 @@ export const ToDoCategoryTogglerMetadata = {
 			'icon'
 		],
 		context:
-			'Use when the UI needs a compact, color-coded toggle button for filtering or selecting a task category. Choose the color track that matches the surrounding design language — brand (green) for primary, accent (purple) for secondary, information (blue) for informational, gray for neutral. Pass a Phosphor icon codepoint to the optional icon prop to show a filled glyph in the header (e.g. icon="&#xe416;"); omit it to leave the icon slot empty. Always listen to the toggle CustomEvent to react to state changes.'
+			'Use when the UI needs a compact, color-coded toggle button for filtering or selecting a task category. Choose the color track that matches the surrounding design language — brand (green) for primary, accent (purple) for secondary, information (blue) for informational, gray for neutral. Pass a Phosphor icon name to the optional icon prop to show a filled glyph in the header (e.g. icon="tree"); omit it to leave the icon slot empty. Always listen to the toggle CustomEvent to react to state changes.'
 	}
 };

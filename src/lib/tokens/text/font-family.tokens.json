@@ -6,12 +6,6 @@
 		},
 		"display": {
 			"$value": ["Cakra", "serif"]
-		},
-		"iconsRegular": {
-			"$value": "Phosphor"
-		},
-		"iconsFill": {
-			"$value": "Phosphor-Fill"
 		}
 	}
 }

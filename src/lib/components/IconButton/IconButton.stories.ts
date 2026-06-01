@@ -36,7 +36,7 @@ const meta: Meta<Args> = {
 		icon: { control: 'text' }
 	},
 	args: {
-		icon: '',
+		icon: 'tree',
 		variant: 'filled',
 		color: 'accent',
 		size: 'lg',

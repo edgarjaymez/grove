@@ -51,12 +51,19 @@
 		"./grove.css": "./dist/styles/grove.css"
 	},
 	"peerDependencies": {
+		"@phosphor-icons/webcomponents": "^2.1.5",
 		"lit": "^3.0.0"
+	},
+	"peerDependenciesMeta": {
+		"@phosphor-icons/webcomponents": {
+			"optional": true
+		}
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "5.2.1",
 		"@eslint/compat": "2.1.0",
 		"@eslint/js": "10.0.1",
+		"@phosphor-icons/webcomponents": "2.1.5",
 		"@storybook/addon-a11y": "10.4.1",
 		"@storybook/addon-docs": "10.4.1",
 		"@storybook/addon-vitest": "10.4.1",

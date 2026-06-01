@@ -3,7 +3,7 @@ import { html } from 'lit';
 import './Icon.js';
 
 interface Args {
-	unicode: string;
+	name: string;
 	isFilled: boolean;
 	fillInHover: boolean;
 }
@@ -11,20 +11,20 @@ interface Args {
 const meta: Meta<Args> = {
 	title: 'Components/gv-icon',
 	tags: ['autodocs'],
-	render: ({ unicode, isFilled, fillInHover }) => html`
+	render: ({ name, isFilled, fillInHover }) => html`
 		<span
 			style="background-color: var(--semantic-color-surface-ground); color: var(--semantic-color-text-on-ground-base)"
 		>
-			<gv-icon unicode=${unicode} ?is-filled=${isFilled} ?fill-in-hover=${fillInHover}></gv-icon>
+			<gv-icon name=${name} ?is-filled=${isFilled} ?fill-in-hover=${fillInHover}></gv-icon>
 		</span>
 	`,
 	argTypes: {
-		unicode: { control: 'text' },
+		name: { control: 'text' },
 		isFilled: { control: 'boolean' },
 		fillInHover: { control: 'boolean' }
 	},
 	args: {
-		unicode: '',
+		name: 'tree',
 		isFilled: false,
 		fillInHover: false
 	}
