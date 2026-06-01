@@ -18,3 +18,5 @@ export { TextInput } from './components/TextInput/TextInput.js';
 export { TextInputMetadata } from './components/TextInput/TextInput.metadata.js';
 export { ToDoCategoryToggler } from './components/ToDoCategoryToggler/ToDoCategoryToggler.js';
 export { ToDoCategoryTogglerMetadata } from './components/ToDoCategoryToggler/ToDoCategoryToggler.metadata.js';
+export { ToDoListItem } from './components/ToDoListItem/ToDoListItem.js';
+export { ToDoListItemMetadata } from './components/ToDoListItem/ToDoListItem.metadata.js';

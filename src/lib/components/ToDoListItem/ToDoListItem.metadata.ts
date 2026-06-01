@@ -1,0 +1,118 @@
+export const ToDoListItemMetadata = {
+	component: {
+		name: 'ToDoListItem',
+		customElement: 'gv-todo-list-item',
+		path: 'src/lib/components/ToDoListItem/ToDoListItem.ts',
+		category: 'molecules',
+		description:
+			'A to-do list entry composed of an interactive checkbox and a two-line label (title + category). Toggling the checkbox marks the item as done, applying strikethrough styling to both text lines.',
+		type: 'interactive',
+	},
+
+	usage: {
+		useCases: [
+			'task-list-item',
+			'checklist-entry',
+			'actionable-list-row',
+			'todo-feed-item',
+		],
+		requiredProps: [],
+		commonPatterns: [
+			{
+				name: 'basic-task',
+				description: 'Render a single unchecked task with a title and category',
+				composition:
+					'<gv-todo-list-item title="Buy groceries" category="Errands"></gv-todo-list-item>',
+			},
+			{
+				name: 'completed-task',
+				description: 'Render a task that is already marked as done',
+				composition:
+					'<gv-todo-list-item title="Buy groceries" category="Errands" is-done></gv-todo-list-item>',
+			},
+			{
+				name: 'controlled-toggle',
+				description: 'Listen to change events to react when the user checks/unchecks a task',
+				composition: `<gv-todo-list-item id="my-item" title="Buy groceries" category="Errands"></gv-todo-list-item>
+<script>
+  document.querySelector('#my-item').addEventListener('change', (e) => {
+    console.log('isDone:', e.detail);
+  });
+</script>`,
+			},
+		],
+		antiPatterns: [
+			{
+				scenario: 'Using as a non-interactive display-only row',
+				reason:
+					'The embedded checkbox is always interactive; use a plain layout with text elements instead if no toggle is needed.',
+				alternative: 'Plain HTML with text styled via Grove typography tokens',
+			},
+			{
+				scenario: 'Hardcoding a fixed width on the host element',
+				reason:
+					'gv-todo-list-item is fluid by default and adapts to its container. Constraining width externally is fine; constraining it internally breaks layouts.',
+				alternative: 'Wrap in a container that provides the desired width constraint',
+			},
+		],
+	},
+
+	composition: {
+		slots: {},
+		nestedComponents: [
+			{
+				name: 'Checkbox',
+				customElement: 'gv-checkbox',
+				source: '../Checkbox/Checkbox.js',
+				role: 'Interactive toggle that marks the task as done or not done',
+			},
+		],
+		commonPartners: [
+			{
+				name: 'ToDoCategoryToggler',
+				customElement: 'gv-todo-category-toggler',
+				source: '../ToDoCategoryToggler/ToDoCategoryToggler.js',
+				relationship: 'Category togglers filter which list items are visible',
+			},
+		],
+		parentConstraints: [],
+	},
+
+	behavior: {
+		states: ['default', 'done'],
+		interactions: {
+			click:
+				'Clicking the checkbox toggles the isDone state; the component dispatches a change CustomEvent with detail: boolean (isDone value)',
+		},
+		responsive: {},
+	},
+
+	accessibility: {
+		role: 'Inherits from gv-checkbox (role="checkbox") for the toggle; surrounding text is presentational',
+		keyboardSupport:
+			'Tab focuses the internal checkbox; Space toggles it — standard checkbox keyboard behavior',
+		screenReader:
+			'The checkbox announces its checked state via aria-checked; title and category text are read as adjacent content',
+		focusManagement:
+			'Focus is managed by the internal gv-checkbox element; the list item host itself is not focusable',
+		wcag: 'AA',
+		notes:
+			'State changes dispatch a change CustomEvent (bubbles: true, composed: true) with detail: boolean — listen with addEventListener("change", (e) => use(e.detail))',
+	},
+
+	aiHints: {
+		priority: 'high',
+		keywords: [
+			'todo',
+			'task',
+			'checklist',
+			'list item',
+			'checkbox row',
+			'done',
+			'complete',
+			'mark as done',
+		],
+		context:
+			'Use when building a task list or checklist where each row needs an interactive checkbox, a primary task name, and a secondary category/subtitle. Prefer this over composing a raw gv-checkbox with text manually.',
+	},
+};
