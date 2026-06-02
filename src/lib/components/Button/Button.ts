@@ -153,6 +153,9 @@ export class Button extends LitElement {
 				border-color: var(--semantic-color-border-around-accent-aurora);
 				color: var(--semantic-color-text-on-accent-terrace-base);
 			}
+			/* Figma doesn't account for the border in its box model — on hover/active keep the
+			 * border present but transparent (not removed) so the box dimensions stay constant;
+			 * paired with the padding-block compensation above. */
 			.btn--outlined.btn--accent:not(:disabled):hover {
 				background: var(--semantic-color-surface-accent-aurora);
 				color: var(--semantic-color-text-on-accent-aurora-base);
