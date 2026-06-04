@@ -27,3 +27,8 @@ vite.config.ts.timestamp-*
 *storybook.log
 storybook-static
 .env*.local
+
+# Agent memory — never commit (holds personal/session context). Grove's lives in
+# ~/.claude/projects/.../memory/ (outside the repo); these guards cover forks/in-tree setups.
+MEMORY.md
+.claude/**/memory/
