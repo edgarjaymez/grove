@@ -1,10 +1,10 @@
 export const ColorSwatchMetadata = {
 	component: {
 		name: 'ColorSwatch',
-		category: 'documentation',
+		category: 'atoms',
 		description:
 			'Displays a primitive color token as a labeled swatch with color preview, OKLCH value, and hex value. Used in design system documentation and Storybook color pages.',
-		type: 'display',
+		type: 'documentation',
 		path: 'src/lib/components/ColorSwatch/ColorSwatch.ts',
 		version: '1.0.0',
 		created: '2026/05/31',

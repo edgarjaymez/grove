@@ -96,8 +96,9 @@ export const ToDoListItemMetadata = {
 		focusManagement:
 			'Focus is managed by the internal gv-checkbox element; the list item host itself is not focusable',
 		wcag: 'AA',
-		notes:
-			'State changes dispatch a change CustomEvent (bubbles: true, composed: true) with detail: boolean — listen with addEventListener("change", (e) => use(e.detail))',
+		notes: [
+			'State changes dispatch a change CustomEvent (bubbles: true, composed: true) with detail: boolean — listen with addEventListener("change", (e) => use(e.detail))'
+		],
 	},
 
 	aiHints: {
