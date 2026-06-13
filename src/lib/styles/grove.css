@@ -1,6 +1,3 @@
-@import '../fonts/display/Cakra.woff2';
-@import '../fonts/sans-serif/InclusiveSans-Italic.woff2';
-@import '../fonts/sans-serif/InclusiveSans.woff2';
 @import '../tokens/tokens.css';
 @import '../fonts/fonts.css';
 @import './globals.css';
