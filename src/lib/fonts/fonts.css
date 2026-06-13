@@ -4,9 +4,7 @@
 	font-weight: 400;
 	font-style: normal;
 	font-display: block;
-	src:
-		url('./display/Cakra.woff') format('woff'),
-		url('./display/Cakra.woff2') format('woff2');
+	src: url('./display/Cakra.woff2') format('woff2');
 }
 
 /* Sans Serif -------------------- */

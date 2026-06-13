@@ -1,11 +1,5 @@
 {
 	"mcpServers": {
-		"svelte": {
-			"type": "stdio",
-			"command": "npx",
-			"env": {},
-			"args": ["-y", "@sveltejs/mcp"]
-		},
 		"figma": {
 			"url": "http://127.0.0.1:3845/mcp",
 			"type": "http"
