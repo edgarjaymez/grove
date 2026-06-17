@@ -1,19 +1,19 @@
 {
-	"name": "@edgarjaymez/grove",
-	"version": "0.35.1",
-	"description": "Grove Design System — Where living systems take root.",
+	"name": "@edgarjaymez/grove-lit",
+	"version": "0.36.0",
+	"description": "Grove — Lit Components UI Kit",
 	"license": "MIT",
 	"author": {
 		"name": "Edgar Diaz",
-		"url": "https://github.com/edgarjaymez"
+		"url": "https://edgarjaymez.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/edgarjaymez/grove.git"
+		"url": "git+https://github.com/edgarjaymez/grove-lit.git"
 	},
 	"homepage": "https://grove.edgarjaymez.com",
 	"bugs": {
-		"url": "https://github.com/edgarjaymez/grove/issues"
+		"url": "https://github.com/edgarjaymez/grove-lit/issues"
 	},
 	"scripts": {
 		"build": "pnpm build-tokens && vite build",
@@ -91,19 +91,12 @@
 	},
 	"keywords": [
 		"grove",
-		"ui",
-		"agentic-design-system",
-		"design-tokens",
+		"ui-kit",
 		"lit",
 		"web-components",
 		"components"
 	],
 	"engines": {
 		"node": ">=20"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
 	}
 }
