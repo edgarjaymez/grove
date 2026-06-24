@@ -6,6 +6,7 @@ interface Args {
 	color: 'brand' | 'gray';
 	error: boolean;
 	disabled: boolean;
+	value: string;
 	placeholder: string;
 	type: 'text' | 'email' | 'password' | 'search' | 'tel' | 'url' | 'number';
 }
@@ -13,7 +14,7 @@ interface Args {
 const meta: Meta<Args> = {
 	title: 'Components/gv-text-input',
 	tags: ['autodocs'],
-	render: ({ color, error, disabled, placeholder, type }) => html`
+	render: ({ color, error, disabled, value, placeholder, type }) => html`
 		<span
 			style="background-color: var(--semantic-color-surface-ground); padding: 16px; display: inline-block; width: 300px"
 		>
@@ -21,6 +22,7 @@ const meta: Meta<Args> = {
 				color=${color}
 				?error=${error}
 				?disabled=${disabled}
+				value=${value}
 				placeholder=${placeholder}
 				type=${type}
 			></gv-text-input>
@@ -30,6 +32,7 @@ const meta: Meta<Args> = {
 		color: { control: 'select', options: ['brand', 'gray'] },
 		error: { control: 'boolean' },
 		disabled: { control: 'boolean' },
+		value: { control: 'text' },
 		type: {
 			control: 'select',
 			options: ['text', 'email', 'password', 'search', 'tel', 'url', 'number']
@@ -39,6 +42,7 @@ const meta: Meta<Args> = {
 		color: 'brand',
 		error: false,
 		disabled: false,
+		value: '',
 		placeholder: 'Enter text…',
 		type: 'text'
 	}
@@ -48,6 +52,10 @@ export default meta;
 type Story = StoryObj<Args>;
 
 export const Default: Story = {};
+
+export const Filled: Story = {
+	args: { value: 'Jane Smith' }
+};
 
 export const Gray: Story = {
 	args: { color: 'gray' }

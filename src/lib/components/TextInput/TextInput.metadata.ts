@@ -6,9 +6,9 @@ export const TextInputMetadata = {
 			'Single-line text field with bottom-border styling. Supports brand and gray color tracks, error state, and disabled state. Renders a native <input> element for full browser and assistive-technology compatibility.',
 		type: 'input',
 		path: 'src/lib/components/TextInput/TextInput.ts',
-		version: '1.0.0',
+		version: '1.1.0',
 		created: '2026/05/20',
-		modified: '2026/05/30'
+		modified: '2026/06/24'
 	},
 
 	usage: {
@@ -93,16 +93,16 @@ export const TextInputMetadata = {
 
 		interactions: {
 			hover:
-				'Border steps up to summit weight; brand background unchanged, gray background transitions to terrace surface',
+				'Field elevates to the aurora surface — background, bottom-border, and text all step to the aurora track (light text on a dark surface). Applies to both color tracks.',
 			focus:
 				'Background transitions to summit surface; border stays at summit weight; global focus ring applied by surface-scoped CSS',
 			active: 'Same visual treatment as focus — active and focus share identical surface tokens',
 			disabled:
-				'brand: gray-terrace background / gray-terrace border. gray: gray-path background / gray-path border. Cursor changes to not-allowed.',
+				'Track-agnostic gray-terrace surface, border, and text (regardless of color prop). Cursor changes to not-allowed. Rendered as readonly + aria-disabled (not native disabled) so the field stays focusable and announced, but not editable.',
 			error:
 				'Danger-terrace surface and border, regardless of color prop. Hover steps border to danger-summit. Focus keeps danger-terrace surface.',
 			input:
-				'Dispatches an input CustomEvent (detail: string) on every keystroke and a change CustomEvent on blur; isFilled class toggled automatically based on current value'
+				'Dispatches an input CustomEvent (detail: string) on every keystroke and a change CustomEvent on blur. Placeholder-vs-typed-value color is handled natively (::placeholder vs the input color).'
 		}
 	},
 
@@ -153,7 +153,7 @@ export const TextInputMetadata = {
 			'Always pair with a <label> element or aria-label prop — use input-id (not id) on the custom element to set the inner <input> id for <label for="..."> association',
 			'When error=true, link a visible error message via aria-describedby so assistive technologies announce it',
 			'aria-invalid is set automatically when error=true — do not set it manually',
-			'Disabled state uses the HTML disabled attribute; pointer events are blocked natively'
+			'Disabled state is implemented via readonly + aria-disabled="true" (not the native disabled attribute) so the field stays focusable and is announced by assistive technology as disabled; it is not editable'
 		]
 	},
 
