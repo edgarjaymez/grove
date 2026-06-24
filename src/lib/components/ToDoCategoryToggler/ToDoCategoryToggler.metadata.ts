@@ -6,9 +6,9 @@ export const ToDoCategoryTogglerMetadata = {
 			'A color-coded toggle button that displays a task count and category label. Pressing it toggles a selected state and dispatches a toggle CustomEvent. Used in dashboards and overview surfaces to filter or highlight task categories.',
 		type: 'interactive',
 		path: 'src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts',
-		version: '1.0.0',
+		version: '1.1.0',
 		created: '2026/02/18',
-		modified: '2026/05/31'
+		modified: '2026/06/24'
 	},
 
 	usage: {
@@ -90,14 +90,16 @@ export const ToDoCategoryTogglerMetadata = {
 	},
 
 	behavior: {
-		states: ['default', 'hover', 'active', 'selected', 'disabled'],
+		states: ['default', 'selected', 'focus', 'disabled'],
 
 		interactions: {
 			click: 'Toggles isSelected state; dispatches a toggle CustomEvent with detail: boolean',
-			hover: 'Transitions from Terrace to Aurora surface; drop shadow removed',
-			active: 'Same visual treatment as hover — Aurora surface, no shadow',
+			hover:
+				'No surface change on hover — the toggler shows only its two states (Terrace when off, Summit when on)',
+			active:
+				'No dedicated pressed surface (deferred to a maintainer); active/pressed is conveyed by the global default focus ring',
 			selected:
-				'Transitions to Summit surface with summit-level drop shadow; hover/active transitions suppressed while selected',
+				'Toggled-on state: Summit surface with summit-level drop shadow; count uses summit-base, label and icon use summit-subtle',
 			focus: 'Visible focus ring applied by global surface-scoped CSS — do not override',
 			disabled: '50% opacity; cursor changes to not-allowed; toggle blocked'
 		},

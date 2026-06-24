@@ -79,16 +79,6 @@ export class ToDoCategoryToggler extends LitElement {
 			.btn--brand .btn__count {
 				color: var(--semantic-color-text-on-brand-terrace-base);
 			}
-			.btn--brand:not(:disabled):not(.btn--selected):hover,
-			.btn--brand:not(:disabled):not(.btn--selected):active {
-				background: var(--semantic-color-surface-brand-aurora);
-				color: var(--semantic-color-text-on-brand-aurora-subtle);
-				box-shadow: none;
-			}
-			.btn--brand:not(:disabled):not(.btn--selected):hover .btn__count,
-			.btn--brand:not(:disabled):not(.btn--selected):active .btn__count {
-				color: var(--semantic-color-text-on-brand-aurora-base);
-			}
 
 			/* Brand — selected */
 			.btn--brand.btn--selected {
@@ -108,16 +98,6 @@ export class ToDoCategoryToggler extends LitElement {
 			}
 			.btn--accent .btn__count {
 				color: var(--semantic-color-text-on-accent-terrace-base);
-			}
-			.btn--accent:not(:disabled):not(.btn--selected):hover,
-			.btn--accent:not(:disabled):not(.btn--selected):active {
-				background: var(--semantic-color-surface-accent-aurora);
-				color: var(--semantic-color-text-on-accent-aurora-subtle);
-				box-shadow: none;
-			}
-			.btn--accent:not(:disabled):not(.btn--selected):hover .btn__count,
-			.btn--accent:not(:disabled):not(.btn--selected):active .btn__count {
-				color: var(--semantic-color-text-on-accent-aurora-base);
 			}
 
 			/* Accent — selected */
@@ -139,16 +119,6 @@ export class ToDoCategoryToggler extends LitElement {
 			.btn--information .btn__count {
 				color: var(--semantic-color-text-on-information-terrace-base);
 			}
-			.btn--information:not(:disabled):not(.btn--selected):hover,
-			.btn--information:not(:disabled):not(.btn--selected):active {
-				background: var(--semantic-color-surface-information-aurora);
-				color: var(--semantic-color-text-on-information-aurora-subtle);
-				box-shadow: none;
-			}
-			.btn--information:not(:disabled):not(.btn--selected):hover .btn__count,
-			.btn--information:not(:disabled):not(.btn--selected):active .btn__count {
-				color: var(--semantic-color-text-on-information-aurora-base);
-			}
 
 			/* Information — selected */
 			.btn--information.btn--selected {
@@ -168,16 +138,6 @@ export class ToDoCategoryToggler extends LitElement {
 			}
 			.btn--gray .btn__count {
 				color: var(--semantic-color-text-on-gray-terrace-base);
-			}
-			.btn--gray:not(:disabled):not(.btn--selected):hover,
-			.btn--gray:not(:disabled):not(.btn--selected):active {
-				background: var(--semantic-color-surface-gray-aurora);
-				color: var(--semantic-color-text-on-gray-aurora-subtle);
-				box-shadow: none;
-			}
-			.btn--gray:not(:disabled):not(.btn--selected):hover .btn__count,
-			.btn--gray:not(:disabled):not(.btn--selected):active .btn__count {
-				color: var(--semantic-color-text-on-gray-aurora-base);
 			}
 
 			/* Gray — selected */
