@@ -20,111 +20,116 @@ export class TextInput extends LitElement {
 	@property({ type: String, attribute: 'aria-label' }) ariaLabel: string | null = null;
 	@property({ type: String, attribute: 'aria-describedby' }) ariaDescribedby: string | null = null;
 
-	static styles = [componentReset, css`
-		:host {
-			display: block;
-		}
+	static styles = [
+		componentReset,
+		css`
+			:host {
+				display: block;
+			}
 
-		.text-input {
-			display: block;
-			width: 100%;
-			border: none;
-			border-bottom: var(--border-width-heavy) solid transparent;
-			border-radius: 0;
-			padding: var(--soft-grid-8) var(--soft-grid-12);
-			font: var(--typography-single-line-subtle-base);
-			letter-spacing: var(--letter-spacing-base);
-			outline: none;
-			cursor: text;
-			transition:
-				background 300ms ease-in-out,
-				border-color 300ms ease-in-out,
-				color 300ms ease-in-out;
-		}
+			.text-input {
+				display: block;
+				width: 100%;
+				border: none;
+				border-bottom: var(--border-width-heavy) solid transparent;
+				border-radius: 0;
+				padding: var(--soft-grid-8) var(--soft-grid-12);
+				font: var(--typography-single-line-subtle-base);
+				letter-spacing: var(--letter-spacing-base);
+				outline: none;
+				cursor: text;
+				transition:
+					background 300ms ease-in-out,
+					border-color 300ms ease-in-out,
+					color 300ms ease-in-out;
+			}
 
-		/* ---- brand ---- */
-		.text-input--brand {
-			background: var(--semantic-color-surface-brand-terrace);
-			border-bottom-color: var(--semantic-color-border-around-brand-terrace);
-			color: var(--semantic-color-text-on-brand-terrace-base);
-		}
-		.text-input--brand::placeholder {
-			color: var(--semantic-color-text-on-brand-terrace-subtle);
-		}
-		.text-input--brand:not(:disabled):hover {
-			border-bottom-color: var(--semantic-color-border-around-brand-summit);
-		}
-		.text-input--brand:not(:disabled):focus,
-		.text-input--brand:not(:disabled):active {
-			background: var(--semantic-color-surface-brand-summit);
-			border-bottom-color: var(--semantic-color-border-around-brand-summit);
-			color: var(--semantic-color-text-on-brand-summit-base);
-		}
-		.text-input--brand:not(:disabled):focus::placeholder,
-		.text-input--brand:not(:disabled):active::placeholder {
-			color: var(--semantic-color-text-on-brand-summit-subtle);
-		}
-		.text-input--brand:disabled {
-			background: var(--semantic-color-surface-gray-terrace);
-			border-bottom-color: var(--semantic-color-border-around-gray-terrace);
-			color: var(--semantic-color-text-on-gray-path-subtle);
-			cursor: not-allowed;
-		}
-		.text-input--brand:disabled::placeholder {
-			color: var(--semantic-color-text-on-gray-path-subtle);
-		}
+			/* ---- brand ---- */
+			.text-input--brand {
+				background: var(--semantic-color-surface-brand-terrace);
+				border-bottom-color: var(--semantic-color-border-around-brand-terrace);
+				color: var(--semantic-color-text-on-brand-terrace-base);
+			}
+			.text-input--brand::placeholder {
+				color: var(--semantic-color-text-on-brand-terrace-subtle);
+			}
+			.text-input--brand:not(.text-input--disabled):hover {
+				background: var(--semantic-color-surface-brand-aurora);
+				border-bottom-color: var(--semantic-color-border-around-brand-aurora);
+				color: var(--semantic-color-text-on-brand-aurora-base);
+			}
+			.text-input--brand:not(.text-input--disabled):hover::placeholder {
+				color: var(--semantic-color-text-on-brand-aurora-subtle);
+			}
+			.text-input--brand:not(.text-input--disabled):focus,
+			.text-input--brand:not(.text-input--disabled):active {
+				background: var(--semantic-color-surface-brand-summit);
+				border-bottom-color: var(--semantic-color-border-around-brand-summit);
+				color: var(--semantic-color-text-on-brand-summit-base);
+			}
+			.text-input--brand:not(.text-input--disabled):focus::placeholder,
+			.text-input--brand:not(.text-input--disabled):active::placeholder {
+				color: var(--semantic-color-text-on-brand-summit-subtle);
+			}
 
-		/* ---- gray ---- */
-		.text-input--gray {
-			background: var(--semantic-color-surface-ground);
-			border-bottom-color: var(--semantic-color-border-around-ground);
-			color: var(--semantic-color-text-on-gray-terrace-base);
-		}
-		.text-input--gray::placeholder {
-			color: var(--semantic-color-text-on-gray-terrace-subtle);
-		}
-		.text-input--gray:not(:disabled):hover {
-			background: var(--semantic-color-surface-gray-terrace);
-			border-bottom-color: var(--semantic-color-border-around-gray-summit);
-		}
-		.text-input--gray:not(:disabled):focus,
-		.text-input--gray:not(:disabled):active {
-			background: var(--semantic-color-surface-gray-summit);
-			border-bottom-color: var(--semantic-color-border-around-gray-summit);
-			color: var(--semantic-color-text-on-gray-summit-base);
-		}
-		.text-input--gray:not(:disabled):focus::placeholder,
-		.text-input--gray:not(:disabled):active::placeholder {
-			color: var(--semantic-color-text-on-gray-summit-subtle);
-		}
-		.text-input--gray:disabled {
-			background: var(--semantic-color-surface-gray-path);
-			border-bottom-color: var(--semantic-color-border-around-gray-path);
-			color: var(--semantic-color-text-on-gray-path-subtle);
-			cursor: not-allowed;
-		}
-		.text-input--gray:disabled::placeholder {
-			color: var(--semantic-color-text-on-gray-path-subtle);
-		}
+			/* ---- gray ---- */
+			.text-input--gray {
+				background: var(--semantic-color-surface-ground);
+				border-bottom-color: var(--semantic-color-border-around-ground);
+				color: var(--semantic-color-text-on-gray-terrace-base);
+			}
+			.text-input--gray::placeholder {
+				color: var(--semantic-color-text-on-gray-terrace-subtle);
+			}
+			.text-input--gray:not(.text-input--disabled):hover {
+				background: var(--semantic-color-surface-gray-aurora);
+				border-bottom-color: var(--semantic-color-border-around-gray-aurora);
+				color: var(--semantic-color-text-on-gray-aurora-base);
+			}
+			.text-input--gray:not(.text-input--disabled):hover::placeholder {
+				color: var(--semantic-color-text-on-gray-aurora-subtle);
+			}
+			.text-input--gray:not(.text-input--disabled):focus,
+			.text-input--gray:not(.text-input--disabled):active {
+				background: var(--semantic-color-surface-gray-summit);
+				border-bottom-color: var(--semantic-color-border-around-gray-summit);
+				color: var(--semantic-color-text-on-gray-summit-base);
+			}
+			.text-input--gray:not(.text-input--disabled):focus::placeholder,
+			.text-input--gray:not(.text-input--disabled):active::placeholder {
+				color: var(--semantic-color-text-on-gray-summit-subtle);
+			}
 
-		/* ---- error (overrides color track) ---- */
-		.text-input--error {
-			background: var(--semantic-color-surface-danger-terrace);
-			border-bottom-color: var(--semantic-color-border-around-danger-terrace);
-			color: var(--semantic-color-text-on-danger-terrace-base);
-		}
-		.text-input--error::placeholder {
-			color: var(--semantic-color-text-on-danger-terrace-subtle);
-		}
-		.text-input--error:not(:disabled):hover {
-			border-bottom-color: var(--semantic-color-border-around-danger-summit);
-		}
-		.text-input--error:not(:disabled):focus,
-		.text-input--error:not(:disabled):active {
-			background: var(--semantic-color-surface-danger-terrace);
-			border-bottom-color: var(--semantic-color-border-around-danger-summit);
-		}
-	`];
+			/* ---- error (overrides color track) ---- */
+			.text-input--error {
+				background: var(--semantic-color-surface-danger-terrace);
+				border-bottom-color: var(--semantic-color-border-around-danger-terrace);
+				color: var(--semantic-color-text-on-danger-terrace-base);
+			}
+			.text-input--error::placeholder {
+				color: var(--semantic-color-text-on-danger-terrace-subtle);
+			}
+			.text-input--error:not(.text-input--disabled):hover {
+				border-bottom-color: var(--semantic-color-border-around-danger-summit);
+			}
+			.text-input--error:not(.text-input--disabled):focus,
+			.text-input--error:not(.text-input--disabled):active {
+				background: var(--semantic-color-surface-danger-terrace);
+				border-bottom-color: var(--semantic-color-border-around-danger-summit);
+			}
+
+			/* ---- disabled (static, track-agnostic; rendered as readonly + aria-disabled) ---- */
+			.text-input--disabled {
+				background: var(--semantic-color-surface-gray-terrace);
+				border-bottom-color: var(--semantic-color-border-around-gray-terrace);
+				color: var(--semantic-color-text-on-gray-terrace-base);
+				cursor: not-allowed;
+			}
+			.text-input--disabled::placeholder {
+				color: var(--semantic-color-text-on-gray-terrace-subtle);
+			}
+		`
+	];
 
 	private _handleInput(e: Event) {
 		e.stopPropagation();
@@ -148,16 +153,17 @@ export class TextInput extends LitElement {
 				class=${classMap({
 					'text-input': true,
 					[`text-input--${this.color}`]: true,
-					'text-input--filled': !!this.value,
-					'text-input--error': this.error
+					'text-input--error': this.error,
+					'text-input--disabled': this.disabled
 				})}
 				.value=${this.value}
-				?disabled=${this.disabled}
+				?readonly=${this.disabled}
 				placeholder=${ifDefined(this.placeholder)}
 				id=${ifDefined(this.inputId)}
 				name=${ifDefined(this.name)}
 				type=${this.type}
 				aria-invalid=${ifDefined(this.error ? 'true' : undefined)}
+				aria-disabled=${this.disabled ? 'true' : nothing}
 				aria-label=${this.ariaLabel ?? nothing}
 				aria-describedby=${this.ariaDescribedby ?? nothing}
 				@input=${this._handleInput}
