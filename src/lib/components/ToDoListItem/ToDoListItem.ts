@@ -1,13 +1,15 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css, nothing } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { componentReset } from '../../styles/component-reset.js';
 import '../Checkbox/Checkbox.js';
+import '../Icon/Icon.js';
 
 @customElement('gv-todo-list-item')
 export class ToDoListItem extends LitElement {
 	@property({ type: String }) title = 'Task';
 	@property({ type: String }) category = 'Category';
+	@property({ type: String }) icon = 'tree';
 	@property({ type: Boolean, attribute: 'is-done', reflect: true }) isDone = false;
 
 	static styles = [
@@ -45,6 +47,21 @@ export class ToDoListItem extends LitElement {
 				width: 100%;
 			}
 
+			.category-row {
+				display: flex;
+				flex-direction: row;
+				gap: var(--soft-grid-4);
+				align-items: flex-start;
+				min-width: 0;
+				width: 100%;
+			}
+
+			.category-icon {
+				color: var(--semantic-color-text-on-ground-subtle);
+				font-size: var(--font-size-base);
+				flex-shrink: 0;
+			}
+
 			.category {
 				font: var(--typography-single-line-subtle-base);
 				letter-spacing: var(--letter-spacing-base);
@@ -52,7 +69,8 @@ export class ToDoListItem extends LitElement {
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
-				width: 100%;
+				flex: 1;
+				min-width: 0;
 			}
 
 			.title--done {
@@ -87,9 +105,18 @@ export class ToDoListItem extends LitElement {
 				<gv-checkbox ?checked=${this.isDone} @change=${this._onCheckboxChange}></gv-checkbox>
 				<div class="labels">
 					<p class=${classMap({ title: true, 'title--done': this.isDone })}>${this.title}</p>
-					<p class=${classMap({ category: true, 'category--done': this.isDone })}>
-						${this.category}
-					</p>
+					<div class="category-row">
+						${this.icon
+							? html`<gv-icon
+									class="category-icon"
+									name=${this.icon}
+									?is-filled=${!this.isDone}
+								></gv-icon>`
+							: nothing}
+						<p class=${classMap({ category: true, 'category--done': this.isDone })}>
+							${this.category}
+						</p>
+					</div>
 				</div>
 			</div>
 		`;

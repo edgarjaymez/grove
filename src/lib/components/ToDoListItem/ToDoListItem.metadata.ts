@@ -5,30 +5,32 @@ export const ToDoListItemMetadata = {
 		path: 'src/lib/components/ToDoListItem/ToDoListItem.ts',
 		category: 'molecules',
 		description:
-			'A to-do list entry composed of an interactive checkbox and a two-line label (title + category). Toggling the checkbox marks the item as done, applying strikethrough styling to both text lines.',
-		type: 'interactive',
+			'A to-do list entry composed of an interactive checkbox and a two-line label (title + a category row with a leading Phosphor icon). Toggling the checkbox marks the item as done, applying strikethrough styling to both text lines; the category icon switches from filled (active) to outline (done).',
+		type: 'interactive'
 	},
 
 	usage: {
-		useCases: [
-			'task-list-item',
-			'checklist-entry',
-			'actionable-list-row',
-			'todo-feed-item',
-		],
+		useCases: ['task-list-item', 'checklist-entry', 'actionable-list-row', 'todo-feed-item'],
 		requiredProps: [],
 		commonPatterns: [
 			{
 				name: 'basic-task',
 				description: 'Render a single unchecked task with a title and category',
 				composition:
-					'<gv-todo-list-item title="Buy groceries" category="Errands"></gv-todo-list-item>',
+					'<gv-todo-list-item title="Buy groceries" category="Errands" icon="basket"></gv-todo-list-item>'
 			},
 			{
 				name: 'completed-task',
 				description: 'Render a task that is already marked as done',
 				composition:
-					'<gv-todo-list-item title="Buy groceries" category="Errands" is-done></gv-todo-list-item>',
+					'<gv-todo-list-item title="Buy groceries" category="Errands" icon="basket" is-done></gv-todo-list-item>'
+			},
+			{
+				name: 'match-category-icon',
+				description:
+					'Use the same icon as the category’s gv-todo-category-toggler so the list item and its filter share a glyph. Pass icon="" to hide the icon.',
+				composition:
+					'<gv-todo-list-item title="Ship release" category="Dev" icon="code"></gv-todo-list-item>'
 			},
 			{
 				name: 'controlled-toggle',
@@ -38,23 +40,23 @@ export const ToDoListItemMetadata = {
   document.querySelector('#my-item').addEventListener('change', (e) => {
     console.log('isDone:', e.detail);
   });
-</script>`,
-			},
+</script>`
+			}
 		],
 		antiPatterns: [
 			{
 				scenario: 'Using as a non-interactive display-only row',
 				reason:
 					'The embedded checkbox is always interactive; use a plain layout with text elements instead if no toggle is needed.',
-				alternative: 'Plain HTML with text styled via Grove typography tokens',
+				alternative: 'Plain HTML with text styled via Grove typography tokens'
 			},
 			{
 				scenario: 'Hardcoding a fixed width on the host element',
 				reason:
 					'gv-todo-list-item is fluid by default and adapts to its container. Constraining width externally is fine; constraining it internally breaks layouts.',
-				alternative: 'Wrap in a container that provides the desired width constraint',
-			},
-		],
+				alternative: 'Wrap in a container that provides the desired width constraint'
+			}
+		]
 	},
 
 	composition: {
@@ -64,27 +66,34 @@ export const ToDoListItemMetadata = {
 				name: 'Checkbox',
 				customElement: 'gv-checkbox',
 				source: '../Checkbox/Checkbox.js',
-				role: 'Interactive toggle that marks the task as done or not done',
+				role: 'Interactive toggle that marks the task as done or not done'
 			},
+			{
+				name: 'Icon',
+				customElement: 'gv-icon',
+				source: '../Icon/Icon.js',
+				role: 'Leading category glyph; filled when active, outline when done. Hidden when icon="". The host app must import the Phosphor icon used (e.g. @phosphor-icons/webcomponents/PhTree).'
+			}
 		],
 		commonPartners: [
 			{
 				name: 'ToDoCategoryToggler',
 				customElement: 'gv-todo-category-toggler',
 				source: '../ToDoCategoryToggler/ToDoCategoryToggler.js',
-				relationship: 'Category togglers filter which list items are visible',
-			},
+				relationship:
+					'Category togglers filter which list items are visible; pass the toggler’s icon to the list item so a category and its tasks share a glyph'
+			}
 		],
-		parentConstraints: [],
+		parentConstraints: []
 	},
 
 	behavior: {
 		states: ['default', 'done'],
 		interactions: {
 			click:
-				'Clicking the checkbox toggles the isDone state; the component dispatches a change CustomEvent with detail: boolean (isDone value)',
+				'Clicking the checkbox toggles the isDone state; the component dispatches a change CustomEvent with detail: boolean (isDone value)'
 		},
-		responsive: {},
+		responsive: {}
 	},
 
 	accessibility: {
@@ -98,7 +107,7 @@ export const ToDoListItemMetadata = {
 		wcag: 'AA',
 		notes: [
 			'State changes dispatch a change CustomEvent (bubbles: true, composed: true) with detail: boolean — listen with addEventListener("change", (e) => use(e.detail))'
-		],
+		]
 	},
 
 	aiHints: {
@@ -111,9 +120,9 @@ export const ToDoListItemMetadata = {
 			'checkbox row',
 			'done',
 			'complete',
-			'mark as done',
+			'mark as done'
 		],
 		context:
-			'Use when building a task list or checklist where each row needs an interactive checkbox, a primary task name, and a secondary category/subtitle. Prefer this over composing a raw gv-checkbox with text manually.',
-	},
+			'Use when building a task list or checklist where each row needs an interactive checkbox, a primary task name, and a secondary category/subtitle. Prefer this over composing a raw gv-checkbox with text manually.'
+	}
 };
