@@ -41,9 +41,11 @@ export class ToDoListItem extends LitElement {
 				font: var(--typography-single-line-base-base);
 				letter-spacing: var(--letter-spacing-base);
 				color: var(--semantic-color-text-on-ground-base);
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
 				overflow: hidden;
 				text-overflow: ellipsis;
-				white-space: nowrap;
 				width: 100%;
 			}
 
