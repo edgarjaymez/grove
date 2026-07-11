@@ -1,0 +1,165 @@
+generated: "2026-07-10T20:23:44.500637+00:00"
+npmPackages:
+  lit:
+    version: 3.3.3
+    usedIn[10]: src/lib/components/Isotype/Isotype.ts,src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts,src/lib/components/ToDoListItem/ToDoListItem.ts,src/lib/components/TextInput/TextInput.ts,src/lib/components/Checkbox/Checkbox.ts,src/lib/components/Button/Button.ts,src/lib/components/ColorSwatch/ColorSwatch.ts,src/lib/components/Texture/Texture.ts,src/lib/components/IconButton/IconButton.ts,src/lib/components/Icon/Icon.ts
+    purpose: "Package: lit"
+utilities:
+  "src/lib/utils/index.ts":
+    exports[0]:
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/index.ts":
+    exports[21]: IconButton,IconMetadata,ToDoListItem,TextureMetadata,ButtonMetadata,componentReset,TextInputMetadata,IsotypeMetadata,ColorSwatch,IconButtonMetadata,Icon,ToDoCategoryTogglerMetadata,CheckboxMetadata,Checkbox,Button,ColorSwatchMetadata,Isotype,ToDoListItemMetadata,ToDoCategoryToggler,Texture,TextInput
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/styles/component-reset.ts":
+    exports[1]: componentReset
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/index.ts":
+    exports[0]:
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Isotype/Isotype.ts":
+    exports[1]: Isotype
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Isotype/Isotype.stories.ts":
+    exports[8]: Large,Small,BrandDark,AccentDark,Accent,Default,Base,WithLabel
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Isotype/Isotype.metadata.ts":
+    exports[1]: IsotypeMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.stories.ts":
+    exports[9]: Brand,Selected,WithIcon,Gray,Accent,Default,Information,SelectedAccent,Disabled
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.metadata.ts":
+    exports[1]: ToDoCategoryTogglerMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts":
+    exports[1]: ToDoCategoryToggler
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoListItem/ToDoListItem.ts":
+    exports[1]: ToDoListItem
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoListItem/ToDoListItem.stories.ts":
+    exports[2]: Done,Default
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ToDoListItem/ToDoListItem.metadata.ts":
+    exports[1]: ToDoListItemMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/TextInput/TextInput.metadata.ts":
+    exports[1]: TextInputMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/TextInput/TextInput.ts":
+    exports[1]: TextInput
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/TextInput/TextInput.stories.ts":
+    exports[5]: Filled,Gray,Default,Error,Disabled
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Checkbox/Checkbox.ts":
+    exports[1]: Checkbox
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Checkbox/Checkbox.metadata.ts":
+    exports[1]: CheckboxMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Checkbox/Checkbox.stories.ts":
+    exports[6]: XL,DisabledChecked,Checked,XLChecked,Default,Disabled
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Button/Button.stories.ts":
+    exports[9]: Large,Outlined,Small,WithIcon,Gray,Default,Ghost,Tonal,Disabled
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Button/Button.ts":
+    exports[1]: Button
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Button/Button.metadata.ts":
+    exports[1]: ButtonMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ColorSwatch/ColorSwatch.ts":
+    exports[1]: ColorSwatch
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ColorSwatch/ColorSwatch.stories.ts":
+    exports[6]: Danger,DarkShade,Accent,Default,BaseDark,BaseLight
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/ColorSwatch/ColorSwatch.metadata.ts":
+    exports[1]: ColorSwatchMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Texture/Texture.ts":
+    exports[1]: Texture
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Texture/Texture.stories.ts":
+    exports[3]: OnGround,Default,OnTerrace
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Texture/Texture.metadata.ts":
+    exports[1]: TextureMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/IconButton/IconButton.metadata.ts":
+    exports[1]: IconButtonMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/IconButton/IconButton.ts":
+    exports[1]: IconButton
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/IconButton/IconButton.stories.ts":
+    exports[8]: Disabled,Outlined,Small,Gray,Default,Ghost,Tonal,Medium
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Icon/Icon.stories.ts":
+    exports[3]: FillOnHover,Filled,Default
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Icon/Icon.metadata.ts":
+    exports[1]: IconMetadata
+    usedIn[0]:
+    purpose: Utility functions
+  "src/lib/components/Icon/Icon.ts":
+    exports[1]: Icon
+    usedIn[0]:
+    purpose: Utility functions
+styles:
+  "src/lib/styles/typography.css":
+    type: stylesheet
+    classes[3]: emphasis,multiline,singleline
+    purpose: Stylesheet
+    usedIn: global
+  "src/lib/styles/grove.css":
+    type: stylesheet
+    classes[0]:
+    purpose: Stylesheet
+    usedIn: global
+  "src/lib/styles/effects.css":
+    type: stylesheet
+    classes[12]: drop-shadow-under-accent-summit,drop-shadow-under-accent-terrace,drop-shadow-under-brand-summit,drop-shadow-under-brand-terrace,drop-shadow-under-danger-summit,drop-shadow-under-danger-terrace,drop-shadow-under-gray-summit,drop-shadow-under-gray-terrace,drop-shadow-under-information-summit,drop-shadow-under-information-terrace,drop-shadow-under-success-summit,drop-shadow-under-success-terrace
+    purpose: Visual effects and animations
+    usedIn: global
+  "src/lib/styles/globals.css":
+    type: stylesheet
+    classes[0]:
+    purpose: Stylesheet
+    usedIn: global
+schemas:

@@ -1,0 +1,136 @@
+generated: "2026-07-10T20:23:44.499658+00:00"
+components:
+  "src/lib/components/Isotype/Isotype.ts":
+    path: src/lib/components/Isotype/Isotype.ts
+    type: atoms
+    framework: lit
+    tag: gv-isotype
+    uses[0]:
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[2]: lit,lit/decorators.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/Isotype/Isotype.metadata.ts
+  "src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts":
+    path: src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts
+    type: atoms
+    framework: lit
+    tag: gv-todo-category-toggler
+    uses[1]: Icon
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/decorators.js,lit/directives/class-map.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.metadata.ts
+  "src/lib/components/ToDoListItem/ToDoListItem.ts":
+    path: src/lib/components/ToDoListItem/ToDoListItem.ts
+    type: molecules
+    framework: lit
+    tag: gv-todo-list-item
+    uses[2]: Checkbox,Icon
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/decorators.js,lit/directives/class-map.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/ToDoListItem/ToDoListItem.metadata.ts
+  "src/lib/components/TextInput/TextInput.ts":
+    path: src/lib/components/TextInput/TextInput.ts
+    type: atoms
+    framework: lit
+    tag: gv-text-input
+    uses[0]:
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[4]: lit,lit/decorators.js,lit/directives/class-map.js,lit/directives/if-defined.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/TextInput/TextInput.metadata.ts
+  "src/lib/components/Checkbox/Checkbox.ts":
+    path: src/lib/components/Checkbox/Checkbox.ts
+    type: atoms
+    framework: lit
+    tag: gv-checkbox
+    uses[0]:
+    usedBy[1]: src/lib/components/ToDoListItem/ToDoListItem.ts
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/decorators.js,lit/directives/class-map.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/Checkbox/Checkbox.metadata.ts
+  "src/lib/components/Button/Button.ts":
+    path: src/lib/components/Button/Button.ts
+    type: atoms
+    framework: lit
+    tag: gv-button
+    uses[1]: Icon
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[4]: lit,lit/decorators.js,lit/directives/class-map.js,lit/directives/if-defined.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/Button/Button.metadata.ts
+  "src/lib/components/ColorSwatch/ColorSwatch.ts":
+    path: src/lib/components/ColorSwatch/ColorSwatch.ts
+    type: atoms
+    framework: lit
+    tag: gv-color-swatch
+    uses[0]:
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/decorators.js,lit/directives/style-map.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/ColorSwatch/ColorSwatch.metadata.ts
+  "src/lib/components/Texture/Texture.ts":
+    path: src/lib/components/Texture/Texture.ts
+    type: atoms
+    framework: lit
+    tag: gv-texture
+    uses[0]:
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[2]: lit,lit/decorators.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/Texture/Texture.metadata.ts
+  "src/lib/components/IconButton/IconButton.ts":
+    path: src/lib/components/IconButton/IconButton.ts
+    type: atoms
+    framework: lit
+    tag: gv-icon-button
+    uses[1]: Icon
+    usedBy[0]:
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/decorators.js,lit/directives/class-map.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/IconButton/IconButton.metadata.ts
+  "src/lib/components/Icon/Icon.ts":
+    path: src/lib/components/Icon/Icon.ts
+    type: atoms
+    framework: lit
+    tag: gv-icon
+    uses[0]:
+    usedBy[4]: src/lib/components/ToDoCategoryToggler/ToDoCategoryToggler.ts,src/lib/components/ToDoListItem/ToDoListItem.ts,src/lib/components/Button/Button.ts,src/lib/components/IconButton/IconButton.ts
+    hasStories: true
+    hasMetadata: true
+    externalDependencies[3]: lit,lit/static-html.js,lit/decorators.js
+    utilityDependencies[0]:
+    schemaDependencies[0]:
+    metadata: src/lib/components/Icon/Icon.metadata.ts
+statistics:
+  totalComponents: 10
+  atoms: 9
+  molecules: 1
